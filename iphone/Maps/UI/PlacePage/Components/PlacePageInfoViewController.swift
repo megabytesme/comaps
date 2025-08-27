@@ -382,6 +382,7 @@ class PlacePageInfoViewController: UIViewController {
     }
     coordinatesView = createInfoItem(coordFormats[formatId],
                                      icon: UIImage(systemName: "dot.scope"),
+                                     style: .link,
                                      accessoryImage: UIImage(systemName: "chevron.up.chevron.down"),
                                      tapHandler: { [weak self] in
       guard let self else { return }

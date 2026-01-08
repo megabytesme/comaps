@@ -1,6 +1,7 @@
 package app.organicmaps.settings;
 
 import static app.organicmaps.leftbutton.LeftButtonsHolder.DISABLE_BUTTON_CODE;
+import static app.organicmaps.sdk.editor.data.Language.DEFAULT_LANG_CODE;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -140,8 +141,13 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment implements La
   private void updateMapLanguageCodeSummary()
   {
     final Preference pref = getPreference(getString(R.string.pref_map_locale));
-    Locale locale = new Locale(MapLanguageCode.getMapLanguageCode());
-    pref.setSummary(locale.getDisplayLanguage());
+    String mapLanguageCode = MapLanguageCode.getMapLanguageCode();
+    if (mapLanguageCode.equals(DEFAULT_LANG_CODE)) {
+      pref.setSummary(R.string.pref_maplanguage_local);
+    } else {
+      Locale locale = new Locale(mapLanguageCode);
+      pref.setSummary(locale.getDisplayLanguage());
+    }
   }
 
   private void updateRoutingSettingsPrefsSummary()

@@ -1,11 +1,15 @@
 package app.organicmaps.editor;
 
+import static app.organicmaps.sdk.editor.data.Language.DEFAULT_LANG_CODE;
+
 import android.content.res.Configuration;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.core.os.ConfigurationCompat;
 import androidx.core.os.LocaleListCompat;
 import androidx.fragment.app.Fragment;
+
+import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmRecyclerFragment;
 import app.organicmaps.sdk.editor.Editor;
 import app.organicmaps.sdk.editor.data.Language;
@@ -21,6 +25,7 @@ import java.util.Set;
 public class LanguagesFragment extends BaseMwmRecyclerFragment<LanguagesAdapter>
 {
   final static String EXISTING_LOCALIZED_NAMES = "ExistingLocalizedNames";
+  final static String INCLUDE_LOCAL_LANGUAGE = "IncludeLocalLanguage";
 
   public interface Listener
   {
@@ -34,6 +39,8 @@ public class LanguagesFragment extends BaseMwmRecyclerFragment<LanguagesAdapter>
   protected LanguagesAdapter createAdapter()
   {
     Bundle args = getArguments();
+    boolean includeLocalLanguage =
+        args != null ? args.getBoolean(INCLUDE_LOCAL_LANGUAGE) : true;
     Set<String> existingLanguages =
         args != null ? new HashSet<>(args.getStringArrayList(EXISTING_LOCALIZED_NAMES)) : new HashSet<>();
 
@@ -67,6 +74,12 @@ public class LanguagesFragment extends BaseMwmRecyclerFragment<LanguagesAdapter>
     Collections.sort(languages, Comparator.comparing(lhs -> lhs.name));
 
     languages.addAll(0, systemLanguages.stream().filter(Objects::nonNull).toList());
+
+    if (includeLocalLanguage) {
+      String localLanguageLabel = getString(R.string.pref_maplanguage_local);
+      Language localLanguage = new Language(DEFAULT_LANG_CODE, localLanguageLabel);
+      languages.add(0, localLanguage);
+    }
 
     return new LanguagesAdapter(this, languages.toArray(new Language[languages.size()]));
   }

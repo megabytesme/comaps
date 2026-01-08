@@ -20,8 +20,8 @@
       android:gravity="center"
       android:layout_gravity="end|center_vertical"
       android:background="?selectableItemBackgroundBorderless"
+      android:textSize="@dimen/text_size_toolbar"
       android:padding="@dimen/margin_half"
-      android:textAppearance="@style/MwmTextAppearance.Toolbar.Title"
       android:text="@string/editor_report_problem_send_button"/>
   </com.google.android.material.appbar.MaterialToolbar>
 

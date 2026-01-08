@@ -132,7 +132,6 @@ import app.organicmaps.widget.placepage.PlacePageViewModel;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.textview.MaterialTextView;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -712,7 +711,6 @@ public class MwmActivity extends BaseMwmFragmentActivity
     if (!TextUtils.isEmpty(appName))
     {
       setTitle(appName);
-      ((MaterialTextView) mPointChooser.findViewById(R.id.title)).setText(appName);
     }
   }
 

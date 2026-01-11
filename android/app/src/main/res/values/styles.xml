@@ -287,13 +287,13 @@
   </style>
 
   <style name="MwmWidget.BottomSheetDialog" parent="Widget.Material3.BottomSheet.Modal">
-    <item name="backgroundTint">?colorSurfaceContainerLow</item>
+    <item name="backgroundTint">?appBackground</item>
     <item name="elevationOverlayEnabled">false</item>
     <item name="shapeAppearance">@style/ShapeAppearance.Material3.LargeComponent</item>
   </style>
 
   <style name="MwmWidget.BottomSheet" parent="MwmWidget.BottomSheetDialog">
-    <item name="android:background">?colorSurfaceContainerLow</item>
+    <item name="android:background">?appBackground</item>
     <item name="behavior_hideable">false</item>
   </style>
 

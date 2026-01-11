@@ -151,7 +151,7 @@
     <item name="colorSurfaceContainerHigh">@color/md_theme_surfaceContainerHigh</item>
     <item name="colorSurfaceContainerHighest">@color/md_theme_surfaceContainerHighest</item>
 
-    <item name="appBackground">?android:attr/colorBackground</item>
+    <item name="appBackground">@color/bg_app</item>
   </style>
 
   <style name="MwmTheme" parent="MwmTheme.Base"/>

@@ -94,7 +94,6 @@ unordered_map<string, vector<string>> const kSynonyms = {
     {"accs", {"access"}},
     {"aceq", {"acequia"}},
     {"ach", {"ancien chemin"}},
-    //{"a.d", {"auf der", "an der"}}, // unreachable
     {"adi", {"ambodi"}},
     {"adm", {"admirała", "admirał"}},
     {"afb", {"air force base"}},

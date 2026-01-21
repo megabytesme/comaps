@@ -258,8 +258,6 @@
     <string name="downloader_retry">Wiederhole</string>
     <string name="downloader_delete_map">Charte lösche</string>
     <string name="downloader_update_map">Charte aktualisiere</string>
-    <string name="google_play_services">Google Fused-Standortdienst</string>
-    <string name="pref_use_google_play">En proprietäre Dienst, wo GPS, Wi-Fi, Mobilfunknetz etc. kombiniert, zum de Standort genauer z bestimme. Er cha sich mit Google-Server verbinde.</string>
     <string name="routing_download_maps_along">Charte entlang de Route abelade</string>
     <string name="routing_requires_all_map">Zum Erstelle vonere Route müend alli Charte vo dim Standort bis zum Ziel abeglade und aktualisiert worde sii.</string>
     <string name="routing_not_enough_space">Nöd gnueg Speicherplatz</string>

@@ -133,10 +133,8 @@
     <string name="news">খবর</string>
     <string name="pref_tts_playing_test_voice">যদি এখন আওয়াজ শুনতে না পান, তাহলে আওয়াজ অথবা সিস্টেমের \"টেক্সট-টু-স্পিচ\" সেটিংস পরীক্ষা করুন</string>
     <string name="website">ওয়েবসাইট</string>
-    <string name="google_play_services">গুগল দ্বারা মিশ্রিত অবস্থান সেবা</string>
     <string name="search_show_on_map">মানচিত্রে দেখুন</string>
     <string name="feedback">প্রতিক্রিয়া</string>
-    <string name="pref_use_google_play">একটি বদ্ধ পরিষেবা যা আপনার অবস্থান আরও সঠিকভাবে নির্ধারণের জন্য জিপিএস, ওয়াইফাই, সেলুলার নেটওয়ার্ক ইত্যাদির সমন্বয় করে। এটি গুগলের সার্ভারের সাথে সংযুক্ত হতে পারে।</string>
     <string name="routing_requires_all_map">একটি রুট তৈরি করার জন্য, আমাদের আপনার অবস্থান থেকে আপনার গন্তব্য পর্যন্ত সমস্ত মানচিত্র ডাউনলোড এবং আপডেট করতে হবে।</string>
     <string name="rate_the_app">অ্যাপটি রেট করুন</string>
     <string name="help">সাহায্য</string>

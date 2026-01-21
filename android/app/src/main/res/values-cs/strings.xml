@@ -275,12 +275,6 @@
     <string name="downloader_delete_map">Smazat mapu</string>
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Aktualizovat mapu</string>
-    <!-- Preference title -->
-    <string name="google_play_services">Služba Google Fused Location</string>
-    <!-- Preference text -->
-    <string name="pref_use_google_play">Proprietární služba, která kombinuje GPS, Wi-Fi, mobilní sítě apod. pro přesnější zjištění vaší polohy. Může se připojit k serverům Google.</string>
-    <!-- Preference title -->
-    <!-- Preference description -->
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">Stahovat mapy podél cesty</string>
     <!-- Text for routing error dialog -->

@@ -417,8 +417,6 @@
     <string name="downloader_cancel_all">அனைத்தையும் நீக்கறல்</string>
     <string name="downloader_delete_map_while_routing_dialog">வரைபடத்தை நீக்க, வழிசெலுத்தலை நிறுத்தவும்</string>
     <string name="downloader_update_map">வரைபடத்தைப் புதுப்பிக்கவும்</string>
-    <string name="google_play_services">கூகுள் இணைந்த இருப்பிடச் பணி</string>
-    <string name="pref_use_google_play">GPS, Wi-Fi, செல்லுலார் நெட்வொர்க்குகள் போன்றவற்றை ஒருங்கிணைத்து உங்கள் இருப்பிடத்தை மிகவும் துல்லியமாகத் தீர்மானிக்கும் தனியுரிமைச் பணி. இது Google சேவையகங்களுடன் இணைக்கப்படலாம்.</string>
     <string name="routing_not_enough_space">போதுமான இடம் இல்லை</string>
     <string name="enable_location_services">இருப்பிடச் சேவைகளை இயக்கவும்</string>
     <string name="dialog_routing_cant_build_route">வழியை உருவாக்க முடியவில்லை</string>

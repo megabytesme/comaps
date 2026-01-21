@@ -280,12 +280,6 @@
     <string name="downloader_delete_map">Kaart verwijderen</string>
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Kaart bijwerken</string>
-    <!-- Preference title -->
-    <string name="google_play_services">Google Fused-locatieservices</string>
-    <!-- Preference text -->
-    <string name="pref_use_google_play">Een propriëtaire dienst die GPS, Wi-Fi, mobiele netwerken, enzovoort combineert om je locatie nauwkeuriger te bepalen. Het kan verbinding maken met Google-servers.</string>
-    <!-- Preference title -->
-    <!-- Preference description -->
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">Download kaarten op de route</string>
     <!-- Text for routing error dialog -->

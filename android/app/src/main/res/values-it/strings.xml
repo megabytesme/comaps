@@ -276,12 +276,6 @@
     <string name="downloader_delete_map">Elimina mappa</string>
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Aggiorna mappa</string>
-    <!-- Preference title -->
-    <string name="google_play_services">Servizi di localizzazione Google Fused</string>
-    <!-- Preference text -->
-    <string name="pref_use_google_play">Servizio proprietario che combina GPS, Wi-Fi, rete telefonica ed altro per determinare la tua positione con maggiore accuratezza. Potrebbe connettersi ai server di Google.</string>
-    <!-- Preference title -->
-    <!-- Preference description -->
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">Scarica le mappe lungo il percorso</string>
     <!-- Text for routing error dialog -->

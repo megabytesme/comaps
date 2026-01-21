@@ -258,10 +258,6 @@
     <string name="downloader_delete_map">Apagar mapa</string>
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Atualizar mapa</string>
-    <!-- Preference text -->
-    <string name="pref_use_google_play">Um serviço proprietário que combina GPS, Wi-Fi, redes móveis etc. para determinar sua localização com mais precisão. Ele pode se conectar aos servidores do Google.</string>
-    <!-- Preference title -->
-    <!-- Preference description -->
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">Baixar todos os mapas ao longo do trajeto</string>
     <!-- Text for routing error dialog -->
@@ -750,7 +746,6 @@
     <string name="dialog_routing_change_intermediate">Não foi possível localizar o ponto intermediário</string>
     <string name="editor_time_from">De</string>
     <string name="how_to_support_us">Voluntarie-se e melhore o CoMaps</string>
-    <string name="google_play_services">Serviço de localização integrada do Google</string>
     <string name="editor_time_title">Horário de funcionamento</string>
     <string name="long_tap_toast">Dê um toque longo no mapa novamente para ver a interface</string>
     <string name="editor_time_add">Adicionar horário</string>

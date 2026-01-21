@@ -281,12 +281,6 @@
     <string name="downloader_delete_map">Poista kartta</string>
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Päivitä kartta</string>
-    <!-- Preference title -->
-    <string name="google_play_services">Google Fused Sijaintipalvelu</string>
-    <!-- Preference text -->
-    <string name="pref_use_google_play">Suljetun lähdekoodin palvelu, joka yhdistää GPS:n, Wi-Fi:n ja mobiiliverkot yms. löytääksesi sijaintisi tarkemmin. Se voi ottaa yhteyttä Googlen palvelimiin.</string>
-    <!-- Preference title -->
-    <!-- Preference description -->
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">Lataa karttoja matkalla</string>
     <!-- Text for routing error dialog -->

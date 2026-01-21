@@ -274,12 +274,6 @@
     <string name="downloader_delete_map">Șterge harta</string>
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Actualizează harta</string>
-    <!-- Preference title -->
-    <string name="google_play_services">Serviciul de Localizare Fuzionat Google</string>
-    <!-- Preference text -->
-    <string name="pref_use_google_play">Un serviciu proprietar care combină GPS, Wi-Fi, rețelele celulare etc. pentru a-ți determina locația mai precis. Se poate conecta la serverele Google.</string>
-    <!-- Preference title -->
-    <!-- Preference description -->
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">Descarcă hărțile de pe traseu</string>
     <!-- Text for routing error dialog -->

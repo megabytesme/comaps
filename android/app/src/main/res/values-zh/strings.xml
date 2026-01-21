@@ -284,12 +284,6 @@
     <string name="downloader_delete_map">删除地图</string>
     <!-- Item in context menu. -->
     <string name="downloader_update_map">更新地图</string>
-    <!-- Preference title -->
-    <string name="google_play_services">Google 一体化位置信息服务</string>
-    <!-- Preference text -->
-    <string name="pref_use_google_play">结合了 GPS、Wi-Fi、移动网络等的专有服务，能更准确地确定您的位置。它可能会连接到 Google 服务器。</string>
-    <!-- Preference title -->
-    <!-- Preference description -->
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">下载路线上的所有地图</string>
     <!-- Text for routing error dialog -->

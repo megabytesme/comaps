@@ -95,7 +95,6 @@
     <string name="downloader_retry">Hwilewgh arta</string>
     <string name="downloader_delete_map">Dilea Mappa</string>
     <string name="downloader_update_map">Nowedhi Mappa</string>
-    <string name="google_play_services">Servis GPS gans Google</string>
     <string name="routing_not_enough_space">Nyns eus lowr dalghuster</string>
     <string name="enable_location_services">Gallosegi Servisyow GPS mar pleg</string>
     <string name="create">Gul</string>
@@ -430,7 +429,6 @@
     <string name="downloader_downloading">Owth Iskarga:</string>
     <string name="downloader_delete_map_while_routing_dialog">Dhe dilea mappa, hedhi navygacyon, mar pleg</string>
     <string name="routing_failed_cross_mwm_building">Kerdhow gallos gul yw kontaynys yn leun a-berth yn unn mappa a unn pow hepken.</string>
-    <string name="pref_use_google_play">Unn gonis perghenogel may kesunya GPS, Wi-fi, rosweythyow kellgowser h.e. rag determya dhe tyller yn kewar. Y re junya dhe servellow Google.</string>
     <string name="routing_download_maps_along">Iskarga oll mappys a-hys gas kerdh</string>
     <string name="routing_requires_all_map">Rag gul unn kerdh, ni res iskarga ha nowedhi oll mappys a gas tyller dhe gas penn an fordh.</string>
     <string name="save">Sawya</string>

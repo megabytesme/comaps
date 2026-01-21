@@ -33,7 +33,6 @@ public final class Config
 
   private static final String KEY_DOWNLOADER_AUTO = "AutoDownloadEnabled";
   private static final String KEY_PREF_ZOOM_BUTTONS = "ZoomButtonsEnabled";
-  private static final String KEY_PREF_USE_GS = "UseGoogleServices";
 
   private static final String KEY_MISC_DISCLAIMER_ACCEPTED = "IsDisclaimerApproved";
   private static final String KEY_MISC_TTS_MESSAGE_DELIVERED = "TtsMessageDelivered";
@@ -216,16 +215,6 @@ public final class Config
   public static void setShowOnLockScreenEnabled(boolean enabled)
   {
     setBool(KEY_MISC_SHOW_ON_LOCK_SCREEN, enabled);
-  }
-
-  public static boolean useGoogleServices()
-  {
-    return getBool(KEY_PREF_USE_GS, false);
-  }
-
-  public static void setUseGoogleService(boolean use)
-  {
-    setBool(KEY_PREF_USE_GS, use);
   }
 
   public static boolean isRoutingDisclaimerAccepted()
@@ -435,6 +424,7 @@ public final class Config
     editor.remove("WhatsNewShownVersion");
     editor.remove("LastRatedSession");
     editor.remove("RatedDialog");
+    editor.remove("UseGoogleServices");
 
     // Migrate ENABLE_SCREEN_SLEEP to KEEP_SCREEN_ON.
     final String KEY_MISC_ENABLE_SCREEN_SLEEP = "EnableScreenSleep";

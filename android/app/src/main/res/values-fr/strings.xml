@@ -282,12 +282,6 @@
     <string name="downloader_delete_map">Supprimer carte</string>
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Mettre à jour carte</string>
-    <!-- Preference title -->
-    <string name="google_play_services">Service de localisation Google Fused</string>
-    <!-- Preference text -->
-    <string name="pref_use_google_play">Un service propriétaire qui combine GPS, Wi-Fi, réseaux cellulaires… pour déterminer votre position plus précisément. Il peut se connecter aux serveurs Google.</string>
-    <!-- Preference title -->
-    <!-- Preference description -->
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">Téléchargez toutes les cartes le long de votre itinéraire</string>
     <!-- Text for routing error dialog -->

@@ -280,12 +280,6 @@
     <string name="downloader_delete_map">Διαγραφή χάρτη</string>
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Ενημέρωση χάρτη</string>
-    <!-- Preference title -->
-    <string name="google_play_services">Υπηρεσίες τοποθεσίας Google Play</string>
-    <!-- Preference text -->
-    <string name="pref_use_google_play">Προσδιορίστε γρήγορα την κατά προσέγγιση τοποθεσία σας μέσω Bluetooth, WiFi ή δικτύου κινητής τηλεφωνίας</string>
-    <!-- Preference title -->
-    <!-- Preference description -->
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">Κατέβασμα όλων των χαρτών για ολόκληρο το μήκος της διαδρομής σας</string>
     <!-- Text for routing error dialog -->

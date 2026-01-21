@@ -874,7 +874,7 @@
 "type.power.plant.gas" = "Gassturbinkraftverk";
 "type.power.plant.hydro" = "Vannkraftverk";
 "type.power.plant.solar" = "Solkraftverk";
-"type.power.plant.wind" = "Vindkraftverk";
+"type.power.plant.wind" = "Vindkraftpark";
 "type.power.substation" = "Trafo";
 
 /* A tower or pylon carrying high voltage electricity cables. */
@@ -1520,7 +1520,7 @@
 "type.leisure.bandstand" = "Musikkpaviljong";
 "type.shop.lighting" = "Lampebutikk";
 "type.leisure.sports_centre.sport.swimming" = "Svømmesenter";
-"type.amenity.bench.backless" = "Benk uten rygg";
+"type.amenity.bench.backless" = "Uten rygg";
 "type.man_made.telescope.radio" = "Teleskop (Radio)";
 "type.social_facility.food_bank" = "Matsentral";
 "type.social_facility.soup_kitchen" = "Suppekjøkken";

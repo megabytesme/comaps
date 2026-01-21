@@ -41,8 +41,8 @@
 "type.leisure.adult_gaming_centre" = "Centro de jogos para adultos";
 "type.leisure.amusement_arcade" = "Salão de jogos";
 "type.amenity.charging_station" = "Posto de carregamento elétrico";
-"type.amenity.charging_station.bicycle" = "Estação de carregamento de bicicletas";
-"type.amenity.charging_station.motorcar" = "Posto de carregamento de veículo elétrico";
+"type.amenity.charging_station.bicycle" = "Bicicletas";
+"type.amenity.charging_station.motorcar" = "Carros";
 "type.amenity.childcare" = "Creche";
 "type.amenity.cinema" = "Cinema";
 "type.leisure.bowling_alley" = "Pista de bowling";
@@ -1519,7 +1519,7 @@
 "type.leisure.sports_centre.sport.scuba_diving" = "Centro Desportivo";
 "type.leisure.sports_centre.sport.field_hockey" = "Centro Desportivo";
 "type.leisure.sports_centre.sport.bowls" = "Centro Desportivo";
-"type.amenity.bench.backless" = "Banco sem Encosto";
+"type.amenity.bench.backless" = "Sem Encosto";
 "type.leisure.bandstand" = "Coreto";
 "type.emergency.access_point" = "Ponto de Resgate de Emergência";
 "type.emergency.life_ring" = "Salva-vidas";
@@ -1588,3 +1588,5 @@
 "type.shop.beauty.nails" = "Salão de Unhas";
 "type.xmas.tree" = "Árvore de Natal";
 "type.amenity.hydrant" = "Boca de Rega";
+"type.amenity.charging_station.small" = "Capacidade Limitada";
+"type.amenity.charging_station.motorcycle" = "Motociclos";

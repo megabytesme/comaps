@@ -148,7 +148,7 @@
     <!-- message title of loading file -->
     <string name="load_kmz_title">Načítání oblíbených</string>
     <!-- Kmz file successful loading -->
-    <string name="load_kmz_successful">Oblíbená místa byla úspěšně nahrána! Naleznete je na mapě nebo ve správci oblíbených.</string>
+    <string name="load_kmz_successful">Oblíbené byly úspěšně nahrány! Naleznete je na mapě nebo ve správci oblíbených.</string>
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Nepodařilo se načíst oblíbená místa. Soubor může být poškozený nebo vadný.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
@@ -804,7 +804,7 @@
     <string name="error_enter_correct_instagram_page">Zadejte platné uživatelské jméno nebo webovou adresu Instagramu</string>
     <string name="error_enter_correct_twitter_page">Zadejte platné uživatelské jméno nebo webovou adresu Twitteru</string>
     <string name="maps_storage_free_size">%1$s z %2$s volných</string>
-    <string name="share_bookmarks_email_body">Ahoj! \n \nV příloze najdeš má oblíbená místa; otevři je v aplikaci CoMaps. Pokud ji nemáš nainstalovanou, můžeš si ji stáhnout zde: https://www.comaps.app/download/ \n \nUžij si cestování s CoMaps!</string>
+    <string name="share_bookmarks_email_body">Ahoj! \n \nV příloze najdeš má oblíbená místa; otevři je v aplikaci CoMaps. Pokud ji nemáš nainstalovanou, můžeš si ji stáhnout zde: https://www.comaps.app/cs/download/\n \nUžij si cestování s CoMaps!</string>
     <string name="disk_error">Nepodařilo se vytvořit složku a přesunout soubory v interní paměti zařízení nebo na SD kartě</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="error_enter_correct_vk_page">Zadejte platné uživatelské jméno nebo webovou adresu VK</string>

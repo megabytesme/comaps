@@ -281,7 +281,7 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Karte aktualisieren</string>
     <!-- Preference title -->
-    <string name="google_play_services">Google-Standortverknüpfungsdienst</string>
+    <string name="google_play_services">Google’s verknüpfter Ortungsdienst</string>
     <!-- Preference text -->
     <string name="pref_use_google_play">Ein proprietärer Dienst, der GPS, Wi-Fi, Mobilfunknetzwerke etc. kombiniert, um den Standort genauer zu bestimmen. Er kann sich mit Google-Servern verbinden.</string>
     <!-- Preference title -->

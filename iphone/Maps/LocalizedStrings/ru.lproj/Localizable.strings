@@ -72,7 +72,7 @@
 "bookmarks" = "Метки";
 
 /* "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt */
-"bookmarks_and_tracks" = "Метки и треки";
+"bookmarks_and_tracks" = "Избранное";
 
 /* Default bookmark list name */
 "core_my_places" = "Мои метки";

@@ -149,7 +149,7 @@
     <string name="description">Notas</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">Mis favoritos de CoMaps</string>
-    <string name="share_bookmarks_email_body">¡Hola! \n\nAdjunto mis favoritos de la aplicación CoMaps. Por favor, ábralos si tiene instalado CoMaps. O, si no lo tiene, descargue la aplicación para su dispositivo iOS o Android siguiendo este enlace: https://www.comaps.app/es/download/ \n\n¡Disfrute viajando con CoMaps!</string>
+    <string name="share_bookmarks_email_body">¡Hola! \n\nAdjunto mis favoritos. Por favor, ábrelos si tienes instalado CoMaps. O, si no lo tienes, descarga la aplicación para tu dispositivo iOS o Android siguiendo este enlace: https://www.comaps.app/es/download/ \n\n¡Disfruta viajando con CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Cargando favoritos</string>
     <!-- Kmz file successful loading -->
@@ -609,7 +609,7 @@
     <string name="subway">Metro</string>
     <string name="layers_title">Estilos y capas del mapa</string>
     <string name="bookmarks_empty_list_title">Esta lista está vacía</string>
-    <string name="bookmarks_empty_list_message">Para agregar un marcador, toca un lugar en el mapa y después toca el icono de la estrella</string>
+    <string name="bookmarks_empty_list_message">Para guardar un lugar, toca un lugar en el mapa y después toca el icono de la estrella</string>
     <string name="category_desc_more">…más</string>
     <string name="export_file">Exportar KMZ</string>
     <string name="export_file_gpx">Exportar GPX</string>

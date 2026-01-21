@@ -878,7 +878,7 @@
     <string name="editor_submit">Trimite</string>
     <string name="avoid_paved">Evitați drumurile asfaltate sau pavate</string>
     <string name="avoid_steps">Evitați treptele</string>
-    <string name="offline_explanation_text">O hartă trebuie descărcată ca să vezi și si să nevighezi prin zonă.\nDescarcă hărți pentru zonele în care vrei să mergi.</string>
+    <string name="offline_explanation_text">O hartă trebuie descărcată ca să vezi și si să navighezi prin zonă.\nDescarcă hărți pentru zonele în care vrei să mergi.</string>
     <string name="offline_explanation_title">Hărti Offline</string>
     <string name="unknown_power_output">necunoscut</string>
     <string name="power_management">Economisire energie</string>

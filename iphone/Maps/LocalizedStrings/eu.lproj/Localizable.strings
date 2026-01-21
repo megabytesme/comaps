@@ -69,7 +69,7 @@
 "bookmarks" = "Markagailuak";
 
 /* "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt */
-"bookmarks_and_tracks" = "Markagailuak eta arrastoak";
+"bookmarks_and_tracks" = "Gogokoak";
 
 /* Default bookmark list name */
 "core_my_places" = "Nire tokiak";

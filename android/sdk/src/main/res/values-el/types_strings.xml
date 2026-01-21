@@ -1315,7 +1315,9 @@
     <string name="type.leisure.common">Δημόσια γη</string>
     <string name="type.landuse.military">Στρατιωτική περιοχή</string>
     <string name="type.landuse.industrial">Βιομηχανική περιοχή</string>
-    <string name="type.amenity.bench.backless">Παγκάκι χωρίς πλάτη</string>
+    <string name="type.amenity.bench.backless">Χωρίς πλάτη</string>
     <string name="type.amenity.boat_rental">Ενοικίαση σκαφών</string>
     <string name="type.amenity.flight_school">Σχολή πιλότων</string>
+    <string name="type.amenity.sailing_school">Σχολή ιστιοπλοΐας</string>
+    <string name="type.amenity.prep_school">Φροντιστήριο</string>
 </resources>

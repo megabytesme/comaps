@@ -851,4 +851,12 @@
     <string name="pedestrian">Gående</string>
     <string name="error_enter_correct_line_page">Ange en giltig webbadress</string>
     <string name="move_maps_error">Kunde inte flytta kartfiler</string>
+    <string name="opens_at">Öppnar kl. %s</string>
+    <string name="closes_at">Stänger kl. %s</string>
+    <string name="opens_day_at">Öppnar på %1$s kl. %2$s</string>
+    <string name="closes_day_at">Stänger på %1$s kl. %2$s</string>
+    <plurals name="minutes_short">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
 </resources>

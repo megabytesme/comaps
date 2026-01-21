@@ -90,20 +90,20 @@ echo "Old version cleanup complete"
 
 echo "Uploading to us2"
 # An explicit mwm/txt filter is used to skip temp files when run for an unfinished generation
-rclone copy --include "*.{mwm,txt}" $DIR us2:comaps-map-files/maps/$MAPS &
+rclone copy --include "*.{mwm,txt,sig}" $DIR us2:comaps-map-files/maps/$MAPS &
 
 echo "Uploading to ru1"
-rclone copy --include "*.{mwm,txt}" $DIR ru1:comaps-maps/maps/$MAPS &
+rclone copy --include "*.{mwm,txt,sig}" $DIR ru1:comaps-maps/maps/$MAPS &
 
 echo "Uploading to fi1"
-rclone copy --include "*.{mwm,txt}" $DIR fi1:/var/www/html/maps/$MAPS &
+rclone copy --include "*.{mwm,txt,sig}" $DIR fi1:/var/www/html/maps/$MAPS &
 
 echo "Uploading to de1"
-rclone copy --include "*.{mwm,txt}" $DIR de1:/var/www/html/comaps-cdn/maps/$MAPS &
+rclone copy --include "*.{mwm,txt,sig}" $DIR de1:/var/www/html/comaps-cdn/maps/$MAPS &
 
 # TODO: temporary disabled until IPv6 connection issues are figured out.
 echo "SKIP Uploading to fr1"
-# rclone copy --include "*.{mwm,txt}" $DIR fr1:/data/maps/$MAPS &
+# rclone copy --include "*.{mwm,txt,sig}" $DIR fr1:/data/maps/$MAPS &
 
 # us1 is not used for maps atm
 # rclone lsd us1:/home/dh_zzxxrk/cdn-us-1.comaps.app/maps
@@ -113,16 +113,16 @@ wait
 echo "Running once more without parallelization to output status:"
 
 echo "us2 status:"
-rclone copy -v --include "*.{mwm,txt}" $DIR us2:comaps-map-files/maps/$MAPS
+rclone copy -v --include "*.{mwm,txt,sig}" $DIR us2:comaps-map-files/maps/$MAPS
 
 echo "ru1 status:"
-rclone copy -v --include "*.{mwm,txt}" $DIR ru1:comaps-maps/maps/$MAPS
+rclone copy -v --include "*.{mwm,txt,sig}" $DIR ru1:comaps-maps/maps/$MAPS
 
 echo "fi1 status:"
-rclone copy -v --include "*.{mwm,txt}" $DIR fi1:/var/www/html/maps/$MAPS
+rclone copy -v --include "*.{mwm,txt,sig}" $DIR fi1:/var/www/html/maps/$MAPS
 
 echo "de1 status:"
-rclone copy -v --include "*.{mwm,txt}" $DIR de1:/var/www/html/comaps-cdn/maps/$MAPS
+rclone copy -v --include "*.{mwm,txt,sig}" $DIR de1:/var/www/html/comaps-cdn/maps/$MAPS
 
 # TODO: temporary disabled until IPv6 connection issues are figured out.
 echo "SKIP fr1 status:"

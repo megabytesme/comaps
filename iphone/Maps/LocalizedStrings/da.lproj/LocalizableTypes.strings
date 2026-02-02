@@ -657,7 +657,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Kirkegård";
-"type.landuse.religious" = "Religiøs jord";
+"type.landuse.religious" = "Område til religiøse formål";
 "type.landuse.commercial" = "Erhvervsområde";
 "type.landuse.construction" = "Byggeplads";
 "type.landuse.education" = "Uddannelsesområde";

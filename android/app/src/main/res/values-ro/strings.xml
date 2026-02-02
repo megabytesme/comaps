@@ -44,7 +44,7 @@
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Complet open source, fără scop lucrativ, decizii și finanțare transparente.</string>
     <!-- The button that opens system location settings -->
-    <string name="location_settings">Setări de locație</string>
+    <string name="location_settings">Setări locație</string>
     <string name="close">Închide</string>
     <string name="unsupported_phone">Această aplicație necesită accelerarea hardware OpenGL. Din păcate, dispozitivul tău nu este compatibil.</string>
     <string name="download">Descarcă</string>
@@ -897,4 +897,5 @@
     <string name="download_resources_custom_url_title">Server hărți custom</string>
     <string name="download_resources_custom_url_message">Înlocuiți serverul prestabilit folosit pentru descărcarea hărților. Lăsați liber pentru serverul prestabilit.</string>
     <string name="advanced">Avansate</string>
+    <string name="limit_map_language_alternatives_to_local">Folosește celelalte limbi de sistem doar în regiunile lor</string>
 </resources>

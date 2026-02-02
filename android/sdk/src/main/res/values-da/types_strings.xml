@@ -1376,7 +1376,7 @@
     <string name="type.natural.wetland.tidalflat">Vade</string>
     <string name="type.man_made.utility_pole">Lygtepæl</string>
     <string name="type.leisure.escape_game">Escape Room</string>
-    <string name="type.landuse.religious">Religiøs jord</string>
+    <string name="type.landuse.religious">Område til religiøse formål</string>
     <string name="type.power.pole">Elmast</string>
     <string name="type.railway.station.subway.qingdao">Undergrundsstation</string>
     <string name="type.office.security">Sikkerhedsvagtkontor</string>

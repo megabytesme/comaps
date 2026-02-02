@@ -283,10 +283,6 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Оновити мапу</string>
     <!-- Preference title -->
-    <string name="google_play_services">Сервіс об\'єднаного визначення розташування Google</string>
-    <!-- Preference text -->
-    <string name="pref_use_google_play">Власницька служба, яка поєднує GPS, Wi-Fi, стільникові мережі тощо для точнішого визначення вашого розташування. Вона може під\'єднуватися до серверів Google.</string>
-    <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">Завантажити мапи з дороги</string>

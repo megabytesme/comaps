@@ -213,7 +213,7 @@
     <!-- Settings «Route» category: «Tts enabled» title -->
     <string name="pref_tts_enable_title">Φωνητικές οδηγίες</string>
     <!-- Settings «Route» category: «Tts announce street names» title -->
-    <string name="pref_tts_street_names_title">Ανακοινώστε ονόματα οδών</string>
+    <string name="pref_tts_street_names_title">Αναγγελία ονόματων οδών</string>
     <!-- Settings «Route» category: «Tts announce street names» description -->
     <string name="pref_tts_street_names_description">Όταν είναι ενεργοποιημένο, το όνομα της οδού ή της εξόδου στην οποία θα μεταβείτε θα εκφωνείται δυνατά.</string>
     <!-- Settings «Route» category: «Tts language» title -->
@@ -877,4 +877,9 @@
     <string name="navigation_start_tts_disabled_message">Φωνητικές οδηγίες απενεργοποιημένες: δεν υπάρχει διαθέσιμη μηχανή TTS</string>
     <string name="pref_tts_no_system_tts_short">Δεν βρέθηκε μηχανή κείμενο-σε-ομιλία, ελέγξτε τις ρυθμίσεις της εφαρμογής</string>
     <string name="pref_left_button_title">Ρύθμιση αριστερού κουμπιού</string>
+    <string name="editor_place_doesnt_exist_description">Περιγράψτε το πως μοιάζει το μέρος τώρα για να στείλετε μια σημείωση λάθους στην κοινότητα του OpenStreetMap</string>
+    <string name="editor_submit">Υποβολή</string>
+    <string name="editor_mark_business_vacant_description">Χρησιμοποιήστε αυτό αν η επιχείρηση έχει μετακομίσει και ο χώρος είναι άδειος και έτοιμος για νέο ενοικιαστή.</string>
+    <string name="place_page_map_too_old_description">Τα τρέχοντα δεδομένα χάρτη σας είναι πολύ παλιά, παρακαλούμε ενημερώστε τον χάρτη.</string>
+    <string name="place_page_map_too_old_title">Παλιά δεδομένα χάρτη</string>
 </resources>

@@ -199,7 +199,7 @@
 "share_my_location" = "Κοινοποίηση της τοποθεσίας μου";
 "prefs_group_route" = "Πλοήγηση";
 "pref_zoom_title" = "Πλήκτρα μεγέθυνσης";
-"pref_left_button_type" = "Left Main Button";
+"pref_left_button_type" = "Αριστερό κύριο κουμπί";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "Εμφάνιση";
@@ -211,7 +211,7 @@
 "pref_appearance_dark" = "Σκουρόχρωμη";
 
 /* Generic «Disabled» string */
-"disabled" = "Disabled";
+"disabled" = "Απενεργοποιημένο";
 
 /* Generic «Off» string */
 "off" = "Απενεργ.";
@@ -235,10 +235,10 @@
 "pref_tts_title" = "Φωνητικές οδηγίες";
 
 /* Settings «Route» category: «Tts enable» title */
-"pref_tts_enable_title" = "Enable Voice Instructions";
+"pref_tts_enable_title" = "Ενεργοποίηση φωνητικών οδηγιών";
 
 /* Settings «Route» category: «Tts announce street names» title */
-"pref_tts_street_names_title" = "Ανακοινώστε ονόματα οδών";
+"pref_tts_street_names_title" = "Αναγγελία ονόματων οδών";
 
 /* Settings «Route» category: «Tts announce street names» description */
 "pref_tts_street_names_description" = "Όταν είναι ενεργοποιημένο, το όνομα της οδού ή της εξόδου στην οποία θα μεταβείτε θα εκφωνείται δυνατά.";
@@ -1097,3 +1097,6 @@
 "voice" = "Φωνή";
 "offline_explanation_title" = "Χάρτες εκτός σύνδεσης";
 "limit_map_language_alternatives_to_local" = "Να χρησιμοποιούνται μόνο άλλες γλώσσες του συστήματος για την περιοχή τους";
+"voice_explanation" = "Είναι δυνατό να επιλέξετε μια καλύτερη φωνή στις ρυθμίσεις συστήματος κατώ από *Προσβασιμότητα*, *Ανάγνωση & Ομιλία*, *Φωνές*.";
+"voice_explanation_before_version26" = "Είναι δυνατό να επιλέξετε μια καλύτερη φωνή στις ρυθμίσεις συστήματος κατώ από *Προσβασιμότητα*, *Εκφωνούμενο περιεχόμενο*, *Φωνές*.";
+"editor_place_doesnt_exist_description" = "Περιγράψτε το πως μοιάζει το μέρος τώρα για να στείλετε μια σημείωση λάθους στην κοινότητα του OpenStreetMap";

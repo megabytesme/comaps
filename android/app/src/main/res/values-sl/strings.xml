@@ -22,9 +22,9 @@
     <string name="about_proposition_1">• Enostaven za uporabo in domišljen</string>
     <string name="about_proposition_2">• Osredotočen na zasebnost in brez oglasov</string>
     <string name="about_proposition_3">• Ne potrebuje internetne povezave, je hiter in priročen</string>
-    <string name="about_developed_by_enthusiasts">Je popolnoma odprtokoden, ni usmerjen v zaslužek, vse odločanje in upravljanje s financami je transparentno.</string>
+    <string name="about_developed_by_enthusiasts">Je popolnoma odprtokoden in nepridobiten, vse odločanje in upravljanje s financami je transparentno.</string>
     <string name="location_settings">Nastavitve lokacije</string>
-    <string name="close">Blizu</string>
+    <string name="close">Zapri</string>
     <string name="unsupported_phone">Aplikacija potrebuje strojno pospešeni OpenGL. Na žalost vaša naprava ni podprta.</string>
     <string name="download">Prenesi</string>
     <string name="dialog_routing_location_turn_on">Omogoči lokacijske storitve</string>
@@ -43,7 +43,7 @@
     <string name="download_country_failed">Prenos za državo %s ni uspel</string>
     <string name="add_new_set">Dodaj nov seznam</string>
     <string name="bookmark_set_name">Ime seznama</string>
-    <string name="bookmarks">Kraji</string>
+    <string name="bookmarks">Zaznamki</string>
     <string name="name">Ime</string>
     <string name="address">Naslov</string>
     <string name="list">Seznam</string>
@@ -82,16 +82,16 @@
     <string name="description">Pripis</string>
     <string name="share_bookmarks_email_subject">Moji zaznamki na CoMaps</string>
     <string name="share_bookmarks_email_body">Živjo! \n \nV priponki so moji zaznamki. Prosim, odpri jih v orodju CoMaps. Če ga še nisi namestil, ga lahko preneseš tukaj: https://www.comaps.app/download/ \n \nUživaj v potovanju s CoMaps!</string>
-    <string name="load_kmz_title">Nalagam zaznamke</string>
+    <string name="load_kmz_title">Nalaganje zaznamkov</string>
     <string name="load_kmz_successful">Zaznamki so uspešno naloženi! Najdete jih lahko na zemljevidu ali v upravitelju zaznamkov.</string>
-    <string name="load_kmz_failed">Zaznamkov ni bilo mogoče naložiti. Datoteka je morda poškodovana ali okvarjena.</string>
+    <string name="load_kmz_failed">Zaznamkov ni bilo mogoče naložiti. Datoteka je morda okvarjena.</string>
     <string name="unknown_file_type">Aplikacija ne prepozna te vrste datoteke: \n%1$s</string>
     <string name="failed_to_open_file">Ni bilo mogoče odpreti datoteke %1$s \n \n%2$s</string>
     <string name="edit">Uredi</string>
-    <string name="unknown_current_position">Vaša lokacija še ni znana</string>
+    <string name="unknown_current_position">Vaša položaj še ni bil določen</string>
     <string name="cant_change_this_setting">Žal so nastavitve shranjevanja zemljevidov trenutno onemogočene</string>
     <string name="downloading_is_active">Poteka prenašanje zemljevida</string>
-    <string name="bookmarks_and_tracks">Priljubljeni</string>
+    <string name="bookmarks_and_tracks">Zaznamki in poti</string>
     <string name="my_position_share_sms">Oglej si mojo trenutno lokacijo na CoMaps! %1$s ali %2$s Si brez zemljevidov? Prenesi jih tukaj: https://www.comaps.app/download/</string>
     <string name="bookmark_share_email_subject">Živjo, oglej si tale kraj na CoMaps!</string>
     <string name="my_position_share_email_subject">Živjo, poglej si mojo trenutno lokacijo na zemljevidu CoMaps!</string>
@@ -103,7 +103,7 @@
     <string name="data_version">Podatki OpenStreetMap: %s</string>
     <string name="tracks_title">Poti</string>
     <string name="length">Dolžina</string>
-    <string name="share_my_location">Deli mojo lokacijo</string>
+    <string name="share_my_location">Deli moj položaj</string>
     <string name="prefs_group_general">Splošne nastavitve</string>
     <string name="prefs_group_information">Informacije</string>
     <string name="prefs_group_route">Navigacija</string>
@@ -134,7 +134,7 @@
     <string name="rate_the_app">Ocenite aplikacijo</string>
     <string name="help">Pomoč</string>
     <string name="faq">Pogosta vprašanja</string>
-    <string name="donate">Doniraj</string>
+    <string name="donate">Daruj</string>
     <string name="how_to_support_us">Prispevajte in izboljšajte CoMaps</string>
     <string name="copyright">Avtorske pravice</string>
     <string name="report_a_bug">Prijavite napako</string>
@@ -237,7 +237,7 @@
     <string name="editor_hours_closed">Dela prost čas</string>
     <string name="editor_example_values">Primeri vrednosti</string>
     <string name="editor_correct_mistake">Popravi napako</string>
-    <string name="editor_add_select_location">Izberi lokacijo</string>
+    <string name="editor_add_select_location">Izberi položaj</string>
     <string name="editor_report_problem_desription_1">Podrobno opišite težavo, da jo lahko skupnost OpenStreetMap odpravi.</string>
     <string name="editor_report_problem_desription_2">Ali pa jo popravite sami na https://www.openstreetmap.org/</string>
     <string name="editor_report_problem_send_button">Pošlji</string>
@@ -393,7 +393,7 @@
         <item quantity="other">%d zaznamkov</item>
     </plurals>
     <string name="bookmarks_create_new_group">Ustvarite nov seznam</string>
-    <string name="bookmarks_import">Uvozi zaznamke</string>
+    <string name="bookmarks_import">Uvozi zaznamke in poti</string>
     <string name="bookmarks_error_message_share_general">Ni bilo mogoče deliti zaradi aplikacijske napake</string>
     <string name="bookmarks_error_title_share_empty">Napaka pri deljenju</string>
     <string name="bookmarks_error_message_share_empty">Ni mogoče deliti praznega seznama</string>
@@ -441,7 +441,7 @@
     <string name="power_managment_setting_auto">Kadar zmanjkuje energije</string>
     <string name="power_managment_setting_manual_max">Vedno</string>
     <string name="enable_logging_warning_message">Začasno omogočite to možnost, da zabeležite in nam ročno pošljete podrobne diagnostične podatke o svoji težave prek gumba \"Prijavite napako\" v dialogu za pomoč. Beleženi podatki lahko vključujejo tudi informacije o lokaciji.</string>
-    <string name="driving_options_title">Možnosti relacije</string>
+    <string name="driving_options_title">Možnosti iskanja povezav</string>
     <string name="avoid_tolls">Brez cestnin</string>
     <string name="avoid_unpaved">Brez netlakovanih cest</string>
     <string name="avoid_ferry">Brez trajektov</string>
@@ -449,7 +449,7 @@
     <string name="unable_to_calc_alert_title">Ne morem izračunati poti</string>
     <string name="unable_to_calc_alert_subtitle">Ni bilo mogoče najti povezave. Mogoče so krive vaše zahteve za pot ali pa nepopolni podatki OpenStreetMapa. Spremenite možnosti iskanja povezave in poskusite ponovno.</string>
     <string name="define_to_avoid_btn">Definirajte, katerim cestam naj se izognemo</string>
-    <string name="change_driving_options_btn">Možnosti relacije so omogočene</string>
+    <string name="change_driving_options_btn">Možnosti iskanja povezav so omogočene</string>
     <string name="toll_road">Cesta s cestnino</string>
     <string name="unpaved_road">Netlakovana cesta</string>
     <string name="ferry_crossing">Plovba s trajektom</string>
@@ -569,7 +569,7 @@
     <string name="stop_track_recording">Ustavi snemanje sledi</string>
     <string name="stop_without_saving">Ustavi brez shranjevanja</string>
     <string name="continue_recording">Nadaljuj snemanje</string>
-    <string name="track_recording_alert_title">Shrani med zaznamke?</string>
+    <string name="track_recording_alert_title">Želite shraniti med zaznamke in sledi?</string>
     <string name="track_recording_toast_nothing_to_save">Sled je prazna – ničesar ni za shraniti</string>
     <string name="error_no_file_manager_app">Pogovornega okna za izbiro mape ni mogoče prikazati, ker na vaši napravi ni nameščenega ustreznega orodja. Namestite upravitelja datotek in poskusite znova.</string>
     <string name="choose_color">Izberi barvo</string>
@@ -661,4 +661,7 @@
     <string name="download_resources_custom_url_summary_none">Ni nastavljeno</string>
     <string name="download_resources_custom_url_error_scheme">Vnesite polni URL, ki se začne z http:// ali https://</string>
     <string name="pref_maplanguage_local">Krajevni jezik</string>
+    <string name="limit_map_language_alternatives_to_local">Druge sistemske jezike uporabljaj le v njihovem območju</string>
+    <string name="fused_location_info">CoMaps se zanaša na sistemskega ponudnika zlitega določanja položaja (običajno storitev Google Play), ki lahko deli vaš položaj z Googlom. Uporabljajte Android OS z ohranjanjem zasebnosti, da se temu izognete.</string>
+    <string name="fused_location_service">Storitve zlitega določanja položaja</string>
 </resources>

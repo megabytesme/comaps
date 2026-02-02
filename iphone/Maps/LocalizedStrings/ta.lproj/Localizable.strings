@@ -12,7 +12,7 @@
 "bookmarks_and_tracks" = "பிடித்தவை";
 "close" = "மூடு";
 "add_new_set" = "புதிய பட்டியலைச் சேர்க்கவும்";
-"bookmark_sets" = "புத்தகக்குறி பட்டியல்கள்";
+"bookmark_sets" = "பிடித்த பட்டியல்கள்";
 "about_headline" = "சமூகத்தால் இயக்கப்படும் திறந்த திட்டம்";
 "about_proposition_2" = "தனியுரிமையை மையமாகக் கொண்டது மற்றும் விளம்பரங்கள் இல்லாதது";
 "about_proposition_3" = "வெளிப்படையானது மற்றும் லாபத்திற்காக அல்ல";
@@ -104,7 +104,7 @@
 "social_mastodon" = "மாச்டோடன்";
 "bluesky" = "ப்ளூச்கி";
 "category_entertainment" = "பொழுதுபோக்கு";
-"share_bookmarks_email_body" = "வணக்கம்! \n\nஎனது புக்மார்க்குகள் இணைக்கப்பட்டுள்ளன; அவற்றை CoMaps இல் திறக்கவும். நீங்கள் அதை நிறுவவில்லை என்றால், அதை இங்கே பதிவிறக்கம் செய்யலாம்: https://www.comaps.app/download/ \n\nCoMaps மூலம் பயணம் செய்து மகிழுங்கள்!";
+"share_bookmarks_email_body" = "வணக்கம்! \n\nநான் சேமித்தவை இணைக்கப்பட்டுள்ளன; அவற்றை CoMaps இல் திறக்கவும். நீங்கள் அதை நிறுவவில்லை என்றால், அதை இங்கே பதிவிறக்கம் செய்யலாம்: https://www.comaps.app/download/ \n\nCoMaps மூலம் பயணம் செய்து மகிழுங்கள்!";
 "disabled" = "முடக்கப்பட்டது";
 "pref_map_auto_zoom" = "ஆட்டோ சூம்";
 "pref_tts_language_title" = "குரல் மொழி";
@@ -119,7 +119,7 @@
 "report_a_bug" = "பிழையைப் புகாரளி";
 "copyright" = "பதிப்புரிமை";
 "category_fuel" = "வளிமம்";
-"social_pixelfed" = "Pixelfed";
+"social_pixelfed" = "புள்ளிஊட்டி";
 "facebook" = "Facebook";
 "length" = "நீளம்";
 "load_kmz_title" = "பிடித்தவைகளை ஏற்றுகிறது";
@@ -295,7 +295,7 @@
 "download_over_mobile_header" = "செல்லுலார் பிணையம் இணைப்பு மூலம் பதிவிறக்கவா?";
 "orange" = "ஆரஞ்சு";
 "error_enter_correct_web" = "சரியான இணைய முகவரியை உள்ளிடவும்";
-"bookmark" = "புத்தககுறி";
+"bookmark" = "இடம்";
 "editor_edit_place_title" = "திருத்துதல்";
 "editor_place_doesnt_exist" = "இடம் இல்லை";
 "subway_data_unavailable" = "சுரங்கப்பாதை வரைபடம் கிடைக்கவில்லை";
@@ -356,7 +356,7 @@
 "osm_profile_view_edit_history" = "திருத்த வரலாற்றைக் காண்க";
 "downloader_percent" = "%@ (%@ இல் %@)";
 "dialog_routing_download_and_update_maps" = "பாதையைக் கணக்கிட, திட்டமிடப்பட்ட பாதையில் உள்ள அனைத்து வரைபடத்தையும் பதிவிறக்கி புதுப்பிக்கவும்.";
-"placepage_bookmark_name_hint" = "புத்தகக்குறி பெயர்";
+"placepage_bookmark_name_hint" = "இடப் பெயர்";
 "power_managment_description" = "சில செயல்பாடுகளின் இழப்பில் மின் பயன்பாட்டைக் குறைக்க முயற்சிக்கவும்.";
 "error_enter_correct_name" = "சரியான பெயரை உள்ளிடவும்";
 "dialog_routing_download_files" = "தேவையான கோப்புகளைப் பதிவிறக்கவும்";
@@ -407,7 +407,7 @@
 "email_or_username" = "மின்னஞ்சல் அல்லது பயனர் பெயர்";
 "editor_focus_map_on_location" = "இடம் அல்லது வணிகத்தின் இடத்தில் சிலுவையை வைக்க வரைபடத்தை இழுக்கவும்.";
 "error_enter_correct_email" = "சரியான மின்னஞ்சலை உள்ளிடவும்";
-"placepage_delete_bookmark_button" = "புத்தகக்குறியை நீக்கு";
+"placepage_delete_bookmark_button" = "இடத்தை நீக்கு";
 "hours_confirmed_time_ago" = "%@ உறுதிப்படுத்தப்பட்டது";
 "placepage_call_button" = "அழைக்கவும்";
 "book_button" = "நூல்";
@@ -516,7 +516,7 @@
 "elevation_profile_ascent" = "ஏற்றம்";
 "animals" = "விலங்குகள்";
 "ok" = "சரி";
-"bookmarks_export" = "அனைத்து புக்மார்க்குகளையும் தடங்களையும் ஏற்றுமதி செய்யவும்";
+"bookmarks_export" = "அனைத்து பிடித்வைகளையும் ஏற்றுமதி செய்";
 "icloud_synchronization_error_cloud_is_unavailable" = "பிழை: iCloud கிடைக்கவில்லை";
 "enable_icloud_synchronization_title" = "ஐமுகில் ஒத்திசைவை இயக்கு";
 "placepage_track_name_hint" = "ட்ராக் பெயர்";

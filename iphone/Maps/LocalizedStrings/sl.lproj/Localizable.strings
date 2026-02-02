@@ -8,7 +8,7 @@
 "miles" = "Milje";
 "download_maps" = "Prenesi zemljevide";
 "later" = "Kasneje";
-"close" = "Blizu";
+"close" = "Zapri";
 "about_headline" = "Odprt projekt, ki ga vzdržuje skupnost";
 "country_status_download_failed" = "Prenos ni uspel";
 "zoom_to_country" = "Pokaži na zemljevidu";
@@ -17,7 +17,7 @@
 "add_new_set" = "Dodaj nov seznam";
 "continue_button" = "Nadaljuj";
 "error_enter_correct_house_number" = "Vnesite veljavno številko stavbe";
-"bookmark_set_name" = "Ime seznama zaznamkov";
+"bookmark_set_name" = "Ime seznama";
 "bookmarks" = "Zaznamki";
 "category_toilet" = "Stranišče";
 "category_shopping" = "Nakupovanje";
@@ -29,7 +29,7 @@
 "load_kmz_failed" = "Zaznamkov ni bilo mogoče naložiti. Datoteka je morda okvarjena.";
 "category_parking" = "Parkiranje";
 "category_children" = "Družinske počitnice";
-"unknown_current_position" = "Vaša lokacija še ni znana";
+"unknown_current_position" = "Vaša položaj še ni bil določen";
 "edit" = "Uredi";
 "category_bank" = "Banka";
 "category_transport" = "Prevoz";
@@ -48,8 +48,8 @@
 "settings" = "Nastavitve";
 "category_hotel" = "Hotel";
 "category_fuel" = "Gorivo";
-"load_kmz_title" = "Nalagam zaznamke";
-"share_my_location" = "Deli mojo lokacijo";
+"load_kmz_title" = "Nalaganje zaznamkov";
+"share_my_location" = "Deli moj položaj";
 "save" = "Shrani";
 "my_position_share_email_subject" = "Živjo, poglej si mojo trenutno lokacijo na zemljevidu CoMaps!";
 "placepage_distance" = "Razdalja";
@@ -96,7 +96,7 @@
 "pref_map_auto_zoom" = "Samodejno približaj";
 "pref_tts_language_title" = "Jezik glasu";
 "auto" = "Samodejno";
-"donate" = "Doniraj";
+"donate" = "Daruj";
 "downloader_download_all_button" = "Prenesi vse";
 "dialog_routing_disclaimer_title" = "Ko potujete po relaciji, imejte v mislih, da:";
 "tracks_title" = "Poti";
@@ -146,7 +146,7 @@
 "editor_hours_closed" = "Dela prost čas";
 "dialog_routing_end_not_determined" = "Relacija ni bila ustvarjena. Ne morem najti cilja.";
 "details" = "Podrobnosti";
-"editor_add_select_location" = "Izberi lokacijo";
+"editor_add_select_location" = "Izberi položaj";
 "hide" = "Skrij";
 "dialog_routing_select_closer_start" = "Izberite izhodišče, ki je bližje cesti.";
 "level" = "Nadstropje";
@@ -296,11 +296,11 @@
 "hotels" = "Hoteli";
 "unable_to_calc_alert_title" = "Ne morem izračunati poti";
 "near_me_sorttype" = "V moji bližini";
-"change_driving_options_btn" = "Možnosti relacije so omogočene";
+"change_driving_options_btn" = "Možnosti iskanja povezav so omogočene";
 "enable_logging_warning_message" = "Začasno omogočite to možnost, da zabeležite in nam ročno pošljete podrobne diagnostične podatke o svoji težave prek gumba \"Prijavite napako\" v dialogu za pomoč. Beleženi podatki lahko vključujejo tudi informacije o lokaciji.";
 "elevation_profile_max_elevation" = "Maks. višina";
 "week_ago_sorttype" = "Pred enim tednom";
-"driving_options_title" = "Možnosti relacije";
+"driving_options_title" = "Možnosti iskanja povezav";
 "avoid_unpaved" = "Brez netlakovanih cest";
 "mountains" = "Gore";
 "buildings" = "Stavbe";
@@ -334,7 +334,7 @@
 "offline_explanation_text" = "Zemljevid morate prenesti, da siga lahko ogledujete in se po njem usmerjate.\nPrenesite zemljevide za območja, kjer nameravate potovati.";
 "offline_explanation_title" = "Zemljevidi brez povezave";
 "create" = "ustvari";
-"track_recording_alert_title" = "Shrani med Zaznamke in sledi?";
+"track_recording_alert_title" = "Želite shraniti med zaznamke in sledi?";
 "button_layer_outdoor" = "Na prostem";
 "start_track_recording" = "Snemaj sled";
 "self_service" = "Samopostrežno";
@@ -378,7 +378,7 @@
 "today" = "Danes";
 "bookmark_sets" = "Seznami zaznamkov";
 "about_proposition_3" = "Transparentno in nepridobitno";
-"share_bookmarks_email_body" = "Pozdravljen!\n\nV prilogi so moji zaznamki; prosim, odpri jih v CoMapsu. Če ga še nimaš nameščenega, ga lahko preneseš tukaj: https://www.comaps.app/download/\n\nUživj v potovanju s CoMaps!";
+"share_bookmarks_email_body" = "Pozdravljeni!\n\nV prilogi so moji zaznamki; odprite jih v CoMapsu. Če ga še nimate nameščenega, ga lahko prenesete tukaj: https://www.comaps.app/download/\n\nUživajte v potovanju s CoMaps!";
 "copy_to_clipboard" = "Kopiraj v odložišče";
 "pref_left_button_type" = "Levi glavni gumb";
 "pref_appearance_title" = "Videz";
@@ -597,3 +597,4 @@
 "delete_all" = "Izbriši vse";
 "recover" = "Obnovi";
 "recover_all" = "Obnovi vse";
+"limit_map_language_alternatives_to_local" = "Druge sistemske jezike uporabljaj le v njihovem območju";

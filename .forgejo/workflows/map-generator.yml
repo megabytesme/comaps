@@ -492,6 +492,7 @@ jobs:
       volumes:
         - /mnt/4tbexternal/:/mnt/4tbexternal/
         - /mnt/4tbexternal/osm-planet:/home/planet
+        - /var/www/html:/var/www/html
       options: --ulimit nofile=262144:262144
     concurrency:
       group: ${{ github.workflow }}-map-generator-${{ github.event.pull_request.number || github.ref }}
@@ -520,6 +521,13 @@ jobs:
         run: |
           cd ~/comaps
           bash ./tools/unix/maps/docker_maps_generator.sh
+      - name: Symlink our maps to mapgen
+        shell: bash
+        run: |
+          buildfolder=$(find /mnt/4tbexternal/osm-maps/ -mindepth 1 -maxdepth 1 -iname "2*" -type d | sort -n -r | head -1 | cut -d/ -f5)
+          builddate=$(find /mnt/4tbexternal/osm-maps/*/ -mindepth 1 -maxdepth 1 -iname "2*" -type d | sort -n -r | head -1 | cut -d/ -f6)
+          cd /var/www/maps
+          ln -s /mnt/4tbexternal/osm-maps/$buildfolder/$builddate $builddate
       - name: Sign countries.txt and copy to latest
         shell: bash
         run: |
@@ -537,6 +545,11 @@ jobs:
           cd ..
           mkdir -p latest
           cp -p /mnt/4tbexternal/osm-maps/$buildfolder/$builddate/countries* latest
+
+          cd /var/www/maps
+          # remove old symlink to old build's latest
+          rm -r latest
+          ln -s /mnt/4tbexternal/osm-maps/$buildfolder/latest latest
       - name: Notify Zulip
         run: |
           curl -X POST https://comaps.zulipchat.com/api/v1/messages \

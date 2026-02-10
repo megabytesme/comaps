@@ -79,12 +79,10 @@ public class PlacePageOpeningHoursFragment extends Fragment implements Observer<
 
   private void refreshTodayNonBusinessTime(Timespan[] closedTimespans)
   {
-    final String hoursClosedLabel = getResources().getString(R.string.editor_hours_closed);
     if (closedTimespans == null || closedTimespans.length == 0)
       UiUtils.clearTextAndHide(mTodayNonBusinessTime);
     else
-      UiUtils.setTextAndShow(mTodayNonBusinessTime,
-                             TimeFormatUtils.formatNonBusinessTime(closedTimespans, hoursClosedLabel));
+        UiUtils.setTextAndShow(mTodayNonBusinessTime, TimeFormatUtils.formatNonBusinessTime(closedTimespans));
   }
 
   private void refreshTodayOpeningHours(String label, String openTime, @ColorInt int color)
@@ -174,12 +172,26 @@ public class PlacePageOpeningHoursFragment extends Fragment implements Observer<
             {
               String allDay = resources.getString(R.string.editor_time_allday);
               openTime = Utils.unCapitalize(allDay);
+              refreshTodayOpeningHours(resources.getString(app.organicmaps.sdk.R.string.today), openTime, color);
+              UiUtils.clearTextAndHide(mTodayNonBusinessTime);
             }
             else
-              openTime = tt.workingTimespan.toWideString();
+            {
+                if (tt.closedTimespans != null && tt.closedTimespans.length == 1)
+                {
+                    openTime = tt.workingTimespan.start + "—" + tt.closedTimespans[0].start;
+                    String secondShift = tt.closedTimespans[0].end + "—" + tt.workingTimespan.end;
 
-            refreshTodayOpeningHours(resources.getString(app.organicmaps.sdk.R.string.today), openTime, color);
-            refreshTodayNonBusinessTime(tt.closedTimespans);
+                    refreshTodayOpeningHours(resources.getString(app.organicmaps.sdk.R.string.today), openTime, color);
+                    UiUtils.setTextAndShow(mTodayNonBusinessTime, secondShift);
+                }
+                else
+                {
+                    openTime = tt.workingTimespan.toWideString();
+                    refreshTodayOpeningHours(resources.getString(app.organicmaps.sdk.R.string.today), openTime, color);
+                    UiUtils.clearTextAndHide(mTodayNonBusinessTime);
+                }
+            }
 
             break;
           }

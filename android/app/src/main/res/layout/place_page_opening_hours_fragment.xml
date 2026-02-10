@@ -47,7 +47,7 @@
     android:layout_alignParentEnd="true"
     android:layout_alignStart="@id/oh_today_label"
     android:layout_below="@id/oh_today_label"
-    android:textAppearance="@style/MwmTextAppearance.Body4"
+    android:textAppearance="@style/MwmTextAppearance.PlacePage"
     android:textAlignment="viewEnd"
     android:visibility="gone"/>
 

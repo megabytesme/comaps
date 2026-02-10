@@ -124,10 +124,10 @@ public class PlaceOpeningHoursAdapter extends RecyclerView.Adapter<PlaceOpeningH
       final Timespan[] closedTime = tt.closedTimespans;
       if (closedTime != null && closedTime.length == 1)
       {
-        String s1 = tt.workingTimespan.start + "\u2014" + closedTime[0].start;
-        String s2 = closedTime[0].end + "\u2014" + tt.workingTimespan.end;
-        holder.setOpenTime(s1);
-        holder.setNonBusinessTime(s2);
+        String first_opening = tt.workingTimespan.start + "—" + closedTime[0].start;
+        String second_opening = closedTime[0].end + "—" + tt.workingTimespan.end;
+        holder.setOpenTime(first_opening);
+        holder.setNonBusinessTime(second_opening);
       }
       else
       {

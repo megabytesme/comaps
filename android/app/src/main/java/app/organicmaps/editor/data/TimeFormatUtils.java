@@ -78,7 +78,7 @@ public class TimeFormatUtils
     return builder.toString();
   }
 
-  public static String formatNonBusinessTime(Timespan[] closedTimespans, String hoursClosedLabel)
+  public static String formatNonBusinessTime(Timespan[] closedTimespans)
   {
     StringBuilder closedTextBuilder = new StringBuilder();
     boolean firstLine = true;
@@ -87,9 +87,6 @@ public class TimeFormatUtils
     {
       if (!firstLine)
         closedTextBuilder.append('\n');
-
-      if (hoursClosedLabel != null && !hoursClosedLabel.isEmpty())
-        closedTextBuilder.append(hoursClosedLabel).append(' ');
 
       closedTextBuilder.append(cts.toWideString());
       firstLine = false;
@@ -111,7 +108,7 @@ public class TimeFormatUtils
       if (tt.closedTimespans == null || tt.closedTimespans.length == 0)
         return resources.getString(R.string.daily) + " " + tt.workingTimespan.toWideString();
       return resources.getString(R.string.daily) + " " + tt.workingTimespan.toWideString() + "\n"
-    + formatNonBusinessTime(tt.closedTimespans, resources.getString(R.string.editor_hours_closed));
+    + formatNonBusinessTime(tt.closedTimespans);
     }
 
     // Generate full week multiline string. E.g.
@@ -132,7 +129,7 @@ public class TimeFormatUtils
       weekSchedule.append(weekdays).append(' ').append(openTime);
       if (tt.closedTimespans != null && tt.closedTimespans.length > 0)
         weekSchedule.append('\n').append(
-            formatNonBusinessTime(tt.closedTimespans, resources.getString(R.string.editor_hours_closed)));
+            formatNonBusinessTime(tt.closedTimespans));
 
       firstRow = false;
     }

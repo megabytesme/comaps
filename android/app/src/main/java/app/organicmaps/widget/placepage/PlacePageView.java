@@ -81,6 +81,9 @@ import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textview.MaterialTextView;
+
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.time.Instant;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
@@ -685,7 +688,7 @@ public class PlacePageView extends Fragment
 
     final String cap = mMapObject.getMetadata(Metadata.MetadataType.FMD_CAPACITY);
     refreshMetadataOrHide(!TextUtils.isEmpty(cap) ? getString(R.string.capacity, cap) : "", mCapacity, mTvCapacity);
-
+    /// @todo Use plurals strings for rooms tag
     final String rooms = mMapObject.getMetadata(Metadata.MetadataType.FMD_ROOMS);
     refreshMetadataOrHide(!TextUtils.isEmpty(rooms) ? getString(R.string.rooms, rooms) : "", mRooms, mTvRooms);
 
@@ -710,8 +713,14 @@ public class PlacePageView extends Fragment
     final String outdoorSeating = mMapObject.getMetadata(Metadata.MetadataType.FMD_OUTDOOR_SEATING);
     refreshMetadataOrHide(outdoorSeating.equals("yes") ? getString(R.string.outdoor_seating) : "", mOutdoorSeating,
                           mTvOutdoorSeating);
-    final String population = "%,d".format(mMapObject.getMetadata(Metadata.MetadataType.FMD_POPULATION)).replace(',', ' ');
-      refreshMetadataOrHide(!TextUtils.isEmpty(population) ? getString(R.string.population, population) : "", mPopulation, mTvPopulation);
+    DecimalFormat populationFormat = new DecimalFormat("#,###");
+    populationFormat.setGroupingUsed(true);
+    populationFormat.setGroupingSize(3);
+    populationFormat.setDecimalFormatSymbols(new DecimalFormatSymbols(Locale.getDefault()) {{
+      setGroupingSeparator(' ');
+    }});
+    final String population = mMapObject.getMetadata(Metadata.MetadataType.FMD_POPULATION);
+      refreshMetadataOrHide(!TextUtils.isEmpty(population) ? populationFormat.format(Long.parseLong(population)) + " " + getString(R.string.population) : "", mPopulation, mTvPopulation);
 
     final String lastChecked = mMapObject.getMetadata(Metadata.MetadataType.FMD_CHECK_DATE);
     if (!lastChecked.isEmpty())

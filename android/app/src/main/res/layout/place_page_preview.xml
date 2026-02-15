@@ -248,7 +248,7 @@
       android:background="?ppBackground"
       android:orientation="horizontal">
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__osm_description"
         style="@style/MwmTextAppearance.PlacePage"
         android:layout_width="0dp"

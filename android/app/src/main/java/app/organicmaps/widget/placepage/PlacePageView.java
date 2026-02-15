@@ -161,7 +161,7 @@ public class PlacePageView extends Fragment
   private MaterialTextView mTvCategory;
   private MaterialButton mEditBookmark;
   private View mOsmDescriptionContainer;
-  private TextView mTvOsmDescription;
+  private MaterialTextView mTvOsmDescription;
 
   // Data
   private CoordinatesFormat mCoordsFormat = CoordinatesFormat.LatLonDecimal;

@@ -936,6 +936,10 @@
     <string name="about_help">About &amp; Help</string>
     <string name="open_now">Open now</string>
     <string name="closed_now">Closed now</string>
+    <!-- Used in navigation panel. -->
+    <string name="destination">Destination</string>
+    <!-- Used in navigation panel. "Stop" as in "Intermediate Stop" -->
+    <string name="stop">Stop</string>
     <!-- Used in place page preview for next open/close time. eg. "closing in 30 min • at 19:30" -->
     <string name="at">at %s</string>
     <!-- Title of the bottom sheet when sharing the track -->

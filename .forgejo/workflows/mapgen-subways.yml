@@ -1,11 +1,11 @@
-name: compare_subways
+name: mapgen-subways
 on:
   workflow_dispatch: # Manual trigger
     inputs:
-      run-planet-pbf:
-        description: 'Update OSM planet?'
+      skip-planet-pbf:
+        description: 'Skip OSM planet update?'
         required: true
-        default: true
+        default: false
         type: boolean
       subways-branch:
         description: 'Check out a different subways repo branch?'
@@ -53,7 +53,7 @@ jobs:
           git clone --depth 1 -b ${{ inputs.subways-branch || 'master' }} --single-branch https://codeberg.org/comaps/subways.git
 
   update-planet-pbf:
-    if: inputs.run-planet-pbf || true
+    if: !inputs.skip-planet-pbf
     name: Update OSM PBF Planet
     runs-on: mapfilemaker
     container:

@@ -527,5 +527,7 @@
 "shop-beauty-day_spa": "3Spa diurno|spa|wellness",
 "leisure-indoor_play": "parque interior|parque infantil interior|parque indoor|parque recreativo interior",
 "amenity-food_sharing": "Comida compartida|compartir comida|rescate de comida|Alimentos compartidos|Alimentos",
-"amenity-give_box": "Caja de donación|caja de donar|donar"
+"amenity-give_box": "Caja de donación|caja de donar|donar",
+"waterway-fuel": "Gasolinera marina",
+"amenity-community_centre-youth_centre": "centro juvenil|centro de jóvenes|centro para jóvenes"
 }

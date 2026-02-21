@@ -1106,3 +1106,4 @@
 "pref_alt_map_lang_handling_local_only" = "Préférer et n'utiliser que lorsque cela est natif";
 "pref_alt_map_lang_handling" = "Langues alternatives pour les cartes";
 "pref_alt_map_lang_handling_system_order" = "Utilisation dans l'ordre du système";
+"rooms" = "%@ pièces";

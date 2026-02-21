@@ -131,7 +131,7 @@
     <string name="type.amenity.pub">Kneipe</string>
     <string name="type.amenity.public_bookcase">Bücherschrank</string>
     <!-- SECTION: Types: Recycling -->
-    <string name="type.amenity.recycling.centre">Recyclingzentrum</string>
+    <string name="type.amenity.recycling.centre">Recyclinghof</string>
     <string name="type.amenity.recycling.container">Wertstoffcontainer</string>
     <string name="type.recycling.batteries">Batterien</string>
     <string name="type.recycling.clothes">Altkleider</string>

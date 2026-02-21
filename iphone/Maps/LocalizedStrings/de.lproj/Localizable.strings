@@ -102,7 +102,7 @@
 "category_parking" = "Parkplätze";
 
 /* Search category for malls/clothes/shoes/gifts/jewellery/sport shops; any changes should be duplicated in categories.txt @category_shopping! */
-"category_shopping" = "Shopping";
+"category_shopping" = "Einkaufen";
 
 /* Search category for second_hand/charity/antique/auction shops; any changes should be duplicated in categories.txt @category_secondhand! */
 "category_secondhand" = "Second-hand";
@@ -198,7 +198,7 @@
 "version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nKartendaten: %@";
 
 /* Title for tracks category in bookmarks manager */
-"tracks_title" = "Tracks";
+"tracks_title" = "Routen";
 
 /* Length of track in cell that describes route */
 "length" = "Länge";
@@ -909,7 +909,7 @@
 "transit_not_found" = "Die U-Bahn-Navigation ist in dieser Region noch nicht verfügbar";
 "dialog_pedestrian_route_is_long_header" = "Keine U-Bahn-Route gefunden";
 "dialog_pedestrian_route_is_long_message" = "Wähle einen Start- oder Endpunkt näher an einer U-Bahn-Station";
-"button_layer_isolines" = "Höhelinien";
+"button_layer_isolines" = "Höhenlinien";
 "isolines_activation_error_dialog" = "Um die Höhenlinien nutzen zu können, aktualisiere die Karte des betreffenden Gebiets oder lade diese herunter";
 "isolines_location_error_dialog" = "Höhenlinien sind für dieses Gebiet noch nicht verfügbar";
 "elevation_profile_diff_level" = "Schwierigkeitsgrad";

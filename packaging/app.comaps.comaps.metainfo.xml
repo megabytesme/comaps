@@ -80,6 +80,17 @@
   </screenshots>
 
  <releases>
+    <release version="2026.02.23" date="2026-02-23">
+     <url type="details">https://comaps.app/latest/</url>
+     <description>
+       <ul>
+	 <li>OpenStreetMap data as of February 21</li>
+	 <li>Added Croatian, Italian, Dutch and Polish Wikipedia articles</li>
+	 <li>Added tree rows and youth centres</li>
+	 <li>Fixed transliteration not working</li>
+       </ul>
+     </description>
+   </release>
    <release version="2026.02.09-4" date="2026-02-09">
      <url type="details">https://codeberg.org/comaps/comaps/releases/tag/v2026.02.09-4</url>
      <description>

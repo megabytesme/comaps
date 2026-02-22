@@ -21,6 +21,7 @@
 #include <vector>
 
 #include "3party/ankerl/unordered_dense.h"
+#include "3party/boost/boost/algorithm/string/replace.hpp"
 
 namespace
 {
@@ -359,8 +360,9 @@ std::string MetadataTagProcessorImpl::ValidateAndFormat_rooms(std::string const 
   return v;
 }
 
-std::string MetadataTagProcessorImpl::ValidateAndFormat_charge(std::string const & v)
+std::string MetadataTagProcessorImpl::ValidateAndFormat_charge(std::string v)
 {
+  boost::replace_all(v, "; ", "\n");
   return v;
 }
 

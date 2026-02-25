@@ -7,11 +7,11 @@ on:
         required: false
         default: false
         type: boolean
-#      run-copy-coasts:
-#        description: 'Copy last used coastlines?'
-#        required: false
-#        default: true
-#        type: boolean
+      run-copy-coasts:
+        description: 'Copy last used coastlines?'
+        required: false
+        default: true
+        type: boolean
       run-isolines:
         description: 'Update altitude isolines?'
         required: false
@@ -23,12 +23,7 @@ on:
         default: true
         type: boolean
       run-planet-pbf:
-        description: 'Update PBF planet (for Wiki & subways)?'
-        required: false
-        default: true
-        type: boolean
-      run-subways:
-        description: 'Update subways?'
+        description: 'Update PBF planet (for Wiki)?'
         required: false
         default: true
         type: boolean
@@ -113,11 +108,6 @@ jobs:
         run: |
           cd ~
           git clone --depth 1 --single-branch https://codeberg.org/comaps/wikiparser.git
-      - name: Checkout subways repo
-        shell: bash
-        run: |
-          cd ~
-          git clone --depth 1 --single-branch https://codeberg.org/comaps/subways.git
 
   copy-coasts:
     # if: inputs.run-copy-coasts
@@ -289,40 +279,6 @@ jobs:
             --data-urlencode 'to="DevOps"' \
             --data-urlencode topic=codeberg-bot \
             --data-urlencode 'content=PBF planet update is done!'
-
-  update-subways:
-    if: inputs.run-subways
-    name: Update Subways
-    runs-on: mapfilemaker
-    needs:
-      - clone-repos
-    container:
-      image: codeberg.org/comaps/maps_generator:f6d53d54f794
-      volumes:
-        - /mnt/4tbexternal/:/mnt/4tbexternal/
-        - /mnt/4tbexternal/osm-planet:/home/planet
-    concurrency:
-      group: ${{ github.workflow }}-map-generator-${{ github.event.pull_request.number || github.ref }}
-      cancel-in-progress: true
-    steps:
-      - uses: actions/cache@v4
-        with:
-          path: "~"
-          key: cache-${{ github.run_id }}-${{ github.run_attempt }}
-      - name: Update Subways
-        shell: bash
-        run: |
-          cd ~/comaps/
-          cp tools/unix/maps/settings.sh.prod tools/unix/maps/settings.sh
-          ./tools/unix/maps/generate_subways.sh
-      - name: Notify Zulip
-        run: |
-          curl -X POST https://comaps.zulipchat.com/api/v1/messages \
-            -u $ZULIP_BOT_EMAIL:$ZULIP_API_KEY \
-            --data-urlencode type=stream \
-            --data-urlencode 'to="DevOps"' \
-            --data-urlencode topic=codeberg-bot \
-            --data-urlencode 'content=Subways are done!'
 
   wiki-update:
     if: inputs.run-wiki
@@ -535,7 +491,7 @@ jobs:
 
           echo "$COUNTRIES_PUB_KEY" > ~/keys/countries_ed25519_pk.pem
           echo "$COUNTRIES_SECRET_KEY" > ~/keys/countries_ed25519_sk.pem
-      
+
           buildfolder=$(find /mnt/4tbexternal/osm-maps/ -mindepth 1 -maxdepth 1 -iname "2*" -type d | sort -n -r | head -1 | cut -d/ -f5)
           builddate=$(find /mnt/4tbexternal/osm-maps/*/ -mindepth 1 -maxdepth 1 -iname "2*" -type d | sort -n -r | head -1 | cut -d/ -f6)
           cd /mnt/4tbexternal/osm-maps/$buildfolder/$builddate
@@ -622,4 +578,3 @@ jobs:
             --data-urlencode 'to="DevOps"' \
             --data-urlencode topic=codeberg-bot \
             --data-urlencode 'content=Upload is done!'
-

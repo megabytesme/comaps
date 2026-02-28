@@ -30,7 +30,9 @@ jobs:
         run: |
           echo "Cloning $FORGEJO_SERVER_URL/$FORGEJO_REPOSITORY branch $FORGEJO_REF_NAME"
           cd ~
-          git clone --depth 1 -b $FORGEJO_REF_NAME --single-branch $FORGEJO_SERVER_URL/$FORGEJO_REPOSITORY.git comaps
+          git clone --depth 1 --sparse --filter=blob:none -b $FORGEJO_REF_NAME --single-branch $FORGEJO_SERVER_URL/$FORGEJO_REPOSITORY.git comaps
+          cd comaps
+          git sparse-checkout set tools/unix/maps
       - name: Write config file
         run: |
           mkdir -p ~/.config/rclone/

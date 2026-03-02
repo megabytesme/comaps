@@ -480,7 +480,14 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
     AutoCompleteTextView powerView = dialogView.findViewById(R.id.edit_socket_power);
     if (power > 0)
     {
-      powerView.setText(String.valueOf(power));
+      if (power == (long) power)
+      {
+        powerView.setText(String.valueOf((long) power));
+      }
+      else
+      {
+        powerView.setText(String.valueOf(power));
+      }
     }
 
     // Add a TextWatcher to validate on text change

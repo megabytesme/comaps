@@ -420,7 +420,7 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
         btn.setText(getResources().getString(resTypeId));
       }
 
-      if (socket.equals(type))
+      if (socketType.equals(type))
       {
         btn.setChecked(true);
       }

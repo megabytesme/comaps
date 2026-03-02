@@ -1546,3 +1546,5 @@
 "type.natural.sand" = "Άμμος";
 "type.natural.tree" = "Δέντρο";
 "type.shop.telecommunication" = "Κατάστημα τηλεπικοινωνιών";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

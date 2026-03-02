@@ -1598,3 +1598,5 @@
 "type.tourism.information.tactile_map" = "Mapa dla niewidomych";
 "type.leisure.indoor_play" = "Sala zabaw dla dzieci";
 "type.amenity.community_centre.youth_centre" = "Youth Centre";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

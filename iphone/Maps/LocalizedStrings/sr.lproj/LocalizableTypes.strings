@@ -1601,3 +1601,5 @@
 "type.tourism.information.tactile_map" = "Тактилна мапа";
 "type.waterway.fuel" = "Бензинска пумпа за пловила";
 "type.amenity.community_centre.youth_centre" = "Омладински центар";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

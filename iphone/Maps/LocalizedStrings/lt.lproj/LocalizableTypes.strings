@@ -1601,3 +1601,5 @@
 "type.railway.turntable" = "Grįžratis";
 "type.tourism.information.tactile_map" = "Taktilinis planas";
 "type.amenity.community_centre.youth_centre" = "Jaunimo centras";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

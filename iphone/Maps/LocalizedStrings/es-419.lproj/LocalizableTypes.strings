@@ -67,3 +67,7 @@
 "type.amenity.doctors" = "Doctor/a";
 "type.aerialway.drag_lift" = "Drag Lift";
 "type.aerialway.mixed_lift" = "Mixed Lift";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";
+"type.attraction.historic" = "Historic Attraction";
+"type.tourism.attraction" = "Tourist Attraction";

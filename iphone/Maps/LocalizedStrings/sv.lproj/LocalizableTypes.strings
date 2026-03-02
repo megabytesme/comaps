@@ -1503,3 +1503,5 @@
 "type.leisure.sports_centre.sport.climbing" = "Klätterhall";
 "type.leisure.sports_centre.sport.multi" = "Idrottscentrum";
 "type.amenity.community_centre.youth_centre" = "Youth Centre";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

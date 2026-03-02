@@ -1543,3 +1543,5 @@
 "type.amenity.community_centre.youth_centre" = "Молодёжный центр";
 "type.amenity.charging_station.motorcycle" = "Мотоциклы";
 "type.amenity.charging_station.small" = "Малое количество розеток";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

@@ -1601,3 +1601,5 @@
 "type.railway.miniature" = "Miniatuur spoorweg";
 "type.waterway.fuel" = "Brandstofsteiger";
 "type.amenity.community_centre.youth_centre" = "Jeugdcentrum";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

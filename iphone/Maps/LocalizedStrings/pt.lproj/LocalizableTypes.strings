@@ -1601,3 +1601,5 @@
 "type.railway.miniature" = "Ferrovia em Miniatura";
 "type.waterway.fuel" = "Doca de Combustível Marinha";
 "type.amenity.community_centre.youth_centre" = "Centro Juvenil";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

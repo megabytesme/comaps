@@ -1584,3 +1584,5 @@
 "type.leisure.sports_centre.sport.bowls" = "Sportscenter";
 "type.leisure.sports_centre.sport.cricket" = "Sportscenter";
 "type.waterway.fuel" = "Marina brændstofkaj";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

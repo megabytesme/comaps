@@ -1415,3 +1415,5 @@
 "type.place.city" = "City";
 "type.amenity.parking_entrance.permissive" = "Parking Entrance";
 "type.cuisine.italian_pizza" = "Italian, Pizza";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

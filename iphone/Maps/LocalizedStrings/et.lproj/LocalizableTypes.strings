@@ -1601,3 +1601,5 @@
 "type.railway.miniature" = "Väikeraudtee/pargiraudtee";
 "type.waterway.fuel" = "Väikelaevade tankla";
 "type.amenity.community_centre.youth_centre" = "Noortekeskus";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

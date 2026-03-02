@@ -1581,3 +1581,5 @@
 "type.leisure.sports_centre.sport.american_football" = "Спортивний центр";
 "type.leisure.sports_centre.sport.archery" = "Спортивний центр";
 "type.leisure.sports_centre.sport.athletics" = "Спортивний центр";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

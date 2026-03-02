@@ -1487,3 +1487,5 @@
 "type.building.guardhouse" = "Security Booth";
 "type.man_made.telescope" = "Телескоп";
 "type.amenity.community_centre.youth_centre" = "Youth Centre";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

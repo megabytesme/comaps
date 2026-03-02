@@ -1301,3 +1301,5 @@
 "type.building.guardhouse" = "Security Booth";
 "type.amenity.boat_rental" = "Hurio Cwch";
 "type.amenity.community_centre.youth_centre" = "Youth Centre";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

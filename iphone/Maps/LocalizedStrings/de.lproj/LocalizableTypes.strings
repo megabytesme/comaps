@@ -1602,3 +1602,4 @@
 "type.railway.disused.tunnel" = "Stillgelegter Eisenbahntunnel";
 "type.railway.miniature" = "Miniatureisenbahn";
 "type.waterway.fuel" = "Bunkerstation";
+"type.shop.water" = "Water Shop";

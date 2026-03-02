@@ -1313,3 +1313,5 @@
 "type.amenity.car_pooling" = "Zajednička vožnja automobilom";
 "type.amenity.payment_centre" = "Centar za plaćanja";
 "type.amenity.community_centre.youth_centre" = "Youth Centre";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

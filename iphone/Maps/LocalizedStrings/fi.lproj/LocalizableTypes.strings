@@ -1552,3 +1552,5 @@
 "type.amenity.lounger" = "Aurinkotuoli";
 "type.amenity.community_centre.youth_centre" = "Nuorisokeskus";
 "type.amenity.mobile_money_agent" = "Mobile Money Agent";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

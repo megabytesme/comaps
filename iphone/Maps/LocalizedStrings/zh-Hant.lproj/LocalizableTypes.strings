@@ -1601,3 +1601,5 @@
 "type.xmas.tree" = "耶誕樹";
 "type.amenity.community_centre.youth_centre" = "青年中心";
 "type.waterway.fuel" = "船隻加油碼頭";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

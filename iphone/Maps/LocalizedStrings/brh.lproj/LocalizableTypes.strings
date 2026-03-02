@@ -50,3 +50,7 @@
 "type.amenity.driving_school" = "گاڈی ایل ایتوک";
 "type.amenity.grave_yard.christian" = "مسیحی ته قبرٌستان";
 "type.amenity.community_centre.youth_centre" = "Youth Centre";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";
+"type.attraction.historic" = "Historic Attraction";
+"type.tourism.attraction" = "Tourist Attraction";

@@ -1415,3 +1415,5 @@
 "type.tourism.information.tactile_map" = "Talne oznake za slabovidne";
 "type.waterway.fuel" = "Pristan za gorivo";
 "type.amenity.community_centre.youth_centre" = "Mladinski center";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

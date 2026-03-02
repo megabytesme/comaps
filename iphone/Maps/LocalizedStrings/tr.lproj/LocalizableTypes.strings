@@ -1503,3 +1503,5 @@
 "type.amenity.prep_school" = "Özel Ders Okulu";
 "type.amenity.boat_rental" = "Tekne Kiralama";
 "type.amenity.charging_station.motorcycle" = "Motosiklet";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

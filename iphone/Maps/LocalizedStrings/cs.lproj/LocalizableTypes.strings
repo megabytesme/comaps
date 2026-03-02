@@ -1601,3 +1601,5 @@
 "type.railway.miniature" = "Miniaturní železnice";
 "type.waterway.fuel" = "Přístavní čerpací stanice";
 "type.amenity.community_centre.youth_centre" = "Centrum mládeže";
+"type.shop.water" = "Water Shop";
+"type.attraction" = "Attraction";

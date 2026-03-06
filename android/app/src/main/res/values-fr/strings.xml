@@ -874,6 +874,7 @@
     <string name="charge_socket_type2_cable">Type 2 (avec câble)</string>
     <string name="charge_socket_type2_combo">Type 2 combo</string>
     <string name="charge_socket_type1">Type 1</string>
+    <string name="charge_socket_type1_combo">Type 1 combo</string>
     <string name="charge_socket_nacs">NACS</string>
     <string name="charge_socket_chademo">CHAdeMO</string>
     <string name="charge_socket_count">Quantité</string>

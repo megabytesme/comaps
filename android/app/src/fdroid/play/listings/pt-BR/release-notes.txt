@@ -1,10 +1,11 @@
-• Dados OSM de 21/02
-• Exibição do horário de funcionamento em turnos
-• Exibição de descrições do OSM e número de salas
-• Adição de fileiras de árvores e centros para jovens
-• Correção do problema com a transliteração
-• Melhoria na configuração de Idiomas Alternativos do Mapa
-• Nova configuração para Android 12+ que permite abrir links do osm.org e do geo2me
-• Exibição de um indicador de rota alternativa no painel de navegação
+• Dados OSM de 7/03
+• Exibição dos valores cobrados pelo uso das instalações
+• Correção na exibição e no roteamento do metrô em diversas cidades
+• Texto de compartilhamento de localização mais amigável
+• Toque na previsão de chegada para exibi-la para a próxima parada
+• Exibição da população de cidades
+• Adição de tomadas de carregamento "Tipo 1"
+• Correção no idioma de exibição dos artigos da Wikipédia
+• Correção em problema de gravação de trilhas
 
 Mais detalhes em comaps.app/latest

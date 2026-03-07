@@ -1,9 +1,11 @@
-• Datos de OSM a 21 de febrero
-• Visualización de horarios apertura por turnos, en lugar de fuera del horario laboral
-• Visualización de descripciones de OSM y nº de habitaciones para PDI seleccionados
-• Añadidos artículos Wikipedia en croata, italiano, neerlandés y polaco
-• Añadidas filas de árboles y centros juveniles
-• Corregido problema con transliteración
-• Mejorada configuración de idiomas alternativos del mapa
+• Datos de OpenStreetMap al 7 de marzo
+• Se muestran los precios por uso de instalaciones
+• Corregidos los metros de varias ciudades
+• Mejorado el mensaje al compartir ubicación
+• Toca el tiempo estimado de llegada para verlo en la siguiente parada
+• Se muestra la población de ciudades y pueblos
+• Añadidos los conectores “Combo Tipo 1”
+• Corregido el idioma de los artículos de la Wikipedia
+• Corregido el error ocasional al registrar rutas
 
-Más información en comaps.app/latest
+Más detalles en comaps.app/latest

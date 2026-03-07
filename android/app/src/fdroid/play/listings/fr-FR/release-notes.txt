@@ -1,9 +1,10 @@
-• Données OpenStreetMap du 21 février
-• Amélioration de l'affichage des horaires d'ouverture
-• Affichage des descriptions et du tag rooms sur les POI
-• Ajout des articles Wikipédia en Croate, Italien, Néerlandais et Polonais
-• Affichage des rangées d'arbres et des centres jeunesse
-• Correction de la translitération et amélioration des options de langues
-• Affichage d'un indicateur de reroutage dans la navigation
+• Données d'OpenStreetMap à la date du 7 mars
+• Affichage des prix d'utilisation d'installations
+• Correction de l'affichage et des itinéraires des métros de plusieurs villes
+• Amélioration du texte de partage de la localisation
+• Appuyer sur l'heure estimée d'arrivée pendant la navigation l'affiche pour le prochain arrêt
+• Affiche le nombre d'habitants des villes
+• Ajout des chargeurs "Type 1 combo"
+• Correction de la langue des articles Wikipedia
 
 Plus de détails sur comaps.app/latest

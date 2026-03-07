@@ -1,9 +1,10 @@
-• OpenStreetMap-Daten vom 21. Februar
-• Anzeige der Öffnungszeiten in Schichten, statt außerhalb der Geschäftszeiten.
-• Zeigt OSM-Beschreibungen und Anzahl von Räumen bei ausgewählten POIs
-• Kroatische, italienische, niederländische und polnische Wikipedia-Artikel hinzugefügt
-• Baumreihen und Jugendzentren hinzugefügt
-• Transliterations-Fehler behoben
-• Verbesserte Alternative-Karten-Sprachen-Einstellung
+• OpenStreetMap-Daten vom 7. März
+• Anzeige von Nutzungsgebühren und Einwohnerzahlen
+• Korrigierte Anzeige & Routing für U-Bahnen in einigen Städten
+• Besserer Text zum Teilen von Standorten
+• „ETA“ in Navigation antippen zeigt Ankunftszeit am nächsten Halt
+• „Typ 1 Combo”-Ladedosen hinzugefügt
+• Korrigiert Sprachenanzeige von Wikipedia-Artikeln
+• Behebt Problem bei dem Streckenaufzeichnung manchmal nicht funktioniert
 
-Mehr Details auf comaps.app/latest
+Weitere Details unter comaps.app/latest

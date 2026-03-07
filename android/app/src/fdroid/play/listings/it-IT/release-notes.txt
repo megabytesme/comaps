@@ -1,9 +1,10 @@
-• Dati OpenStreetMap aggiornati al 21 febbraio
-• Miglioramento della visualizzazione degli orari di apertura
-• Mostra le descrizioni OSM e il numero di camere per alcuni POI
-• Aggiunta degli articoli di Wikipedia in croato, italiano, olandese e polacco
-• Aggiunte file di alberi e centri giovanili
-• Correzione della traslitterazione e miglioramento delle opzioni linguistiche
-• Aggiunto indicatore di ricalcolo del percorso durante la navigazione
+• Dati OpenStreetMap aggiornati al 7 marzo
+• Mostra i costi per l'utilizzo delle strutture
+• Correzione dei problemi legati alle metropolitane in diverse città
+• Testo per la condivisione della posizione più intuitivo
+• Tocca ETA nel pannello di navigazione per visualizzarlo per la sosta successiva
+• Mostra la popolazione di città, paesi, ecc.
+• Aggiunte prese di ricarica "Combo Tipo 1"
+• Correzione di alcuni problemi nella registrazione della traccia
 
 Maggiori dettagli su comaps.app/latest

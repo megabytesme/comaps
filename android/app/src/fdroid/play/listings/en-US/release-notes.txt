@@ -1,11 +1,11 @@
-• OpenStreetMap data as of February 21
-• Display opening hours in shifts instead of non-business hours
-• Show OSM descriptions and number of rooms for selected POIs
-• Added Croatian, Italian, Dutch and Polish Wikipedia articles
-• Added tree rows and youth centres
-• Fixed transliteration not working
-• Improved Alternative Map Languages setting
-• A new Android 12+ setting to open osm.org and geo2me links
-• Display a rerouting indicator in navigation panel
+• OpenStreetMap data as of March 7
+• Show charge amounts for usage of facilities
+• Fixed subways display and routing in several cities
+• More user-friendly location sharing text
+• Tap on ETA in navigation panel to display it for the next stop
+• Show population of cities, towns, etc.
+• Added "Type 1 combo" charging sockets
+• Fixed display language of Wikipedia articles
+• Fixed track recording not working sometimes
 
 More details on comaps.app/latest

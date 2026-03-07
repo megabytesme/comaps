@@ -1,0 +1,11 @@
+• Dane OpenStreetMap z 7 marca
+• Wyświetlanie opłaty za używanie obiektów
+• Poprawione wyświetlanie metra oraz nawigacja w paru miastach
+• Bardziej przyjazny tekst udostępniania lokalizacji
+• Dotknij czas dojazdu w nawigacji, by wyświetlić go dla następnego punktu pośredniego
+• Wyświetlanie populacji miejscowości
+• Dodana wtyczka ładowania "Typ 1 Combo"
+• Poprawiony język wyświetlania artykułów Wikipedii
+• Poprawione nie zawsze działające nagrywanie tras
+
+Więcej na comaps.app/latest

@@ -1349,7 +1349,7 @@
 "type.tourism.artwork.painting" = "Umělecké dílo";
 "type.tourism.artwork.sculpture" = "Umělecké dílo";
 "type.tourism.artwork.statue" = "Umělecké dílo";
-"type.tourism.attraction" = "Atrakce";
+"type.tourism.attraction" = "Turistická atrakce";
 "type.attraction.amusement_ride" = "Zábavní jízda";
 "type.attraction.animal" = "Ohrada pro zvířata";
 "type.attraction.bumper_car" = "Autodrom";
@@ -1600,5 +1600,5 @@
 "type.railway.miniature" = "Miniaturní železnice";
 "type.waterway.fuel" = "Přístavní čerpací stanice";
 "type.amenity.community_centre.youth_centre" = "Centrum mládeže";
-"type.shop.water" = "Water Shop";
-"type.attraction" = "Attraction";
+"type.shop.water" = "Obchod s vodou";
+"type.attraction" = "Atrakce";

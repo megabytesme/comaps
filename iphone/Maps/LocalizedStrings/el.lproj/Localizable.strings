@@ -1012,7 +1012,7 @@
 "enable_icloud_synchronization_title" = "Ενεργοποίηση συγχρονισμού iCloud";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "Ο συγχρονισμός iCloud είναι μια πειραματική λειτουργία υπό ανάπτυξη. Βεβαιωθείτε ότι έχετε δημιουργήσει αντίγραφο ασφαλείας όλων των σελιδοδεικτών και των κομματιών σας.";
+"enable_icloud_synchronization_message" = "Ο συγχρονισμός iCloud είναι μια πειραματική λειτουργία υπό ανάπτυξη. Βεβαιωθείτε ότι έχετε δημιουργήσει αντίγραφο ασφαλείας όλων των αγαπημένων σας.";
 
 /* Title for the "iCloud Is Disabled" alert. */
 "icloud_disabled_title" = "Το iCloud είναι απενεργοποιημένο";
@@ -1104,9 +1104,9 @@
 "pref_alt_map_lang_handling_system_order" = "Χρήση με σειρά συστήματος";
 "rooms" = "%@ δωμάτια";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Να μην χρησιμοποιούνται εναλλακτικές";
-"general" = "General";
-"interface" = "Interface";
-"contribute_to_osm_add_place" = "Add Place";
-"contribute_to_osm_update_map" = "Update the Map to Contribute";
-"contribute_to_osm" = "Contribute to OpenStreetMap";
-"contribute_to_osm_update_map_description" = "You need to update the %@ map to the latest version before you can contribute to the OpenStreetMap data";
+"general" = "Γενικές";
+"interface" = "Διεπαφή";
+"contribute_to_osm_add_place" = "Προσθήκη μέρους";
+"contribute_to_osm_update_map" = "Ενημέρωση του χάρτη για συνεισφορά";
+"contribute_to_osm" = "Συνεισφορά στο OpenStreetMap";
+"contribute_to_osm_update_map_description" = "Πρέπει να ενημερώσετε τον χάρτη %@ στην τελευταία έκδοση ώστε να μπορέσετε να συνεισφέρετε στα δεδομένα του OpenStreetMap";

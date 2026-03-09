@@ -203,9 +203,9 @@
     <string name="downloader_no_downloaded_maps_title">நீங்கள் எந்த வரைபடத்தையும் பதிவிறக்கம் செய்யவில்லை</string>
     <string name="kilometers_per_hour">கிமீ/ம</string>
     <string name="miles_per_hour">மை/ம</string>
-    <string name="hour">ம</string>
-    <string name="minute">மணித்துளி</string>
-    <string name="day">டி</string>
+    <string name="hour">ம.</string>
+    <string name="minute">நி.</string>
+    <string name="day">நா.</string>
     <string name="placepage_more_button">மேலும்</string>
     <string name="placepage_edit_bookmark_button">சேமித்த இடத்தைத் திருத்தவும்</string>
     <string name="placepage_personal_notes_hint">தனிப்பட்ட குறிப்புகள் (உரை அல்லது html)</string>
@@ -615,7 +615,7 @@
     <string name="charge_socket_type2_combo">வகை 2 சேர்க்கை</string>
     <string name="charge_socket_type1">வகை 1</string>
     <string name="charge_socket_nacs">NACS</string>
-    <string name="charge_socket_chademo">சேட்மோ</string>
+    <string name="charge_socket_chademo">CHAdeMO</string>
     <string name="unknown_socket_type">தெரியாத சாக்கெட்</string>
     <string name="edit_socket_info_tooltip">புதிய சாக்கெட்டுகளை உருவாக்கவும் அல்லது ஏற்கனவே உள்ளவற்றைத் திருத்தவும்.</string>
     <string name="charging_station_available_sockets">கிடைக்கும் சாக்கெட்டுகள்</string>

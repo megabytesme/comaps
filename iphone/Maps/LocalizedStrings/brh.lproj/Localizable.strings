@@ -9,3 +9,4 @@
 "kilometres" = "کلومیٹر";
 "miles" = "میل";
 "mi" = "میل";
+"enable_icloud_synchronization_message" = "iCloud synchronization is an experimental feature under development. Make sure that you have made a backup of all your favorites.";

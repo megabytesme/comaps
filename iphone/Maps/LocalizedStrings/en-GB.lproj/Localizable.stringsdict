@@ -5,7 +5,7 @@
 	<key>bookmarks_places</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@value@</string>
+		<string>bookmarks_places</string>
 		<key>value</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
@@ -13,7 +13,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>Zero bookmarks</string>
+			<string>No bookmarks</string>
 			<key>one</key>
 			<string>%d bookmark</string>
 			<key>other</key>
@@ -23,13 +23,15 @@
 	<key>bookmarks_detect_message</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@value@</string>
+		<string>bookmarks_detect_message</string>
 		<key>value</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>zero</key>
+			<string>No files were found.</string>
 			<key>one</key>
 			<string>%d file was found. You can see it after conversion.</string>
 			<key>other</key>
@@ -39,13 +41,15 @@
 	<key>tracks</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@value@</string>
+		<string>tracks</string>
 		<key>value</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>zero</key>
+			<string>No tracks</string>
 			<key>one</key>
 			<string>%d track</string>
 			<key>other</key>

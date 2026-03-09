@@ -1015,7 +1015,7 @@
 "enable_icloud_synchronization_title" = "Ativar a sincronização do iCloud";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "A sincronização com o iCloud é uma funcionalidade experimental em desenvolvimento. Certifique-se de que fez uma cópia de segurança de todos os seus favoritos e trajetos.";
+"enable_icloud_synchronization_message" = "A sincronização com o iCloud é uma funcionalidade experimental em desenvolvimento. Certifique-se de que fez uma cópia de segurança de todos os seus favoritos.";
 
 /* Title for the "iCloud Is Disabled" alert. */
 "icloud_disabled_title" = "O iCloud está desativado";

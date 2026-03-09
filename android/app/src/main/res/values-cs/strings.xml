@@ -743,7 +743,7 @@
     <string name="browser_not_available">Webový prohlížeč není k dispozici</string>
     <string name="volume">Hlasitost</string>
     <!-- Bookmark categories screen, button that opens share dialog to export all bookmarks and tracks -->
-    <string name="bookmarks_export">Exportovat všechna místa a stopy</string>
+    <string name="bookmarks_export">Exportovat všechna oblíbená místa</string>
     <!-- button in (app) TTS settings, to open the system TTS settings. -->
     <string name="pref_tts_open_system_settings">Systémové nastavení syntézy řeči</string>
     <!-- toast displayed when pressing the "Speech synthesis system settings" button, and the system settings aren't found. -->
@@ -833,7 +833,7 @@
     <string name="pref_backup_now_title">Zálohovat nyní</string>
     <string name="pref_backup_now_summary">Nyní vytvořit zálohu</string>
     <string name="pref_backup_now_summary_ok">Záloha úspěšně dokončena</string>
-    <string name="pref_backup_now_summary_empty_lists">Nemáte žádná místa ani stopy k zálohování</string>
+    <string name="pref_backup_now_summary_empty_lists">Nemáte žádná oblíbené místa k zálohování</string>
     <string name="pref_backup_now_summary_progress">Zálohování…</string>
     <string name="pref_backup_now_summary_failed">Zálohování selhalo</string>
     <string name="pref_backup_now_summary_folder_unavailable">Složka pro zálohování není dostupná</string>
@@ -928,4 +928,10 @@
     <string name="pref_alt_map_lang_handling_local_only">Preferovat a používat pouze tam, kde je to přirozené</string>
     <string name="pref_openexternallinks_title">Automaticky otevírat odkazy třetích stran</string>
     <string name="pref_openexternallinks_summary">Ve výchozím nastavení otevírat odkazy třetích stran v aplikaci CoMap</string>
+    <string name="route_recalculating">Přepočítávám trasu…</string>
+    <string name="bookmark_share_email_subject">Pro zobrazení této lokace přejdi na %1$s nebo vlož tyto souřadnice %2$s do své mapové aplikace.</string>
+    <string name="my_position_share_email">Pro zobrazení mé polohy přejdi na %1$s nebo vlož tyto souřadnice %2$s do své mapové aplikace.</string>
+    <string name="destination">Cíl</string>
+    <string name="stop">Zastávka</string>
+    <string name="charge_socket_type1_combo">Typ 1 combo</string>
 </resources>

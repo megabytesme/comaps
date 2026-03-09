@@ -996,7 +996,7 @@
 "button_layer_outdoor" = "Randonnée";
 
 /* Bookmark categories screen, button that opens share dialog to export all bookmarks and tracks */
-"bookmarks_export" = "Exporter tous les favoris";
+"bookmarks_export" = "Exporter tous les Favoris";
 
 /* Text for the editing the Track's color button. */
 "change_color" = "Changer de couleur";
@@ -1018,7 +1018,7 @@
 "enable_icloud_synchronization_title" = "Activer la synchronisation iCloud";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "La synchronisation iCloud est une fonctionnalité expérimentale en cours de développement. Assurez-vous d’avoir enregistrer tous vos signets et toutes vos traces.";
+"enable_icloud_synchronization_message" = "La synchronisation iCloud est une fonctionnalité expérimentale en cours de développement. Assurez-vous d’avoir enregistrer tous vos favoris.";
 
 /* Title for the "iCloud Is Disabled" alert. */
 "icloud_disabled_title" = "iCloud est désactivé";
@@ -1108,9 +1108,9 @@
 "pref_alt_map_lang_handling_system_order" = "Utiliser l'ordre système";
 "rooms" = "%@ pièces";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Ne pas utiliser d'alternative";
-"general" = "General";
+"general" = "Général";
 "interface" = "Interface";
-"contribute_to_osm_add_place" = "Add Place";
-"contribute_to_osm_update_map" = "Update the Map to Contribute";
-"contribute_to_osm" = "Contribute to OpenStreetMap";
-"contribute_to_osm_update_map_description" = "You need to update the %@ map to the latest version before you can contribute to the OpenStreetMap data";
+"contribute_to_osm_add_place" = "Ajouter un lieu";
+"contribute_to_osm_update_map" = "Mettre à jour la carte pour contribuer";
+"contribute_to_osm" = "Contribuez à OpenStreetMap";
+"contribute_to_osm_update_map_description" = "Vous devez mettre à jour la carte %@ vers la dernière version avant de pouvoir contribuer aux données OpenStreetMap.";

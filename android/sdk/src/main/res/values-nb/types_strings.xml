@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- SECTION: Types -->
-    <string name="type.addr_interpolation">Adresse/blokk</string>
-    <string name="type.addr_interpolation.even">Adresse/blokk</string>
-    <string name="type.addr_interpolation.odd">Adresse/blokk</string>
+    <string name="type.addr_interpolation">Adresse/kvartal</string>
+    <string name="type.addr_interpolation.even">Adresse/kvartal</string>
+    <string name="type.addr_interpolation.odd">Adresse/kvartal</string>
     <string name="type.aerialway">Taubane</string>
     <string name="type.aerialway.cable_car">Pendeltaubane</string>
     <string name="type.aerialway.chair_lift">Stolheis</string>
@@ -35,7 +35,7 @@
     <string name="type.leisure.adult_gaming_centre">Spillsenter for voksne</string>
     <string name="type.leisure.amusement_arcade">Arcade</string>
     <string name="type.amenity.charging_station">Ladestasjon</string>
-    <string name="type.amenity.charging_station.bicycle">Sykler</string>
+    <string name="type.amenity.charging_station.bicycle">Sykkel</string>
     <string name="type.amenity.charging_station.motorcar">Biler</string>
     <string name="type.amenity.childcare">Daghjem</string>
     <string name="type.amenity.cinema">Kino</string>
@@ -1253,7 +1253,7 @@
     <string name="type.amenity.parcel_locker">Pakkeboks</string>
     <string name="type.landuse.recreation_ground">Rekreasjonsområde</string>
     <string name="type.leisure.marina">Marina</string>
-    <string name="type.amenity.bicycle_parking.covered">Overbygd sykkelparkering</string>
+    <string name="type.amenity.bicycle_parking.covered">Sykkelparkering under tak</string>
     <string name="type.barrier.cycle_barrier">Sykkelbarriere</string>
     <string name="type.highway.ladder">Stige</string>
     <string name="type.barrier.guard_rail">Autovern</string>
@@ -1317,7 +1317,7 @@
     <string name="type.leisure.fitness_centre.sport.yoga">Yogastudio</string>
     <string name="type.leisure.bandstand">Musikkpaviljong</string>
     <string name="type.cuisine.bubble_tea">Boblete</string>
-    <string name="type.amenity.studio">Mediastudio</string>
+    <string name="type.amenity.studio">Studio</string>
     <string name="type.aerialway.magic_carpet">Teppeheis</string>
     <string name="type.barrier.ditch">Grøft</string>
     <string name="type.waterway">Vannvei</string>
@@ -1390,9 +1390,26 @@
     <string name="type.man_made.telescope.optical">Teleskop (Optisk)</string>
     <string name="type.amenity.charging_station.small">Begrenset kapasitet</string>
     <string name="type.amenity.charging_station.motorcycle">Motorsykler</string>
-    <string name="type.railway.disused.tunnel">Ubenyttet jernbanetunnel</string>
-    <string name="type.railway.disused.bridge">Ubenyttet jernbanebru</string>
+    <string name="type.railway.disused.tunnel">Ubrukt jernbanetunnel</string>
+    <string name="type.railway.disused.bridge">Ubrukt jernbanebru</string>
     <string name="type.amenity.community_centre.youth_centre">Ungdomssenter</string>
     <string name="type.shop.water">Drikkevannsbutikk</string>
     <string name="type.attraction">Attraksjon</string>
+    <string name="type.barrier.wicket_gate">port</string>
+    <string name="type.emergency.access_point">Redningsmøtepunkt</string>
+    <string name="type.railway.miniature">Miniatyrjernbane</string>
+    <string name="type.amenity.sailing_school">Seilskole</string>
+    <string name="type.amenity.flight_school">Flyskole</string>
+    <string name="type.landuse.plant_nursery">Planteskole</string>
+    <string name="type.amenity.ranger_station">Skogvokterstasjon</string>
+    <string name="type.sport.diving">Stuping</string>
+    <string name="type.amenity.vending_machine.condoms">Kondomautomat</string>
+    <string name="type.amenity.vending_machine.excrement_bags">Avføringsposeautomat</string>
+    <string name="type.attraction.big_wheel">Pariserhjul</string>
+    <string name="type.power.line">Kraftledning</string>
+    <string name="type.building.guardhouse">Vakthus</string>
+    <string name="type.entrance.house">Husinngang</string>
+    <string name="type.entrance.garage">Garasjeinngang</string>
+    <string name="type.man_made.storage_tank">Lagringstank</string>
+    <string name="type.amenity.payment_centre">Betalingssenter</string>
 </resources>

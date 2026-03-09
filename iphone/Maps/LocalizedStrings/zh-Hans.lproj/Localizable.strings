@@ -1018,7 +1018,7 @@
 "enable_icloud_synchronization_title" = "启用 iCloud 同步";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "iCloud 同步是一项正在开发的实验性功能。请确保备份了所有书签和轨迹。";
+"enable_icloud_synchronization_message" = "iCloud 同步是一项正在开发的实验性功能。请确保您已备份所有收藏。";
 
 /* Title for the "iCloud Is Disabled" alert. */
 "icloud_disabled_title" = "iCloud 已禁用";
@@ -1110,7 +1110,7 @@
 "pref_alt_map_lang_handling_ignore_alternatives" = "不使用备选语言";
 "general" = "常规";
 "interface" = "界面";
-"contribute_to_osm_add_place" = "Add Place";
-"contribute_to_osm_update_map" = "Update the Map to Contribute";
-"contribute_to_osm" = "Contribute to OpenStreetMap";
-"contribute_to_osm_update_map_description" = "You need to update the %@ map to the latest version before you can contribute to the OpenStreetMap data";
+"contribute_to_osm_add_place" = "添加地点";
+"contribute_to_osm_update_map" = "更新地图以参与贡献";
+"contribute_to_osm" = "为 OpenStreetMap 做贡献";
+"contribute_to_osm_update_map_description" = "您需要将 %@ 地图更新到最新版本才能为 OpenStreetMap 数据做贡献";

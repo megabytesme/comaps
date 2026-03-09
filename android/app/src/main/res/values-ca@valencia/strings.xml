@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="maps_storage">Guarda els mapes a</string>
+    <string name="save">Guarda</string>
+    <string name="placepage_edit_bookmark_button">Edita el lloc guardat</string>
+    <string name="saved">S\'ha guardat</string>
+    <plurals name="bookmarks_places">
+        <item quantity="one">%d lloc guardat</item>
+        <item quantity="other">%d llocs guardats</item>
+    </plurals>
+    <string name="bookmarks_empty_list_message">Per a guardar un lloc, toca\'n un en el mapa i després toca la icona d\'estrela</string>
+    <string name="track_recording_alert_title">Guardar en preferits?</string>
+    <string name="track_recording_toast_nothing_to_save">El recorregut està buit; no hi ha res a guardar</string>
+    <string name="delete_place_empty_comment_error">Indica per què suprimeixes el lloc</string>
+    <string name="offline_explanation_text">S\'ha de descarregar un mapa per a veure i navegar esta àrea.\nDescarrega mapes per a àrees on vulgues viatjar.</string>
+    <string name="my_position_share_sms">Mira la meua ubicació en CoMaps! %1$s o %2$s No tens mapes sense connexió? Baixa\'ls ací: https://www.comaps.app/download/</string>
+    <string name="my_position_share_email_subject">Ep, mira la meua ubicació actual en el mapa de CoMaps!</string>
+    <string name="my_position_share_email">Seguix este enllaç %1$s o pega estes coordenades %2$s als teus mapes per a veure la meua ubicació.</string>
+    <string name="share_my_location">Comparteix la meua ubicació</string>
+    <string name="pref_openexternallinks_title">Obri enllaços de tercers automàticament</string>
+    <string name="pref_openexternallinks_summary">Obri enllaços de tercers amb CoMaps per defecte</string>
+    <string name="enable_keep_screen_on">Mantín la pantalla encesa</string>
+    <string name="pref_use_google_play">Un servei de propietat que combina GPS, Wi-Fi, xarxes mòbils, etc. per a determinar la teua ubicació amb més precisió. Pot ser que es connecte als serveis de Google.</string>
+    <string name="location_privacy_info">Les aplicacions reben informació d\'ubicació del servei de localització del sistema, que pot compartir la teua ubicació amb Google i/o el proveïdor del teu dispositiu. Fes servir un SO Android respectuós amb la privacitat per a evitar-ho.</string>
+    <string name="editor_focus_map_on_location">Arrossega el mapa per a col·locar la creu a la ubicació del lloc o de l\'empresa.</string>
+</resources>

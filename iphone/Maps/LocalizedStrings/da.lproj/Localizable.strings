@@ -1015,7 +1015,7 @@
 "enable_icloud_synchronization_title" = "Aktivér iCloud-synkronisering";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "iCloud-synkronisering er en eksperimentel funktion under udvikling. Sørg for, at du har lavet en backup af alle dine bogmærker og spor.";
+"enable_icloud_synchronization_message" = "iCloud-synkronisering er en eksperimentel funktion under udvikling. Sørg for, at du har lavet en sikkerhedskopi af alle dine favoritter.";
 
 /* Title for the "iCloud Is Disabled" alert. */
 "icloud_disabled_title" = "iCloud er deaktiveret";

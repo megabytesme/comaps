@@ -933,7 +933,12 @@
     <string name="pref_alt_map_lang_handling_ignore_alternatives">No usar alternativas</string>
     <string name="pref_alt_map_lang_handling">Idiomas del mapa alternativos</string>
     <string name="pref_alt_map_lang_handling_system_order">Usar según el orden del sistema</string>
-    <string name="pref_alt_map_lang_handling_local_only">Preferir y solo usar cuando nativo</string>
+    <string name="pref_alt_map_lang_handling_local_only">Dar preferencia y utilizar únicamente cuando sea el idioma local</string>
     <string name="pref_openexternallinks_title">Abir enlaces de terceros automáticamente</string>
     <string name="pref_openexternallinks_summary">Abir enlaces de terceros en CoMaps por defecto</string>
+    <string name="stop">Parada</string>
+    <string name="destination">Destino</string>
+    <string name="route_recalculating">Recalculando la ruta…</string>
+    <string name="bookmark_share_email_subject">Sigue este enlace %1$s o pega estas coordenadas %2$s en tu aplicación de mapas para ver esta ubicación.</string>
+    <string name="my_position_share_email">Sigue este enlace %1$s o pega estas coordenadas %2$s en tu aplicación de mapas para ver mi ubicación.</string>
 </resources>

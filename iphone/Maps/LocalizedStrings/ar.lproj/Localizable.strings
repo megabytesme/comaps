@@ -47,7 +47,7 @@
 
 /* Text in About screen */
 "about_proposition_2" = "مُركّز على الخصوصية وخالٍ من الإعلانات";
-"close" = "إغلاق";
+"close" = "أغلِق";
 "download" = "نزّل";
 
 /* REMOVE THIS STRING AFTER REFACTORING */
@@ -138,7 +138,7 @@
 "category_police" = "شرطة";
 
 /* Search category for WiFi access; any changes should be duplicated in categories.txt @category_wifi! */
-"category_wifi" = "إنترنت لا سلكي";
+"category_wifi" = "واي فاي";
 
 /* Search category for recycling; any changes should be duplicated in categories.txt @category_recycling! */
 "category_recycling" = "إعادة تدوير";
@@ -765,7 +765,7 @@
 "bookmarks_error_message_share_general" = "تعذرت المشاركة بسبب خطأ في التطبيق";
 "bookmarks_error_title_share_empty" = "خطأ في المشاركة";
 "bookmarks_error_message_share_empty" = "لا يمكن مشاركة قائمة فارغة";
-"bookmarks_error_message_empty_list_name" = "يرجى إدخال اسم القائمة";
+"bookmarks_error_message_empty_list_name" = "يُرجى إدخال اسم القائمة";
 "bookmarks_error_title_list_name_already_taken" = "هذا الاسم موجود سابقا";
 "bookmarks_error_title_list_name_too_long" = "هذا الاسم طويل جداً";
 "profile" = "ملف الشخصي على خريطة الشارع المفتوحة";
@@ -897,9 +897,9 @@
 "religious_places" = "أماكن دينية";
 "transit_not_found" = "التنقل باستخدام مترو الأنفاق في هذه المنطقة غير متاح حتى الآن";
 "dialog_pedestrian_route_is_long_header" = "لم يتم العثور على مترو الانفاق";
-"dialog_pedestrian_route_is_long_message" = "يرجى اختيار نقطة بداية أو نهاية أقرب لمحطة مترو الأنفاق";
+"dialog_pedestrian_route_is_long_message" = "يُرجى اختيار نقطة بداية أو نهاية أقرب لمحطة مترو الأنفاق";
 "button_layer_isolines" = "تضاريس";
-"isolines_activation_error_dialog" = "لتفعيل الطبقة الطبوغرافية واستخدامها ، يرجى تحديث أو تنزيل خريطة المنطقة";
+"isolines_activation_error_dialog" = "يتطلب تفعيل الخطوط الكنتورية تنزيل بيانات الخريطة لهذه المنطقة";
 "isolines_location_error_dialog" = "الطبقة الطبوغرافية ليست متاحة بعد في هذه المنطقة";
 "elevation_profile_diff_level" = "مستوى الصعوبة";
 "elevation_profile_diff_level_easy" = "سهل";
@@ -989,7 +989,7 @@
 "button_layer_outdoor" = "جولة على الأقدام";
 
 /* Bookmark categories screen, button that opens share dialog to export all bookmarks and tracks */
-"bookmarks_export" = "تصدير كافة الإشارات المرجعية والمسارات";
+"bookmarks_export" = "صدِّر كل المفضلات";
 
 /* Text for the editing the Track's color button. */
 "change_color" = "غير اللون";

@@ -515,7 +515,7 @@
 "editor_done_dialog_1" = "Dokonałeś zmian na mapie świata. Nie kryj się z tym! Powiadom znajomych i edytujcie mapę razem.";
 "share_with_friends" = "Udostępnij znajomym";
 "editor_report_problem_send_button" = "Wyślij";
-"autodownload" = "Automatyczne pobieranie";
+"autodownload" = "Automatyczne pobieranie map";
 
 /* Place Page opening hours text */
 "closed_now" = "Zamknięte teraz";
@@ -1105,9 +1105,10 @@
 "pref_alt_map_lang_handling_system_order" = "Użyj w porządku systemowym";
 "pref_alt_map_lang_handling_local_only" = "Preferuj i używaj tylko tam, gdzie jest to rodzime";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Nie używaj alternatyw";
-"general" = "General";
-"interface" = "Interface";
-"contribute_to_osm_add_place" = "Add Place";
-"contribute_to_osm_update_map" = "Update the Map to Contribute";
-"contribute_to_osm" = "Contribute to OpenStreetMap";
-"contribute_to_osm_update_map_description" = "You need to update the %@ map to the latest version before you can contribute to the OpenStreetMap data";
+"general" = "Ogólne";
+"interface" = "Interfejs";
+"contribute_to_osm_add_place" = "Dodaj miejsce";
+"contribute_to_osm_update_map" = "Zaktualizuj mapę, aby współtworzyć";
+"contribute_to_osm" = "Współtwórz OpenStreetMap";
+"contribute_to_osm_update_map_description" = "Musisz zaktualizować mapę %@ do najnowszej wersji, zanim będziesz mógł współtworzyć OpenStreetMap";
+"rooms" = "Pokoje: %@";

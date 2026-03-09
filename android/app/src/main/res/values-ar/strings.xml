@@ -23,7 +23,7 @@
     <!-- Search box placeholder text; Used when searching on the map itself, not when searching for a map -->
     <string name="search_map">ابحث في الخريطة</string>
     <!-- Location services are disabled by user alert - message -->
-    <string name="location_is_disabled_long_text">التطبيق أو جميع خدمات تحديد المواقع معطلة لديك في الوقت الحالي. الرجاء تفعيلها في الإعدادات.</string>
+    <string name="location_is_disabled_long_text">التطبيق أو جميع خدمات تحديد المواقع مُعطّلة لديك في الوقت الحالي. الرجاء تفعيلها في الإعدادات.</string>
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">دقة محدودة</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
@@ -45,7 +45,7 @@
     <string name="about_developed_by_enthusiasts">مفتوح المصدر بالكامل، غير هادف للربح، ويتميز بالشفافية في اتخاذ القرارات والشؤون المالية.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">إعدادات الموقع</string>
-    <string name="close">إغلاق</string>
+    <string name="close">أغلِق</string>
     <string name="unsupported_phone">أنت بحاجة الى OpenGL بأجهزة تسريع. لسوء الحظ جهازك لا يدعم هذه الخاصية.</string>
     <string name="download">نزّل</string>
     <!-- Used in DownloadResources startup screen -->
@@ -147,7 +147,7 @@
     <string name="description">ملاحظات</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">مفضلاتي على CoMaps</string>
-    <string name="share_bookmarks_email_body">مرحبًا!\n\nالمرفقات هي مفضلاتي؛ يرجى فتحها في CoMaps. إذا لم يكن لديكه مثبتًا، يمكنك تنزيله من هنا: https://www.comaps.app/download/\n\nاستمتع بالسفر مع CoMaps!</string>
+    <string name="share_bookmarks_email_body">مرحبًا!\n\nالمرفقات هي مفضلاتي؛ يُرجى فتحها في CoMaps. إذا لم يكن لديكه مثبتًا، يمكنك تنزيله من هنا: https://www.comaps.app/download/\n\nاستمتع بالسفر مع CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">يحمل المفضلات</string>
     <!-- Kmz file successful loading -->
@@ -348,7 +348,7 @@
     <string name="dialog_routing_download_and_build_cross_route">أترغب في تنزيل الخريطة وإنشاء مسار أفضل يمتد عبر أكثر من خريطة؟</string>
     <string name="dialog_routing_download_cross_route">نزّل خرائط إضافية لإنشاء مسار أفضل يتجاوز حدود هذه الخارطة.</string>
     <!-- SECTION: Strings for downloading map from search -->
-    <string name="search_without_internet_advertisement">لبدء البحث وإنشاء الطرق، يرجى تنزيل الخريطة، ولن تحتاج إلى اتصال بالإنترنت بعد ذلك.</string>
+    <string name="search_without_internet_advertisement">لبدء البحث وإنشاء الطرق، يُرجى تنزيل الخريطة، ولن تحتاج إلى اتصال بالإنترنت بعد ذلك.</string>
     <string name="search_select_map">اختيار الخريطة</string>
     <!-- «Show» context menu -->
     <string name="show">اعرض</string>
@@ -473,7 +473,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">المشغل: %s</string>
     <string name="editor_category_unsuitable_title">لا يمكن العثور على فئة مناسبة؟</string>
-    <string name="editor_category_unsuitable_text">يقتصر تطبيق CoMaps على إضافة فئات النقاط البسيطة فقط، ولا يمكنه إضافة المدن أو الطرق أو البحيرات أو مخططات المباني وما إلى ذلك. يُرجى إضافة هذه الفئات مباشرة إلى<a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. راجع <a href="https://www.comaps.app/support/advanced-map-editing/">دليلنا</a> للحصول على تعليمات مفصلة خطوة بخطوة.</string>
+    <string name="editor_category_unsuitable_text">يقتصر تطبيق CoMaps على إضافة فئات النقاط البسيطة فقط، ولا يمكنه إضافة المدن أو الطرق أو البحيرات أو مخططات المباني وما إلى ذلك. يُرجى إضافة هذه الفئات مباشرة إلى <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. راجع <a href="https://www.comaps.app/support/advanced-map-editing/">دليلنا</a> للحصول على تعليمات مفصلة خطوة بخطوة.</string>
     <string name="downloader_no_downloaded_maps_title">لم تُنزّل أي خرائط</string>
     <string name="downloader_no_downloaded_maps_message">نزِّل الخرائط للبحث والتنقل دون اتصال بالإنترنت</string>
     <string name="current_location_unknown_error_title">الموقع الحالي غير معروف</string>
@@ -568,10 +568,10 @@
     <string name="bookmarks_error_title_share_empty">خطأ في المشاركة</string>
     <string name="bookmarks_error_message_share_empty">لا يمكن مشاركة قائمة فارغة</string>
     <string name="bookmarks_error_title_empty_list_name">لا يمكن للاسم أن يكون فارغًا</string>
-    <string name="bookmarks_error_message_empty_list_name">يرجى إدخال اسم القائمة</string>
+    <string name="bookmarks_error_message_empty_list_name">يُرجى إدخال اسم القائمة</string>
     <string name="bookmarks_new_list_hint">قائمة جديدة</string>
     <string name="bookmarks_error_title_list_name_already_taken">هذا الاسم موجود سابقا</string>
-    <string name="bookmarks_error_message_list_name_already_taken">يرجى اختيار اسم آخر</string>
+    <string name="bookmarks_error_message_list_name_already_taken">يُرجى اختيار اسم آخر</string>
     <string name="please_wait">أرجو الإنتظار…</string>
     <string name="phone_number">رقم الهاتف</string>
     <string name="profile">ملف الشخصي على خريطة الشارع المفتوحة</string>
@@ -600,7 +600,7 @@
     <string name="subway">مترو الانفاق</string>
     <string name="layers_title">أنماط الخريطة وطبقاتها</string>
     <string name="bookmarks_empty_list_title">هذه اللائحة فارغة</string>
-    <string name="bookmarks_empty_list_message">لحفظ مكان، انقر على الموقع في الخريطة ثم انقر على أيقونة النجمة</string>
+    <string name="bookmarks_empty_list_message">لحفظ مكان، انقر على المكان في الخريطة ثم انقر على أيقونة النجمة</string>
     <string name="category_desc_more">…المزيد</string>
     <string name="export_file">صدِّر KMZ</string>
     <string name="export_file_gpx">صدِّر GPX</string>
@@ -690,9 +690,9 @@
     <string name="select_list">حدّد القائمة</string>
     <string name="transit_not_found">التنقل باستخدام مترو الأنفاق في هذه المنطقة غير متاح حتى الآن</string>
     <string name="dialog_pedestrian_route_is_long_header">لم يتم العثور على مترو الانفاق</string>
-    <string name="dialog_pedestrian_route_is_long_message">يرجى اختيار نقطة بداية أو نهاية أقرب لمحطة مترو الأنفاق</string>
+    <string name="dialog_pedestrian_route_is_long_message">يُرجى اختيار نقطة بداية أو نهاية أقرب لمحطة مترو الأنفاق</string>
     <string name="button_layer_isolines">تضاريس</string>
-    <string name="isolines_activation_error_dialog">لتفعيل الطبقة الطبوغرافية واستخدامها ، يرجى تحديث أو تنزيل خريطة المنطقة</string>
+    <string name="isolines_activation_error_dialog">يتطلب تفعيل الخطوط الكنتورية تنزيل بيانات الخريطة لهذه المنطقة</string>
     <string name="isolines_location_error_dialog">الطبقة الطبوغرافية ليست متاحة بعد في هذه المنطقة</string>
     <string name="elevation_profile_ascent">تصاعدي</string>
     <string name="elevation_profile_descent">تنازلي</string>
@@ -769,7 +769,7 @@
     <string name="browser_not_available">متصفح الويب غير متوفر</string>
     <string name="volume">مستوى الصوت</string>
     <!-- Bookmark categories screen, button that opens share dialog to export all bookmarks and tracks -->
-    <string name="bookmarks_export">صدِّر كل الأماكن والمسارات</string>
+    <string name="bookmarks_export">صدِّر كل المفضلات</string>
     <!-- button in (app) TTS settings, to open the system TTS settings. -->
     <string name="pref_tts_open_system_settings">إعدادات تركيب الكلام النظام</string>
     <!-- toast displayed when pressing the "Speech synthesis system settings" button, and the system settings aren't found. -->
@@ -805,7 +805,7 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">المسار فارغ - لا يوجد شيء للحفظ</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">غير قادر على عرض مربع حوار تحديد المجلد لأنه لا يوجد تطبيق مناسب مثبت على جهازك. يرجى تثبيت تطبيق مدير الملفات والمحاولة مرة أخرى.</string>
+    <string name="error_no_file_manager_app">غير قادر على عرض مربع حوار تحديد المجلد لأنه لا يوجد تطبيق مناسب مثبت على جهازك. يُرجى تثبيت تطبيق مدير الملفات والمحاولة مرة أخرى.</string>
     <string name="choose_color">اختر اللون</string>
     <string name="edit_track">عدِّل المسار</string>
     <string name="uri_open_location_failed">لم تثبت أي تطبيق يمكنه فتح الموقع</string>
@@ -916,7 +916,7 @@
     <string name="pref_backup_summary">نسخ احتياطي تلقائي إلى مجلد على جهازك</string>
     <string name="pref_backup_now_title">انسخ احتياطيًا الآن</string>
     <string name="pref_backup_now_summary_ok">اكتملت عملية النسخ الاحتياطي بنجاح</string>
-    <string name="pref_backup_now_summary_empty_lists">لا توجد أماكن أو مسارات لنسخها احتياطيًا</string>
+    <string name="pref_backup_now_summary_empty_lists">لا توجد مفضلات لنسخها احتياطيًا</string>
     <string name="pref_backup_now_summary_folder_unavailable">مجلد النسخ الاحتياطي غير متاح</string>
     <string name="charge_socket_chademo">CHAdeMO</string>
     <string name="charge_socket_schuko">الاتحاد الأوروبي المحلي</string>
@@ -941,4 +941,10 @@
     <string name="closed_now">مغلق الآن</string>
     <string name="pref_backup_now_summary_progress">النسخ الاحتياطي قيد التقدم…</string>
     <string name="pref_backup_now_summary_failed">فشل النسخ الاحتياطي</string>
+    <string name="bookmark_share_email_subject">اتبع هذا الرابط %1$s أو ألصِق هذه الإحداثيات %2$s في تطبيق خرائطك لرؤية هذا الموقع.</string>
+    <string name="my_position_share_email">اتبع هذا الرابط %1$s أو ألصِق هذه الإحداثيات %2$s في تطبيق خرائطك لرؤية هذا الموقع.</string>
+    <string name="destination">الوجهة</string>
+    <string name="stop">أوقِف</string>
+    <string name="route_recalculating">يعيد حساب المسار…</string>
+    <string name="charge_socket_type1_combo">النوع 1 كومبو</string>
 </resources>

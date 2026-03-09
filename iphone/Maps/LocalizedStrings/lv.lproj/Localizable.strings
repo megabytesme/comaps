@@ -192,7 +192,7 @@
 "version: %@ (%@)\nmap data: %@" = "Versija: %@ (%@)\nKartes dati: %@";
 
 /* Title for tracks category in bookmarks manager */
-"tracks_title" = "Ceļi";
+"tracks_title" = "Pēdojumi";
 
 /* Length of track in cell that describes route */
 "length" = "Garums";
@@ -556,7 +556,7 @@
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Pēdējo reizi augšupielādēja";
 "thank_you" = "Paldies";
-"edit_place" = "Rediģēt vietu";
+"edit_place" = "Labot vietu";
 "place_name" = "Vietas nosaukums";
 "add_language" = "Pievienot valodu";
 
@@ -589,7 +589,7 @@
 "editor_add_select_category" = "Atlasiet kategoriju";
 "editor_add_select_category_popular_subtitle" = "Populāras";
 "editor_add_select_category_all_subtitle" = "Visas kategorijas";
-"editor_edit_place_title" = "Rediģēšana";
+"editor_edit_place_title" = "Vietas labošana";
 "editor_add_place_title" = "Pievienošana";
 "editor_edit_place_name_hint" = "Vietas nosaukums";
 
@@ -667,7 +667,7 @@
 "placepage_more_button" = "Vairāk";
 "book_button" = "Rezervēt";
 "placepage_call_button" = "Zvanīt";
-"placepage_edit_bookmark_button" = "Labot saglabāto vietu";
+"placepage_edit_bookmark_button" = "Saglabātās vietas labošana";
 "placepage_bookmark_name_hint" = "Vietas nosaukums";
 "placepage_personal_notes_hint" = "Personīgas piezīmes (teksts vai HTML)";
 "placepage_delete_bookmark_button" = "Izdzēst vietu";
@@ -1063,10 +1063,10 @@
 "recover_all" = "Atjaunot visu";
 
 /* Prompt to start recording a track. */
-"start_track_recording" = "Ierakstīt ceļu";
+"start_track_recording" = "Ierakstīt pēdojumu";
 
 /* Prompt for stopping a track recording. */
-"stop_track_recording" = "Apstādināt ierakstīšanu";
+"stop_track_recording" = "Apstādināt pēdojuma ierakstīšanu";
 
 /* Title for the "Stop Without Saving" action for the alert when saving a track recording. */
 "stop_without_saving" = "Pārtraukt ierakstīšanu";
@@ -1078,8 +1078,8 @@
 "track_recording_alert_title" = "Pievienot izlasei?";
 
 /* Message for the toast when saving the track recording is finished but nothing to save. */
-"track_recording_toast_nothing_to_save" = "Ceļš ir tukšs – nav nekā saglabājama";
-"edit_track" = "Labot ceļu";
+"track_recording_toast_nothing_to_save" = "Pēdojums ir tukšs – nav nekā saglabājama";
+"edit_track" = "Pēdojuma labošana";
 "osm_profile_view_edit_history" = "Skatīt labojumu vēsturi";
 "osm_profile_view_notes" = "Skatīt piezīmes";
 "about_headline" = "Atvērts projekts, kuru darbina kopiena";

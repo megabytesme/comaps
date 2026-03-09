@@ -169,7 +169,7 @@
 "bookmark_share_email_subject" = "Ep, mireu el meu marcador a l'CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Ep, mireu la meva ubicació actual en el mapa de l'CoMaps!";
+"my_position_share_email_subject" = "Ep, mireu la meva ubicació actual en el mapa del CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Correu-e";
@@ -1091,7 +1091,7 @@
 "existence_confirmed_time_ago" = "Existence confirmed %@";
 "hours_confirmed_time_ago" = "Confirmed %@";
 "offline_explanation_title" = "Mapes sense Connexió";
-"offline_explanation_text" = "Un mapa ha de ser desconegut per a veure i navegar l'àrea.\nDescarrega mapes per a àrees on vulgues viatjar.";
+"offline_explanation_text" = "S'ha de descarregar un mapa per a veure i navegar aquesta àrea.\nDescarregueu mapes per a àrees on vulgueu viatjar.";
 "editor_place_doesnt_exist_description" = "Descriu com és el lloc ara mateix per enviar una nota d'error a la comunitat d'OpenStreetMap";
 "avoid_steps" = "Evita escales";
 "avoid_paved" = "Evita carreteres asfaltades";

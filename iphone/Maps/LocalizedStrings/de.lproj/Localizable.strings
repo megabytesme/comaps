@@ -1022,7 +1022,7 @@
 "enable_icloud_synchronization_title" = "Aktiviere die iCloud-Synchronisierung";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "Die iCloud-Synchronisierung ist eine experimentelle Funktion, die noch entwickelt wird. Vergewissere dich, dass du eine Sicherungskopie all deiner Lesezeichen und Tracks erstellt hast.";
+"enable_icloud_synchronization_message" = "Die iCloud-Synchronisierung ist eine experimentelle Funktion, die noch entwickelt wird. Vergewissere dich, dass du eine Sicherungskopie all deiner Favoriten erstellt hast.";
 
 /* Title for the "iCloud Is Disabled" alert. */
 "icloud_disabled_title" = "iCloud ist deaktiviert";

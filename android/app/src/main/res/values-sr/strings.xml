@@ -149,7 +149,7 @@
     <!-- Kmz file successful loading -->
     <string name="load_kmz_successful">Маркери су успешно учитани! Можете их проначи на мапи помоћу Менаџера маркера.</string>
     <!-- Kml file loading failed -->
-    <string name="load_kmz_failed">Неуспешно учитавање маркера. Могуће да је фајл оштећен или неисправан.</string>
+    <string name="load_kmz_failed">Неуспешно учитавање фаворита. Могуће да је фајл оштећен или неисправан.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
     <string name="unknown_file_type">Апликација не препознаје ову врсту фајла: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
@@ -747,7 +747,7 @@
     <string name="browser_not_available">Веб читач није доступан</string>
     <string name="volume">Јачина звука</string>
     <!-- Bookmark categories screen, button that opens share dialog to export all bookmarks and tracks -->
-    <string name="bookmarks_export">Експортуј све места и путање</string>
+    <string name="bookmarks_export">Експортуј све фаворите</string>
     <!-- button in (app) TTS settings, to open the system TTS settings. -->
     <string name="pref_tts_open_system_settings">Системска подешавања синтезе говора</string>
     <!-- toast displayed when pressing the "Speech synthesis system settings" button, and the system settings aren't found. -->
@@ -845,8 +845,8 @@
     <string name="dialog_report_error_with_logs">Молимо вас, пошаљите нам поруку о грешци:\n- \"Омогући вођење дневника\" у подешавањима\n- репродукујте проблем\n- на екрану \"О програму и помоћ\" кликните на дугме \"Пријави грешку\" и пошаљите на е-маил или чат\n- онемогући вођење дневника</string>
     <string name="dialog_report_error_missing_folder">Изабрана локација резервне копије није доступна за снимање. Молимо вас, одаберите друго место.</string>
     <string name="pref_backup_interval_title">Аутоматска резервна копија</string>
-    <string name="pref_backup_now_summary_empty_lists">Нема места и путања за израду резервне копије</string>
-    <string name="pref_backup_title">Чување фаворита</string>
+    <string name="pref_backup_now_summary_empty_lists">Нема фаворита за израду резервне копије</string>
+    <string name="pref_backup_title">Бекап фаворита</string>
     <string name="closed_now">Затворено сада</string>
     <string name="open_now">Сада је отворено</string>
     <string name="at">на %s</string>
@@ -928,4 +928,10 @@
     <string name="pref_alt_map_lang_handling_local_only">Преферирају и користе само тамо где матерњи</string>
     <string name="pref_openexternallinks_title">Аутоматски отворите линкове независних произвођача</string>
     <string name="pref_openexternallinks_summary">Отворите линкове независних произвођача у CoMaps-у по дефаулту</string>
+    <string name="bookmark_share_email_subject">Кликните на овај линк %1$s или копирајте ове координате %2$s у вашу апликацију за мапе, да бисте видели локацију.</string>
+    <string name="my_position_share_email">Кликните на овај линк %1$s или копирајте ове координате %2$s у вашу апликацију за мапе, да бисте видели моју локацију.</string>
+    <string name="destination">Одредиште</string>
+    <string name="stop">Међустаница</string>
+    <string name="charge_socket_type1_combo">Тип 1 комбо</string>
+    <string name="route_recalculating">Прерачунавање руте…</string>
 </resources>

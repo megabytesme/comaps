@@ -1018,7 +1018,7 @@
 "enable_icloud_synchronization_title" = "Schakel iCloud-synchronisatie in";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "iCloud synchronisatie is een experimentele functie in ontwikkeling. Zorg ervoor dat je een back-up hebt gemaakt van al je bladwijzers en tracks.";
+"enable_icloud_synchronization_message" = "iCloud synchronisatie is een experimentele functie in ontwikkeling. Zorg ervoor dat je een back-up hebt gemaakt van al je Favorieten.";
 
 /* Title for the "iCloud Is Disabled" alert. */
 "icloud_disabled_title" = "iCloud is uitgeschakeld";

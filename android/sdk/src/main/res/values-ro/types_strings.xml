@@ -1451,4 +1451,5 @@
     <string name="type.social_facility.food_bank">Bancă de alimente</string>
     <string name="type.xmas.tree">Brad de Crăciun</string>
     <string name="type.amenity.hydrant">Hidrant Irigații</string>
+    <string name="type.railway.turntable">Placă turnantă</string>
 </resources>

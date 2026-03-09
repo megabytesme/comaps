@@ -1504,4 +1504,6 @@
     <string name="type.railway.turntable">Obrotnica kolejowa</string>
     <string name="type.tourism.information.tactile_map">Mapa dla niewidomych</string>
     <string name="type.waterway.fuel">Stacji paliw dla łodzi motorowych</string>
+    <string name="type.shop.water">Sklep z wodą pitną</string>
+    <string name="type.attraction">Atrakcja</string>
 </resources>

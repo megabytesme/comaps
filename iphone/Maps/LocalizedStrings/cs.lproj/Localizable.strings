@@ -996,7 +996,7 @@
 "button_layer_outdoor" = "Pěší turistika";
 
 /* Bookmark categories screen, button that opens share dialog to export all bookmarks and tracks */
-"bookmarks_export" = "Exportovat všechny oblíbené";
+"bookmarks_export" = "Exportovat všechna oblíbená místa";
 
 /* Text for the editing the Track's color button. */
 "change_color" = "Změna barvy";
@@ -1018,7 +1018,7 @@
 "enable_icloud_synchronization_title" = "Povolení synchronizace s iCloudem";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "Synchronizace iCloudu je experimentální funkce, která se vyvíjí. Ujistěte se, že jste si vytvořili zálohu všech svých záložek a skladeb.";
+"enable_icloud_synchronization_message" = "Synchronizace s iCloudem je experimentální funkce, která se vyvíjí. Ujistěte se, že jste si vytvořili zálohu všech svých oblíbených míst.";
 
 /* Title for the "iCloud Is Disabled" alert. */
 "icloud_disabled_title" = "Služba iCloud je vypnutá";
@@ -1033,7 +1033,7 @@
 "backup" = "Záloha";
 
 /* Title for the "iCloud synchronization failure" alert. */
-"icloud_synchronization_error_alert_title" = "Selhání synchronizace iCloudu";
+"icloud_synchronization_error_alert_title" = "Selhání synchronizace s iCloudem";
 
 /* iCloud error message: Failed to synchronize due to connection error */
 "icloud_synchronization_error_connection_error" = "Chyba: Nepodařilo se synchronizovat z důvodu chyby připojení";
@@ -1108,9 +1108,9 @@
 "pref_alt_map_lang_handling_system_order" = "Použít v systémovém pořadí";
 "rooms" = "%@ místností";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Nepoužívat alternativy";
-"general" = "General";
-"interface" = "Interface";
-"contribute_to_osm_add_place" = "Add Place";
-"contribute_to_osm_update_map" = "Update the Map to Contribute";
-"contribute_to_osm" = "Contribute to OpenStreetMap";
-"contribute_to_osm_update_map_description" = "You need to update the %@ map to the latest version before you can contribute to the OpenStreetMap data";
+"general" = "Obecné";
+"interface" = "Rozhraní";
+"contribute_to_osm_add_place" = "Přidat místo";
+"contribute_to_osm_update_map" = "Pro přispívání aktualizujte mapu";
+"contribute_to_osm" = "Přispět do OpenStreetMap";
+"contribute_to_osm_update_map_description" = "Před přispíváním do dat OpenStreetMap musíte nejprve aktualizovat mapu %@ na nejnovější verzi";

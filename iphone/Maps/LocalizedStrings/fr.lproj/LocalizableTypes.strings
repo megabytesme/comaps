@@ -1350,7 +1350,7 @@
 "type.tourism.artwork.painting" = "Œuvre";
 "type.tourism.artwork.sculpture" = "Œuvre";
 "type.tourism.artwork.statue" = "Œuvre";
-"type.tourism.attraction" = "Attraction";
+"type.tourism.attraction" = "Attraction touristique";
 "type.attraction.amusement_ride" = "Manège";
 "type.attraction.animal" = "Enclos pour animaux";
 "type.attraction.bumper_car" = "Auto-tamponneuse";
@@ -1600,5 +1600,5 @@
 "type.railway.miniature" = "Chemin de fer miniature";
 "type.waterway.fuel" = "Quai de ravitaillement en carburant";
 "type.amenity.community_centre.youth_centre" = "Centre de jeunesse";
-"type.shop.water" = "Water Shop";
+"type.shop.water" = "Magasin d'eau";
 "type.attraction" = "Attraction";

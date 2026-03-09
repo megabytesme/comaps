@@ -169,7 +169,7 @@
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Mira la meva ubicació en l\'CoMaps! %1$s o %2$s No teniu mapes sense connexió? Baixeu-los aquí: https://www.comaps.app/download/</string>
     <!-- Subject for emailed position -->
-    <string name="my_position_share_email_subject">Ep, mireu la meva ubicació actual en el mapa de l\'CoMaps!</string>
+    <string name="my_position_share_email_subject">Ep, mireu la meva ubicació actual en el mapa del CoMaps!</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Comparteix</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -876,7 +876,7 @@
     <string name="unknown_count">desconegut</string>
     <string name="error_value_must_be_positive">El valor ha de ser positiu</string>
     <string name="error_invalid_number">Número invàlid</string>
-    <string name="offline_explanation_text">Un mapa ha de ser desconegut per a veure i navegar l\'àrea.\nDescarrega mapes per a àrees on vulgues viatjar.</string>
+    <string name="offline_explanation_text">S\'ha de descarregar un mapa per a veure i navegar aquesta àrea.\nDescarregueu mapes per a àrees on vulgueu viatjar.</string>
     <string name="list_description_empty">Edita la llista per afegir una descripció</string>
     <string name="opens_at">Obre a %s</string>
     <string name="closes_at">Tanca a %s</string>
@@ -934,4 +934,5 @@
     <string name="pref_alt_map_lang_handling_system_order">Fes servir en l\'ordre del sistema</string>
     <string name="pref_openexternallinks_title">Obre enllaços de tercers automàticament</string>
     <string name="pref_openexternallinks_summary">Obre enllaços de tercers amb CoMaps per defecte</string>
+    <string name="my_position_share_email">Seguiu aquest enllaç %1$s o pegueu aquestes coordenades %2$s als vostres mapes per a veure la meua ubicació.</string>
 </resources>

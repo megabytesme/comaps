@@ -1498,4 +1498,6 @@
     <string name="type.amenity.charging_station.small">Capacidade limitada</string>
     <string name="type.waterway.fuel">Posto de combustível da marina</string>
     <string name="type.amenity.community_centre.youth_centre">Centro juvenil</string>
+    <string name="type.shop.water">Loja de água</string>
+    <string name="type.attraction">Atração</string>
 </resources>

@@ -5,66 +5,98 @@
 	<key>bookmarks_places</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@value@</string>
-		<key>value</key>
+		<string>%#@nevertranslate@</string>
+		<key>nevertranslate</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
-			<string>d</string>
+			<string>lld</string>
 			<key>zero</key>
 			<string>Sem favoritos</string>
 			<key>one</key>
-			<string>%d favorito</string>
+			<string>%lld favorito</string>
 			<key>many</key>
-			<string>%d favoritos</string>
+			<string>%lld favoritos</string>
 			<key>other</key>
-			<string>%d favoritos</string>
+			<string>%lld favoritos</string>
 		</dict>
 	</dict>
 	<key>bookmarks_detect_message</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@value@</string>
-		<key>value</key>
+		<string>%#@nevertranslate@</string>
+		<key>nevertranslate</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
-			<string>d</string>
+			<string>lld</string>
 			<key>zero</key>
-			<string>%d arquivo foi encontrado.</string>
+			<string>%lld arquivo foi encontrado.</string>
 			<key>one</key>
-			<string>%d arquivo foi encontrado. Você poderá vê-lo após a conversão.</string>
+			<string>%lld arquivo foi encontrado. Você poderá vê-lo após a conversão.</string>
 			<key>many</key>
-			<string>%d arquivos foram encontrados. Você poderá vê-los após a conversão.</string>
+			<string>%lld arquivos foram encontrados. Você poderá vê-los após a conversão.</string>
 			<key>other</key>
-			<string>%d arquivos foram encontrados. Você poderá vê-los após a conversão.</string>
+			<string>%lld arquivos foram encontrados. Você poderá vê-los após a conversão.</string>
 		</dict>
 	</dict>
 	<key>tracks</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@value@</string>
-		<key>value</key>
+		<string>%#@nevertranslate@</string>
+		<key>nevertranslate</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
-			<string>d</string>
+			<string>lld</string>
 			<key>zero</key>
-			<string>%d trilha</string>
+			<string>%lld trilha</string>
 			<key>one</key>
-			<string>%d trilha</string>
+			<string>%lld trilha</string>
 			<key>many</key>
-			<string>%d trilhas</string>
+			<string>%lld trilhas</string>
 			<key>other</key>
-			<string>%d trilhas</string>
+			<string>%lld trilhas</string>
 		</dict>
 	</dict>
 	<key>population</key>
 	<dict>
-		<key>value</key>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@nevertranslate@</string>
+		<key>nevertranslate</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>other</key>
+			<string>%lld residents</string>
+			<key>one</key>
+			<string>%lld resident</string>
+		</dict>
+	</dict>
+	<key>rooms</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@nevertranslate@</string>
+		<key>nevertranslate</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>other</key>
+			<string>%lld rooms</string>
+			<key>one</key>
+			<string>%lld room</string>
+		</dict>
+	</dict>
+	<key>population</key>
+	<dict>
+		<key>nevertranslate</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
 			<string>NSStringPluralRuleType</string>
@@ -78,7 +110,7 @@
 	</dict>
 	<key>rooms</key>
 	<dict>
-		<key>value</key>
+		<key>nevertranslate</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
 			<string>NSStringPluralRuleType</string>

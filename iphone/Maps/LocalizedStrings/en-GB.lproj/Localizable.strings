@@ -54,7 +54,7 @@
 /* "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt */
 "bookmarks_and_tracks" = "Favourites";
 /* Default bookmark list name */
-"core_my_places" = "My Places";
+"core_my_places" = "My Favourites";
 /* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
 "address" = "Address";
 /* Settings button in system menu */

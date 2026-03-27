@@ -84,6 +84,10 @@ The post_generation commands are:
             "--mwm_version", type=int, required=True, help="Mwm version"
         )
         parser.add_argument(
+            "--min_compat_app_v", default="",
+            help="Minimum compatible app version e.g. 2026.02.09-4, omit by default"
+        )
+        parser.add_argument(
             "-o",
             "--output",
             required=True,
@@ -97,6 +101,7 @@ The post_generation commands are:
             args.hierarchy,
             args.target,
             args.mwm_version,
+            args.min_compat_app_v,
         )
         if args.output:
             with open(args.output, "w") as f:

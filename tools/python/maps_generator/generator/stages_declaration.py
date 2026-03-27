@@ -10,7 +10,6 @@ import logging
 import multiprocessing
 import os
 import shutil
-import tarfile
 import errno
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -134,10 +133,7 @@ class StageFeatures(Stage):
         if is_accepted(env, StageIsolinesInfo):
             extra.update({"isolines_path": PathProvider.isolines_path()})
         extra.update({"addresses_path": PathProvider.addresses_path()})
-
         steps.step_features(env, **extra)
-        if os.path.exists(env.paths.packed_polygons_path):
-            shutil.copy2(env.paths.packed_polygons_path, env.paths.mwm_path)
 
 
 @outer_stage
@@ -389,22 +385,6 @@ class StageCountriesTxt(Stage):
 
         with open(env.paths.counties_txt_path, "w") as f:
             json.dump(countries, f, ensure_ascii=False, indent=1)
-
-
-@outer_stage
-@production_only
-class StageLocalAds(Stage):
-    def apply(self, env: Env):
-        create_csv(
-            env.paths.localads_path,
-            env.paths.mwm_path,
-            env.paths.mwm_path,
-            env.mwm_version,
-            multiprocessing.cpu_count(),
-        )
-        with tarfile.open(f"{env.paths.localads_path}.tar.gz", "w:gz") as tar:
-            for filename in os.listdir(env.paths.localads_path):
-                tar.add(os.path.join(env.paths.localads_path, filename), arcname=filename)
 
 
 @outer_stage

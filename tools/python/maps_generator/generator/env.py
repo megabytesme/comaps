@@ -164,7 +164,7 @@ class PathProvider:
     @property
     @create_if_not_exist
     def log_path(self) -> AnyStr:
-        """mwm_path log files."""
+        """log files."""
         return os.path.join(self.build_path, "logs")
 
     @property
@@ -252,14 +252,6 @@ class PathProvider:
     @property
     def main_status_path(self) -> AnyStr:
         return os.path.join(self.status_path, status.with_stat_ext("stages"))
-
-    @property
-    def packed_polygons_path(self) -> AnyStr:
-        return os.path.join(self.mwm_path, "packed_polygons.bin")
-
-    @property
-    def localads_path(self) -> AnyStr:
-        return os.path.join(self.build_path, f"localads_{self.mwm_version}")
 
     @property
     def types_path(self) -> AnyStr:

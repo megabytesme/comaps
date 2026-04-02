@@ -59,18 +59,19 @@ jobs:
         continue-on-error: true
         shell: bash
         run: |
-          echo "WorldCoasts.* available:"
-          ls -al /mnt/4tbexternal/osm-maps/*/intermediate_data/WorldCoasts.*
           if [ -f /mnt/4tbexternal/osm-maps/*/intermediate_data/WorldCoasts.geom ]; then
+            echo "WorldCoasts.* available:"
+            ls -alh /mnt/4tbexternal/osm-maps/*/intermediate_data/WorldCoasts.*
             echo "Before:"
-            ls -alh /home/planet/latest_coasts*
+            ls -alh /home/planet/latest_coasts.*
             # TODO: don't copy coasts from test generations
             cp -p /mnt/4tbexternal/osm-maps/*/intermediate_data/WorldCoasts.geom /home/planet/latest_coasts.geom
             cp -p /mnt/4tbexternal/osm-maps/*/intermediate_data/WorldCoasts.rawgeom /home/planet/latest_coasts.rawgeom
             echo "After:"
-            ls -alh /home/planet/latest_coasts*
+            ls -alh /home/planet/latest_coasts.*
           else
-            echo "No WorldCoasts found."
+            echo "No previously generated WorldCoasts found."
+            exit 1
           fi
       - name: Clean temp files from previous generations
         shell: bash

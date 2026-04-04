@@ -1043,6 +1043,8 @@ std::string DebugPrint(RoadShieldType shieldType)
   case RoadShieldType::US_Interstate: return "US interstate";
   case RoadShieldType::US_Highway: return "US highway";
   case RoadShieldType::UK_Highway: return "UK highway";
+  case RoadShieldType::Bolivia_Fundamental: return "Bolivia fundamental";
+  case RoadShieldType::Argentina_RN: return "Argentina national";
   case RoadShieldType::UY_National: return "UY national";
   case RoadShieldType::Italy_Autostrada: return "Italy autostrada";
   case RoadShieldType::Hungary_Green: return "hungary green";

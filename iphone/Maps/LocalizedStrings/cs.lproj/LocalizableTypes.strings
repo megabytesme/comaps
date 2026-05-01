@@ -183,8 +183,8 @@
 "type.amenity.taxi" = "Stanoviště taxislužby";
 "type.amenity.telephone" = "Telefon";
 "type.amenity.theatre" = "Divadlo";
-"type.amenity.toilets" = "Záchody";
-"type.toilets.yes" = "Záchody";
+"type.amenity.toilets" = "Toalety";
+"type.toilets.yes" = "Toalety";
 "type.amenity.townhall" = "Radnice";
 "type.amenity.university" = "Univerzita";
 "type.amenity.vending_machine" = "Prodejní automat";

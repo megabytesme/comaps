@@ -604,7 +604,7 @@
     <string name="bookmarks_empty_list_message">Aby zapisać miejsce, stuknij miejsce na mapie, a następnie ikonę gwiazdki</string>
     <string name="category_desc_more">…więcej</string>
     <string name="export_file">Eksportuj KMZ</string>
-    <string name="export_file_gpx">Eksport GPX</string>
+    <string name="export_file_gpx">Eksportuj GPX</string>
     <string name="delete_list">Usuń listę</string>
     <string name="speedcams_alert_title">Fotoradary</string>
     <string name="place_description_title">Opis miejsca</string>
@@ -664,7 +664,7 @@
     <!-- Android -->
     <string name="by_date">Wg daty</string>
     <!-- Android -->
-    <string name="by_name">Według nazwy</string>
+    <string name="by_name">Wg nazwy</string>
     <string name="week_ago_sorttype">Tydzień temu</string>
     <string name="month_ago_sorttype">Miesiąc temu</string>
     <string name="moremonth_ago_sorttype">Ponad miesiąc temu</string>
@@ -945,4 +945,6 @@
     <string name="charge_socket_type1_combo">Typ 1 combo</string>
     <string name="route_recalculating">Ponowne obliczanie trasy…</string>
     <string name="bookmark_share_email_subject">Przejdź pod %1$s lub skopiuj te koordynaty %2$s do swojej aplikacji mapowej, aby zobaczyć tę lokalizację.</string>
+    <string name="my_position_share_email">Przejdź pod %1$s lub skopiuj te koordynaty %2$s do swojej aplikacji mapowej, aby zobaczyć moją lokalizację.</string>
+    <string name="change_app_locale">Język aplikacji</string>
 </resources>

@@ -2,7 +2,7 @@
 <resources>
     <!-- SECTION: Strings -->
     <!-- Button text (should be short) -->
-    <string name="back">ارجع</string>
+    <string name="back">رجوع</string>
     <!-- Button text (should be short) -->
     <string name="cancel">ألغِ</string>
     <!-- Button which deletes downloaded country -->
@@ -230,7 +230,7 @@
     <!-- Text in About menu, opens CoMaps news website -->
     <string name="news">أخبار</string>
     <!-- Settings: Send feedback button and dialog title -->
-    <string name="feedback">إرسال التعليقات</string>
+    <string name="feedback">تغذية راجعة</string>
     <!-- Text in menu -->
     <string name="rate_the_app">قيّم التطبيق</string>
     <!-- Text in menu -->
@@ -880,7 +880,7 @@
     <string name="dialog_report_error_missing_folder">موقع النسخ الاحتياطي المحدد غير متاح أو غير قابل للكتابة. يُرجى اختيار موقع آخر.</string>
     <string name="clear">امحُ</string>
     <string name="bookmark_color">لون المفضلة</string>
-    <string name="open_now">افتح الآن</string>
+    <string name="open_now">مفتوح الآن</string>
     <string name="at">على %s</string>
     <string name="share_track">شارك المسار</string>
     <string name="pref_tts_no_system_tts_short">لم يُعثر على محرك تحويل النص إلى كلام، يُرجى التحقق من إعدادات التطبيق</string>

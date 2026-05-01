@@ -750,8 +750,8 @@
 "type.leisure.sports_centre.sport.skiing" = "Pista d'esquí";
 "type.leisure.sports_centre.sport.soccer" = "Centre d'esports";
 "type.leisure.sports_centre.sport.swimming" = "Centre de natació";
-"type.leisure.sports_centre.sport.table_tennis" = "Sports Centre";
-"type.leisure.sports_centre.sport.tennis" = "Sports Centre";
+"type.leisure.sports_centre.sport.table_tennis" = "Centre esportiu";
+"type.leisure.sports_centre.sport.tennis" = "Centre esportiu";
 "type.leisure.sports_centre.sport.volleyball" = "Sports Centre";
 "type.leisure.sports_centre.sport.yoga" = "Sports Centre";
 "type.leisure.fitness_centre.sport.yoga" = "Yoga Studio";
@@ -882,7 +882,7 @@
 "type.place.country" = "País";
 "type.place.county" = "Comtat";
 "type.place.farm" = "Farm";
-"type.place.hamlet" = "Hamlet";
+"type.place.hamlet" = "Aldea";
 "type.place.island" = "Illa";
 "type.place.islet" = "Illot";
 "type.place.isolated_dwelling" = "Habitatge aïllat";
@@ -900,7 +900,7 @@
 /* Named part of a city or town, bigger than place=quarter (Wiki: https://wiki.openstreetmap.org/wiki/Tag:place%3Dsuburb) */
 "type.place.suburb" = "Urbanització";
 "type.place.town" = "Town";
-"type.place.village" = "Village";
+"type.place.village" = "Poble";
 "type.power" = "Energia";
 "type.power.generator" = "Generador d’energia";
 "type.power.generator.solar" = "Generador solar";
@@ -1313,7 +1313,7 @@
 "type.shop.tea" = "Tea Shop";
 "type.shop.telecommunication" = "Telecommunication Shop";
 "type.shop.ticket" = "Ticket Shop";
-"type.shop.toys" = "Botiga de jocs";
+"type.shop.toys" = "Botiga de joguines";
 "type.shop.travel_agency" = "Agència de viatges";
 "type.shop.tyres" = "Tyre Shop";
 "type.shop.variety_store" = "Botiga de varietat";
@@ -1509,9 +1509,9 @@
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Pavelló esportiu";
 "type.xmas.tree" = "Arbre de Nadal";
-"type.leisure.sports_centre.sport.four_square" = "Sports Centre";
+"type.leisure.sports_centre.sport.four_square" = "Poliesportiu";
 "type.sport.four_square" = "Four Square";
 "type.sport.boules" = "Boules";
-"type.leisure.sports_centre.sport.boules" = "Sports Centre";
+"type.leisure.sports_centre.sport.boules" = "Poliesportiu";
 "type.sport.pickleball" = "Pickleball";
-"type.leisure.sports_centre.sport.pickleball" = "Sports Centre";
+"type.leisure.sports_centre.sport.pickleball" = "Centre esportiu";

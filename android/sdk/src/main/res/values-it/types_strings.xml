@@ -15,7 +15,7 @@
     <string name="type.aeroway.aerodrome">Aeroporto</string>
     <string name="type.aeroway.aerodrome.international">Aeroporto internazionale</string>
     <string name="type.aeroway.apron">Area di stazionamento per aeromobili</string>
-    <string name="type.aeroway.gate">Cancello aeroportuale</string>
+    <string name="type.aeroway.gate">Gate</string>
     <string name="type.aeroway.helipad">Piattaforma per elicotteri</string>
     <string name="type.aeroway.runway">Pista di decollo/atterraggio</string>
     <string name="type.aeroway.taxiway">Pista di rullaggio</string>

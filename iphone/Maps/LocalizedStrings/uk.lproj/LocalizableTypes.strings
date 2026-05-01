@@ -12,7 +12,7 @@
 "type.aeroway.aerodrome" = "Аеропорт";
 "type.aeroway.aerodrome.international" = "Міжнародний аеропорт";
 "type.aeroway.apron" = "Перон";
-"type.aeroway.gate" = "Вихід на посадку";
+"type.aeroway.gate" = "Ворота";
 "type.aeroway.helipad" = "Майданчик для гелікоптерів";
 "type.aeroway.runway" = "Злітно-посадкова смуга";
 "type.aeroway.taxiway" = "Рульова дорiжка";
@@ -101,7 +101,7 @@
 "type.amenity.lounger" = "Шезлонг";
 "type.amenity.luggage_locker" = "Камера схову";
 "type.amenity.marketplace" = "Ринкова площа";
-"type.amenity.mobile_money_agent" = "Агент із мобільних платежів";
+"type.amenity.mobile_money_agent" = "Агент мобільних платежів";
 "type.amenity.motorcycle_parking" = "Парковка для мотоциклів";
 "type.amenity.nightclub" = "Нічний клуб";
 "type.amenity.nursing_home" = "Будинок для людей похилого віку";

@@ -40,7 +40,7 @@
     <!-- Text in About screen -->
     <string name="about_proposition_1">• Gebruiksvriendelijk en afgewerkt</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Privacygericht en vrij van advertenties</string>
+    <string name="about_proposition_2">• Privacygericht en reclamevrij</string>
     <!-- Text in About screen -->
     <string name="about_proposition_3">• Offline, snel en compact</string>
     <!-- Text in About screen -->
@@ -207,7 +207,7 @@
     <!-- Settings «Map» category: «3D buildings» title -->
     <string name="pref_map_3d_buildings_title">3D-gebouwen</string>
     <!-- A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled -->
-    <string name="pref_map_3d_buildings_disabled_summary">3D-gebouwen zijn uitgeschakeld in energiebesparende modus</string>
+    <string name="pref_map_3d_buildings_disabled_summary">3D-gebouwen zijn uitgeschakeld in energiebesparingsmodus</string>
     <!-- Settings «Route» category: «Tts enabled» title -->
     <string name="pref_tts_enable_title">Gesproken instructies</string>
     <!-- Settings «Route» category: «Tts announce street names» title -->
@@ -465,7 +465,7 @@
     <string name="editor_zip_code">Postcode</string>
     <string name="error_enter_correct_zip_code">Voer een geldige postcode in</string>
     <!-- Title for OSM note section in the editor -->
-    <string name="editor_other_info">Opmerking voor OpenStreetMap vrijwilligers (optioneel)</string>
+    <string name="editor_other_info">Opmerking voor OpenStreetMap-vrijwilligers (optioneel)</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
     <string name="editor_note_hint">Beschrijf fouten op de kaart of dingen die niet bewerkt kunnen worden met CoMaps</string>
     <!-- Information about OSM at the top of the editing page -->
@@ -476,7 +476,7 @@
     <string name="editor_operator">Exploitant</string>
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">Exploitant: %s</string>
-    <string name="editor_category_unsuitable_title">Kun je geen geschikte categorie vinden?</string>
+    <string name="editor_category_unsuitable_title">Geen passende categorie gevonden?</string>
     <string name="editor_category_unsuitable_text">CoMaps kan alleen eenvoudige puntcategorieën toevoegen, dus geen steden, wegen, meren, contouren van gebouwen, enz. Voeg dergelijke categorieën direct toe aan <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Lees onze <a href="https://www.comaps.app/support/advanced-map-editing/">handleiding</a> voor gedetailleerde stap voor stap instructies.</string>
     <string name="downloader_no_downloaded_maps_title">U hebt geen kaarten gedownload</string>
     <string name="downloader_no_downloaded_maps_message">Download kaarten om offline te zoeken en navigeren</string>
@@ -518,7 +518,7 @@
     <!-- For the first routing -->
     <string name="accept">Accepteren</string>
     <!-- For the first routing -->
-    <string name="decline">Weiger</string>
+    <string name="decline">Weigeren</string>
     <string name="mobile_data_dialog">Mobiel internet gebruiken om gedetailleerde informatie weer te geven?</string>
     <string name="mobile_data_option_always">Gebruik altijd</string>
     <string name="mobile_data_option_today">Alleen vandaag</string>
@@ -536,7 +536,7 @@
     <string name="enable_logging">Logboekregistratie inschakelen</string>
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Algemene feedback</string>
-    <string name="prefs_languages_information">We gebruiken het TTS-systeem voor gesproken instructies. Veel Android toestellen gebruiken Google TTS dat u kunt downloaden of bijwerken in de Google Play Store (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
+    <string name="prefs_languages_information">We gebruiken het TTS-systeem voor gesproken instructies. Veel Android-apparaten gebruiken Google TTS dat u kunt downloaden of bijwerken in de Google Play Store (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">Voor sommige talen dient u een andere spraaksynthesesoftware of een aanvullende taalpakket te installeren van een app store (Google Play, Galaxy Store, App Gallery, F-Droid). \nOpen de instellingen van uw toestel → Taal en invoer → Spraak → Uitvoer voor tekst-naar-spraak. \nHier kunt u de instellingen voor spraaksynthese beheren (bijvoorbeeld een taalpakket downloaden voor offline gebruik) en een andere tekst-naar-spraak processor selecteren.</string>
     <string name="prefs_languages_information_off_link">Gelieve deze handleiding te lezen voor meer informatie</string>
     <string name="transliteration_title">Transliteratie in het Latijnse alfabet</string>
@@ -553,7 +553,7 @@
     <string name="dialog_error_storage_message">Externe opslag is niet toegankelijk. De SD-kaart is mogelijk verwijderd, beschadigd of het bestandssysteem is alleen-lezen. Controleer uw SD-kaart of neem contact met ons op via support@comaps.app</string>
     <string name="setting_emulate_bad_storage">Slechte opslag emuleren</string>
     <string name="error_enter_correct_name">Voer een geldige naam in</string>
-    <string name="bookmark_lists">Favoriete lijsten</string>
+    <string name="bookmark_lists">Favorietenlijsten</string>
     <!-- Do not display all bookmark lists on the map -->
     <string name="bookmark_lists_hide_all">Alles verbergen</string>
     <string name="bookmark_lists_show_all">Toon alles</string>
@@ -564,7 +564,7 @@
     <string name="bookmarks_create_new_group">Nieuwe lijst aanmaken</string>
     <!-- Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files -->
     <string name="bookmarks_import">Favorieten importeren</string>
-    <string name="bookmarks_error_message_share_general">Delen is onmogelijk wegens een toepassingsfout</string>
+    <string name="bookmarks_error_message_share_general">Delen mislukt door een applicatiefout</string>
     <string name="bookmarks_error_title_share_empty">Deelfout</string>
     <string name="bookmarks_error_message_share_empty">Een lege lijst kan niet gedeeld worden</string>
     <string name="bookmarks_error_title_empty_list_name">De naam kan niet leeg zijn</string>
@@ -572,14 +572,14 @@
     <string name="bookmarks_new_list_hint">Nieuwe lijst</string>
     <string name="bookmarks_error_title_list_name_already_taken">Deze naam is al in gebruik</string>
     <string name="bookmarks_error_message_list_name_already_taken">Kies alstublieft een andere naam</string>
-    <string name="please_wait">Even geduld aub…</string>
+    <string name="please_wait">Even geduld…</string>
     <string name="phone_number">Telefoonnummer</string>
     <string name="profile">OpenStreetMap-profiel</string>
     <plurals name="bookmarks_detect_message">
         <item quantity="one">%d bestand gevonden. Het is te zien na de conversie.</item>
         <item quantity="other">%d bestanden gevonden. Ze zijn te zien na de conversie.</item>
     </plurals>
-    <string name="restore">Zet terug</string>
+    <string name="restore">Herstellen</string>
     <plurals name="tracks">
         <item quantity="one">%d route</item>
         <item quantity="other">%d routes</item>
@@ -607,12 +607,12 @@
     <string name="pref_tts_speedcams_always">Waarschuw altijd</string>
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Waarschuw nooit</string>
-    <string name="power_managment_title">Energiebesparende modus</string>
-    <string name="power_managment_description">Probeer batterijgebruik te verminderen ten koste van enkele functionaliteit</string>
+    <string name="power_managment_title">Energiebesparingsmodus</string>
+    <string name="power_managment_description">Probeer energieverbruik te verminderen ten koste van enkele functies</string>
     <string name="power_managment_setting_never">Nooit</string>
     <string name="power_managment_setting_auto">Wanneer batterij bijna leeg is</string>
-    <string name="power_managment_setting_manual_max">Maximale energiebesparing</string>
-    <string name="enable_logging_warning_message">Schakel deze optie tijdelijk in om gedetailleerde diagnostische logboeken over uw probleem op te nemen en handmatig naar ons te sturen met behulp van \"Meld een fout\" in het Help-dialoogvenster. Logboeken kunnen locatie-informatie bevatten.</string>
+    <string name="power_managment_setting_manual_max">Altijd</string>
+    <string name="enable_logging_warning_message">Schakel deze optie tijdelijk in om gedetailleerde diagnostische loggegevens over uw probleem te verzamelen en handmatig naar ons te sturen via \"Meld een fout\" in het Help-dialoogvenster. Loggegevens kunnen locatie-informatie bevatten.</string>
     <string name="driving_options_title">Route-instellingen</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
     <string name="avoid_tolls">Tolwegen vermijden</string>
@@ -622,7 +622,7 @@
     <string name="avoid_ferry">Veerboten vermijden</string>
     <string name="avoid_motorways">Snelwegen vermijden</string>
     <string name="unable_to_calc_alert_title">Kan route niet berekenen</string>
-    <string name="unable_to_calc_alert_subtitle">Een route kon niet worden gevonden. Dit kan worden veroorzaakt door uw routeringsopties of onvolledige OpenStreetMap-gegevens. Wijzig uw routeringsopties en probeer het opnieuw.</string>
+    <string name="unable_to_calc_alert_subtitle">Een route kon niet worden gevonden. Dit kan worden veroorzaakt door uw route-instellingen of onvolledige OpenStreetMap-gegevens. Wijzig uw route-instellingen en probeer het opnieuw.</string>
     <string name="define_to_avoid_btn">Te vermijden wegen instellen</string>
     <string name="change_driving_options_btn">Route-instellingen ingeschakeld</string>
     <string name="toll_road">Tolweg</string>
@@ -687,7 +687,7 @@
     <string name="isolines_activation_error_dialog">Als u gebruik wilt maken van hoogtelijnen, moet u de kaart van het gewenste gebied bijwerken of downloaden</string>
     <string name="isolines_location_error_dialog">Hoogtelijnen zijn nog niet beschikbaar in deze regio</string>
     <string name="elevation_profile_ascent">Stijging</string>
-    <string name="elevation_profile_descent">Daling</string>
+    <string name="elevation_profile_descent">Afdaling</string>
     <string name="elevation_profile_min_elevation">Min. hoogte</string>
     <string name="elevation_profile_max_elevation">Max. hoogte</string>
     <string name="elevation_profile_difficulty">Moeilijkheid</string>
@@ -724,7 +724,7 @@
     <!-- App tip #01 -->
     <string name="app_tip_01">Met uw donaties en steun kunnen we de beste kaarten ter wereld maken!</string>
     <!-- App tip #02 -->
-    <string name="app_tip_02">Vindt u onze app leuk? Doneer alstublieft om de ontwikkeling te ondersteunen! Vindt u het nog niet leuk? Laat het ons weten, dan lossen we het op!</string>
+    <string name="app_tip_02">Bevalt onze app? Doneer alstublieft om de ontwikkeling te ondersteunen! Bevalt het nog niet? Laat ons weten waarom, dan lossen we het op!</string>
     <!-- App tip #03 -->
     <string name="app_tip_03">Als u een softwareontwikkelaar kent, kunt u deze vragen om een functie te maken die u nodig heeft.</string>
     <!-- App tip #04 -->
@@ -738,7 +738,7 @@
     <!-- App tip #08 -->
     <string name="app_tip_08">U kunt de kaartgegevens eenvoudig corrigeren en verbeteren.</string>
     <!-- App tip #09 -->
-    <string name="app_tip_09">Ons belangrijkste doel is om snelle, op privacy gerichte, gebruiksvriendelijke kaarten te maken waar u van houdt.</string>
+    <string name="app_tip_09">Ons belangrijkste doel is om snelle, op privacygerichte, gebruiksvriendelijke kaarten te maken waar u van houdt.</string>
     <!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
     <string name="car_used_on_the_phone_screen">U gebruikt nu CoMaps op het telefoonscherm</string>
     <!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
@@ -769,14 +769,14 @@
     <!-- toast displayed when pressing the "Speech synthesis system settings" button, and the system settings aren't found. -->
     <string name="pref_tts_no_system_tts">Instellingen voor spraaksynthese zijn niet gevonden, weet u zeker dat uw apparaat dit ondersteunt?</string>
     <string name="drive_through">Drive-though</string>
-    <string name="clear_the_search">Wis de zoekopdracht</string>
+    <string name="clear_the_search">Zoekopdracht wissen</string>
     <string name="zoom_in">Zoom in</string>
     <!-- Accessibility text for the zoom-out button on the map -->
     <string name="zoom_out">Zoom uit</string>
     <!-- Restaurant or other food place's menu URL field in the Editor -->
-    <string name="website_menu">Menulink</string>
+    <string name="website_menu">Link naar menu</string>
     <!-- Button in the Place Page which opens a restaurant or other food place's menu in a browser -->
-    <string name="view_menu">Bekijk menu</string>
+    <string name="view_menu">Menu bekijken</string>
     <!-- Title for the "Open in Another App" button on the PlacePage. -->
     <string name="open_in_app">Openen in een andere app</string>
     <!-- To indicate if the place proposed self service... -->
@@ -785,7 +785,7 @@
     <!-- To indicate if restaurant or other place has outdoor seating -->
     <string name="outdoor_seating">Zitplaatsen buiten</string>
     <!-- Disclaimer summary shown when Power Saving Mode is enabled -->
-    <string name="power_save_dialog_summary">Voor de meest nauwkeurige navigatie raden we aan om de energiebesparende modus uit te schakelen in de batterij-instellingen van de telefoon.</string>
+    <string name="power_save_dialog_summary">Voor de meest nauwkeurige navigatie raden we aan om de energiebesparingsmodus uit te schakelen in de batterij-instellingen van de telefoon.</string>
     <!-- Prompt to start recording a track. -->
     <string name="start_track_recording">Route opnemen</string>
     <!-- Prompt for stopping a track recording. -->
@@ -815,13 +815,13 @@
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="app_site_url">https://comaps.app/nl/</string>
     <string name="saved">Opgeslagen</string>
-    <string name="pref_left_button_disable">Schakel uit</string>
+    <string name="pref_left_button_disable">Deactiveren</string>
     <string name="error_enter_correct_fediverse_page">Voer een geldige Mastodon-gebruikersnaam of webadres in</string>
     <string name="editor_level">Verdieping (0 is begane grond)</string>
     <string name="editor_building_levels">Verdiepingen (incl. begane grond, excl. dak)</string>
     <string name="error_enter_correct_level">Voer een geldig verdiepingnummer in</string>
     <string name="error_enter_correct_bluesky_page">Voer een geldige Bluesky-gebruikersnaam of webadres in</string>
-    <string name="route_type">Type route</string>
+    <string name="route_type">Routetype</string>
     <string name="vehicle">Voertuig</string>
     <string name="bicycle">Fiets</string>
     <string name="clear">Wissen</string>
@@ -841,18 +841,18 @@
     <string name="pref_backup_status_summary_success">Laatste succesvolle back-up</string>
     <string name="pref_backup_interval_title">Automatische back-up</string>
     <string name="pref_backup_location_title">Back-uplocatie</string>
-    <string name="pref_backup_now_summary_failed">Backup is mislukt</string>
-    <string name="pref_backup_history_title">Aantal back-ups om te bewaren</string>
+    <string name="pref_backup_now_summary_failed">Back-up is mislukt</string>
+    <string name="pref_backup_history_title">Aantal te bewaren back-ups</string>
     <string name="dialog_report_error_missing_folder">De geselecteerde back-uplocatie is niet beschikbaar of niet beschrijfbaar. Kies een andere locatie.</string>
     <string name="backup_interval_every_week">Wekelijks</string>
     <string name="pref_backup_now_summary_folder_unavailable">De back-upmap is niet beschikbaar</string>
     <string name="panoramax">Panoramax-afbeelding</string>
     <string name="pref_backup_location_summary_initial">Selecteer eerst een map en geef toestemming</string>
-    <string name="pref_left_button_title">Linkerknop configuratie</string>
+    <string name="pref_left_button_title">Instelling linkerknop</string>
     <string name="open_now">Nu open</string>
     <string name="closed_now">Nu gesloten</string>
     <string name="at">om %s</string>
-    <string name="dialog_report_error_with_logs">Stuur ons een foutenrapport:\n - stel \"Logboek inschakelen\" in bij de Instellingen\n - reproduceer het probleem\n - druk in het scherm \"Over &amp; Hulp\" op de knop \"Meld een fout\" en verzend via e-mail of chat\n - logboek uitschakelen</string>
+    <string name="dialog_report_error_with_logs">Stuur ons een foutrapport:\n - stel \"Logboekregistratie inschakelen\" in bij de Instellingen\n - reproduceer het probleem\n - druk in het scherm \"Over &amp; Hulp\" op de knop \"Meld een fout\" en verzend via e-mail of chat\n - logboek uitschakelen</string>
     <string name="osm_note_toast">Opmerking wordt verzonden naar OpenStreetMap</string>
     <string name="osm_note_hint">Of laat een opmerking achter voor de OpenStreetMap-gemeenschap, zodat iemand anders hier een plaats kan toevoegen of verbeteren.</string>
     <string name="share_track">Route delen</string>
@@ -865,7 +865,7 @@
     <string name="editor_place_doesnt_exist_description">Beschrijf hoe de plaats er nu uitziet om een foutbericht te sturen naar de OpenStreetMap-community</string>
     <string name="avoid_steps">Trappen vermijden</string>
     <string name="avoid_paved">Verharde wegen vermijden</string>
-    <string name="charge_socket_type2">Type 2 (geen kabel)</string>
+    <string name="charge_socket_type2">Type 2 (zonder kabel)</string>
     <string name="charge_socket_type2_cable">Type 2 (met kabel)</string>
     <string name="charge_socket_type2_combo">Type 2 combinatie</string>
     <string name="charge_socket_type1">Type 1</string>
@@ -874,7 +874,7 @@
     <string name="charge_socket_chademo">CHAdeMO</string>
     <string name="unknown_socket_type">onbekende stekker</string>
     <string name="unknown_count">onbekend</string>
-    <string name="error_invalid_number">ongeldig aantal</string>
+    <string name="error_invalid_number">Ongeldig aantal</string>
     <string name="edit_socket_info_tooltip">Maak nieuwe stekkers aan of bewerk bestaande.</string>
     <string name="charging_station_available_sockets">Beschikbare stekkers</string>
     <string name="charge_socket_unknown_other">Andere of onbekend</string>
@@ -896,7 +896,7 @@
     <string name="editor_mark_business_vacant_title">Bedrijfsruimte als leeg markeren</string>
     <string name="editor_mark_business_vacant_description">Gebruik dit als het bedrijf is verhuisd en de ruimte leeg is en klaar is voor een nieuwe huurder.</string>
     <string name="power_management">Energiebeheer</string>
-    <string name="charge_socket_schuko">Binnenlandse EU</string>
+    <string name="charge_socket_schuko">EU-stekker (Schuko)</string>
     <string name="navigation_start_tts_message">"Navigatie starten, taal voor steminstructie: "</string>
     <string name="prefs_speed_cameras_information">Waarschuwingen voor flitsers zijn uitgeschakeld in landen waar deze wettelijk zijn verboden.</string>
     <string name="navigation_start_tts_disabled_message">Spraakinstructies uitgeschakeld: TTS-engine niet beschikbaar</string>
@@ -906,12 +906,12 @@
     <string name="place_page_update_too_old_map">Kaart regio bijwerken</string>
     <string name="place_page_too_old_to_edit">Het bewerken van OpenStreetMap is uitgeschakeld omdat de kaartgegevens te oud zijn.</string>
     <string name="advanced">Geavanceerd</string>
-    <string name="download_resources_custom_url_title">Aangepaste server voor kaarten</string>
-    <string name="download_resources_custom_url_message">Overschrijf de standaard kaartdownloadserver die wordt gebruikt voor kaartdownloads. Laat leeg om de standaardserver van CoMaps te gebruiken.</string>
+    <string name="download_resources_custom_url_title">Aangepaste kaartserver</string>
+    <string name="download_resources_custom_url_message">Overschrijf de standaard server voor het downloaden van kaarten. Laat leeg om de standaardserver van CoMaps te gebruiken.</string>
     <string name="download_resources_custom_url_summary_none">Niet ingesteld</string>
     <string name="download_resources_custom_url_error_scheme">Voer een URL in beginnend met http:// of https://</string>
     <string name="pref_maplanguage_local">Plaatselijke taal</string>
-    <string name="location_privacy_info">Apps ontvangen locatiegegevens van uw OS-locatieservice die deze kunnen delen met Google en/of de leverancier van uw apparaat. Gebruik een privacyrespecterend Android OS om dit te voorkomen.</string>
+    <string name="location_privacy_info">Apps ontvangen locatiegegevens van de locatiedienst van uw besturingssysteem, die deze gegevens kan delen met Google en/of de leverancier van uw apparaat. Gebruik een privacyvriendelijk Android-besturingssysteem om dit te voorkomen.</string>
     <string name="location_privacy">Privacy van locatie</string>
     <string name="pref_speedlimit_title">Snelheidslimieten tonen</string>
     <string name="rooms">%s kamers</string>
@@ -928,7 +928,7 @@
     <string name="pref_alt_map_lang_handling">Alternatieve kaarttalen</string>
     <string name="pref_alt_map_lang_handling_ignore_alternatives">Geen alternatieven gebruiken</string>
     <string name="pref_alt_map_lang_handling_system_order">Gebruik in systeemvolgorde</string>
-    <string name="pref_alt_map_lang_handling_local_only">Voorkeur voor oorspronkelijk</string>
+    <string name="pref_alt_map_lang_handling_local_only">Voorkeur voor lokale taal</string>
     <string name="destination">Bestemming</string>
     <string name="bookmark_share_email_subject">Volg deze link %1$s of plak deze coördinaten %2$s in uw kaarten-app om deze locatie te zien.</string>
     <string name="my_position_share_email">Volg deze link %1$s of plak deze coördinaten %2$s in uw kaarten-app om deze locatie te zien.</string>
@@ -936,6 +936,6 @@
     <string name="route_recalculating">Route herberekenen…</string>
     <string name="charge_socket_type1_combo">Type 1 combo</string>
     <string name="population">Populatie: %s</string>
-    <string name="setting_value_system_default">Systeem standaard</string>
-    <string name="change_app_locale">Taal van de app</string>
+    <string name="setting_value_system_default">Systeemstandaard</string>
+    <string name="change_app_locale">App-taal</string>
 </resources>

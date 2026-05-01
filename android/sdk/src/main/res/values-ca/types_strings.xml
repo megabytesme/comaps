@@ -1227,7 +1227,7 @@
     <string name="type.railway.subway.tunnel">Túnel de metro</string>
     <string name="type.shop.copyshop">Copisteria</string>
     <string name="type.shop.funeral_directors">Funerària</string>
-    <string name="type.shop.toys">Botiga de jocs</string>
+    <string name="type.shop.toys">Botiga de joguines</string>
     <string name="type.shop.gift">Botiga de regals</string>
     <string name="type.sport.field_hockey">Hoquei d\'herba</string>
     <string name="type.sport.handball">Handbol</string>
@@ -1273,4 +1273,11 @@
     <string name="type.place.locality">Localitat</string>
     <string name="type.shop.garden_centre">Centre de jardineria</string>
     <string name="type.tourism.information.guidepost">Post de direccions</string>
+    <string name="type.leisure.sports_centre.sport.boules">Poliesportiu</string>
+    <string name="type.leisure.sports_centre.sport.four_square">Poliesportiu</string>
+    <string name="type.leisure.sports_centre.sport.pickleball">Centre esportiu</string>
+    <string name="type.leisure.sports_centre.sport.table_tennis">Centre esportiu</string>
+    <string name="type.leisure.sports_centre.sport.tennis">Centre esportiu</string>
+    <string name="type.place.village">Poble</string>
+    <string name="type.place.hamlet">Aldea</string>
 </resources>

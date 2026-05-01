@@ -309,7 +309,7 @@
 "type.cuisine.croatian" = "Kroatisk";
 "type.cuisine.curry" = "Karryretter";
 "type.cuisine.deli" = "Delikatesse";
-"type.cuisine.diner" = "Diner";
+"type.cuisine.diner" = "Middag";
 "type.cuisine.donut" = "Donut";
 "type.cuisine.ethiopian" = "Etiopisk";
 "type.cuisine.filipino" = "Filippinsk";
@@ -629,9 +629,9 @@
 "type.historic.locomotive" = "Historisk lokomotiv";
 "type.historic.memorial" = "Mindesmærke";
 "type.historic.memorial.cross" = "Mindesmærkekors";
-"type.historic.memorial.plaque" = "Mindesmærke";
-"type.historic.memorial.sculpture" = "Mindesmærke";
-"type.historic.memorial.statue" = "Mindesmærke";
+"type.historic.memorial.plaque" = "Mindeplade";
+"type.historic.memorial.sculpture" = "Skulptur";
+"type.historic.memorial.statue" = "Statue";
 "type.historic.memorial.stolperstein" = "Stolpersten";
 "type.historic.stone" = "Historisk sten";
 "type.historic.memorial.war_memorial" = "Krigsmindesmærke";
@@ -645,16 +645,16 @@
 /* Usually has no historic and sometimes no religious context. E.g. a mountain summit cross. */
 "type.man_made.cross" = "Kors";
 /* Usually a Christian historical cross placed along a road. */
-"type.historic.wayside_cross" = "Kors ved vejsiden";
-"type.historic.wayside_shrine" = "Skrin ved vejsiden";
-"type.historic.wreck" = "Forlis";
+"type.historic.wayside_cross" = "Vejkors";
+"type.historic.wayside_shrine" = "Vejskrin";
+"type.historic.wreck" = "Skibsvrag";
 "type.internet_access" = "Internet";
 "type.internet_access.wlan" = "Trådløst internet";
 "type.junction" = "Vejkryds";
 "type.junction.circular" = "Rundkørsel";
 "type.junction.roundabout" = "Rundkørsel";
 "type.landuse" = "Arealanvendelse";
-"type.landuse.allotments" = "Kolonihaveområde";
+"type.landuse.allotments" = "Kolonihaveforening";
 "type.landuse.basin" = "Vandbassin";
 "type.landuse.brownfield" = "Forladt område";
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
@@ -668,7 +668,7 @@
 "type.landuse.farmland" = "Landbrugsjord";
 "type.landuse.farmyard" = "Gårdanlæg";
 "type.landuse.field" = "Mark";
-"type.landuse.flowerbed" = "Blomsterseng";
+"type.landuse.flowerbed" = "Blomsterbed";
 "type.landuse.forest" = "Skov";
 "type.landuse.forest.coniferous" = "Nåleskov";
 "type.landuse.forest.deciduous" = "Løvskov";

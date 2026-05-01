@@ -941,4 +941,6 @@
     <string name="charge_socket_type1_combo">Combo Tipus 1</string>
     <string name="destination">Destinació</string>
     <string name="route_recalculating">Recalculant ruta…</string>
+    <string name="setting_value_system_default">Per defecte al sistema</string>
+    <string name="change_app_locale">Idioma de l\'App</string>
 </resources>

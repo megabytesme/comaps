@@ -12,7 +12,7 @@
 "type.aeroway.aerodrome" = "Letališče";
 "type.aeroway.aerodrome.international" = "Mednarodno letališče";
 "type.aeroway.apron" = "Vzletna ploščad";
-"type.aeroway.gate" = "Vhod";
+"type.aeroway.gate" = "Vrata";
 "type.aeroway.helipad" = "helikoptersko pristajališče";
 "type.aeroway.runway" = "Vzletna steza";
 "type.aeroway.taxiway" = "Dovoz do vzletno-pristajalne steze";

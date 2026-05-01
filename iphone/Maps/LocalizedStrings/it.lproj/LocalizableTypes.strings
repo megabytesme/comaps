@@ -12,7 +12,7 @@
 "type.aeroway.aerodrome" = "Aeroporto";
 "type.aeroway.aerodrome.international" = "Aeroporto internazionale";
 "type.aeroway.apron" = "Area di stazionamento per aeromobili";
-"type.aeroway.gate" = "Cancello aeroportuale";
+"type.aeroway.gate" = "Gate";
 "type.aeroway.helipad" = "Piattaforma per elicotteri";
 "type.aeroway.runway" = "Pista di decollo/atterraggio";
 "type.aeroway.taxiway" = "Pista di rullaggio";

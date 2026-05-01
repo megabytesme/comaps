@@ -54,7 +54,7 @@
 /* "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt */
 "bookmarks_and_tracks" = "Ulubione";
 /* Default bookmark list name */
-"core_my_places" = "Moje miejsca";
+"core_my_places" = "Moje ulubione";
 /* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
 "address" = "Adres";
 /* Settings button in system menu */
@@ -631,7 +631,7 @@
 "title_error_downloading_bookmarks" = "Wystąpił błąd";
 "popular_place" = "Popularne";
 "export_file" = "Eksportuj KMZ";
-"export_file_gpx" = "Eksport GPX";
+"export_file_gpx" = "Eksportuj GPX";
 "delete_list" = "Usuń listę";
 "hide_from_map" = "Ukryj na mapie";
 "tags_loading_error_subtitle" = "Wystąpił błąd podczas pobierania tagów, spróbuj ponownie";

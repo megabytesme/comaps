@@ -584,7 +584,7 @@
     <string name="phone_number">Номер телефона</string>
     <string name="profile">Профиль OpenStreetMap</string>
     <plurals name="bookmarks_detect_message">
-        <item quantity="one">Был найден один файл. Вы увидите его после конвертации.</item>
+        <item quantity="one">Был найден %d файл. Вы увидите их после конвертации.</item>
         <item quantity="few">%d файла были найдены. Вы увидите их после конвертации.</item>
         <item quantity="many">%d файлов были найдены. Вы увидите их после конвертации.</item>
         <item quantity="other">%d файлов были найдены. Вы увидите их после конвертации.</item>

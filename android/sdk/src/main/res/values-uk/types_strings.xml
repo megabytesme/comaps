@@ -15,7 +15,7 @@
     <string name="type.aeroway.aerodrome">Аеропорт</string>
     <string name="type.aeroway.aerodrome.international">Міжнародний аеропорт</string>
     <string name="type.aeroway.apron">Перон</string>
-    <string name="type.aeroway.gate">Вихід на посадку</string>
+    <string name="type.aeroway.gate">Ворота</string>
     <string name="type.aeroway.helipad">Майданчик для гелікоптерів</string>
     <string name="type.aeroway.runway">Злітно-посадкова смуга</string>
     <string name="type.aeroway.taxiway">Рульова дорiжка</string>
@@ -1439,7 +1439,7 @@
     <string name="type.office.security">Офіс охорони</string>
     <string name="type.building.guardhouse">Пост охорони</string>
     <string name="type.amenity.lounger">Шезлонг</string>
-    <string name="type.amenity.mobile_money_agent">Агент із мобільних платежів</string>
+    <string name="type.amenity.mobile_money_agent">Агент мобільних платежів</string>
     <string name="type.amenity.car_pooling">Карпулінг</string>
     <string name="type.amenity.payment_centre">Платіжний центр</string>
     <string name="type.emergency.access_point.address">Адреса для швидкої допомоги</string>

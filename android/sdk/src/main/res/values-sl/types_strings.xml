@@ -17,7 +17,7 @@
     <string name="type.aeroway.aerodrome">Letališče</string>
     <string name="type.aeroway.aerodrome.international">Mednarodno letališče</string>
     <string name="type.aeroway.apron">Vzletna ploščad</string>
-    <string name="type.aeroway.gate">Vhod</string>
+    <string name="type.aeroway.gate">Vrata</string>
     <string name="type.aeroway.helipad">helikoptersko pristajališče</string>
     <string name="type.aeroway.runway">Vzletna steza</string>
     <string name="type.aeroway.taxiway">Dovoz do vzletno-pristajalne steze</string>

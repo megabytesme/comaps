@@ -680,4 +680,6 @@
     <string name="stop">Ustavi</string>
     <string name="charge_socket_type1_combo">Kombinacija vrste 1</string>
     <string name="route_recalculating">Ponovno preračunavanje poti …</string>
+    <string name="setting_value_system_default">Privzeto sistemsko</string>
+    <string name="change_app_locale">Jezik orodja</string>
 </resources>

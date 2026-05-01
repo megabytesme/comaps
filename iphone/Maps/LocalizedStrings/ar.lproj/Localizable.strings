@@ -38,7 +38,7 @@
 /* Text in About screen */
 "about_proposition_2" = "مُركّز على الخصوصية وخالٍ من الإعلانات";
 /* Text in About screen */
-"about_proposition_3" = "Transparent and not for profit";
+"about_proposition_3" = "شفاف وغير ربحي";
 "close" = "أغلِق";
 "download" = "نزّل";
 /* REMOVE THIS STRING AFTER REFACTORING */
@@ -48,13 +48,13 @@
 /* Add Bookmark list dialog - hint when the list name is empty */
 "bookmark_set_name" = "اسم القائمة";
 /* "Bookmark Lists" dialog title */
-"bookmark_sets" = "قائمة الإشارات المرجعية";
+"bookmark_sets" = "القوائم المفضلة";
 /* Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. */
 "bookmarks" = "الاماكن";
 /* "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt */
 "bookmarks_and_tracks" = "المفضلات";
 /* Default bookmark list name */
-"core_my_places" = "أماكني";
+"core_my_places" = "أماكني المفضلة";
 /* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
 "address" = "العنوان";
 /* Settings button in system menu */
@@ -232,9 +232,9 @@
 /* Button in the About screen */
 "report_incorrect_map_bug" = "الإبلاغ عن بيانات الخريطة غير الصحيحة أو إصلاحها";
 /* Button in the About screen */
-"volunteer" = "للتطوع";
+"volunteer" = "تطوع وساهم في تحسين CoMaps";
 /* "Social media" section header in the About screen */
-"follow_us" = "تابعنا وتواصل معنا";
+"follow_us" = "تواصل معنا";
 /* Alert text */
 "email_error_body" = "لم يتم تنصيب البريد الإلكتروني. يرجى تفعيله أو استخدام أي وسيلة أخرى للاتصال بنا على %@";
 /* Alert title */
@@ -274,7 +274,7 @@
 /* Text for routing error dialog */
 "routing_requires_all_map" = "لإنشاء مسار، نحتاج إلى تنزيل وتحديث جميع الخرائط من موقعك إلى وجهتك.";
 /* bookmark button text */
-"bookmark" = "إشارة مرجعية";
+"bookmark" = "المكان";
 "save" = "احفظ";
 "create" = "إنشاء";
 /* red color */
@@ -483,7 +483,7 @@
 "editor_zip_code" = "الرمز البريدي";
 "error_enter_correct_zip_code" = "أدخل رمز بريدي صالح";
 /* Place Page title for long tap */
-"core_placepage_unknown_place" = "نقطة الخريطة";
+"core_placepage_unknown_place" = "نقطة على خريطة";
 /* Title for OSM note section in the editor */
 "editor_other_info" = "ملاحظة لمتطوعي OpenStreetMap (اختياري)";
 "editor_detailed_description_hint" = "تعليق مفصّل";

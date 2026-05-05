@@ -86,6 +86,7 @@ All test binaries found in the build directory (`*_tests`), as of January 2026:
 - `coding_tests` - Serialization, compression, file I/O
 - `geometry_tests` - Geometric primitives and algorithms
 - `descriptions_tests` - Feature descriptions
+- `reviews_tests` - Feature reviews
 
 **Platform & Storage:**
 - `platform_tests` - Platform abstraction layer

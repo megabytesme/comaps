@@ -101,6 +101,7 @@ Automatically [generated](TRANSLATIONS.md#technical-details):
 - `platform/` - platform abstraction classes: file paths, http requests, location services.
 - `pyhelpers/` -
 - `qt_tstfrm/` - widgets for visual testing.
+- `reviews` - data model and serialization/deserialization of feature reviews
 - `routing_common/` -
 - `routing/` - in-app routing engine.
 - `search/` - ranking and searching classes.

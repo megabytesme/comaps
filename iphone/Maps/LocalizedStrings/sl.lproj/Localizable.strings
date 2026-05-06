@@ -547,7 +547,7 @@
 /* Displayed when saving some edits to the map to warn against publishing personal data */
 "editor_share_to_all_dialog_title" = "Ali to želite poslati vsem uporabnikom?";
 /* Dialog before publishing the modifications to the public map. */
-"editor_share_to_all_dialog_message_1" = "Poskrbite, da niste vnesli nobenih zasebnih ali osebnih podatkov";
+"editor_share_to_all_dialog_message_1" = "Poskrbite, da niste vnesli nobenih zasebnih ali osebnih podatkov.";
 "editor_share_to_all_dialog_message_2" = "Uredniki na OpenStreetMap bodo preverili spremembe in stopili v stik z vami, če kaj ne bo jasno.";
 "navigation_stop_button" = "Ustavi";
 /* iOS dialog for the case when recent track recording is on and the app comes back from background */
@@ -869,4 +869,10 @@
 "contribute_to_osm" = "Prispevajte k OpenStreetMap";
 "contribute_to_osm_add_place" = "Dodaj kraj";
 "contribute_to_osm_update_map" = "Prispevaj in posodobi zemljevid";
-"contribute_to_osm_update_map_description" = "Preden lahko prispevate na OpenStreetMap, morate posodobiti zemljevid %@ na zadnjo različico.";
+"contribute_to_osm_update_map_description" = "Preden lahko prispevate na OpenStreetMap, morate posodobiti zemljevid %@ na zadnjo različico";
+"downloader_check_updates_button" = "Check for updates";
+"downloader_check_updates_checking" = "Checking for updates...";
+"downloader_check_updates_updated" = "Map updates available!";
+"downloader_check_updates_no_updates" = "No updates available";
+"downloader_check_updates_eol" = "No more map updates for this app version. Please update the app!";
+"downloader_check_updates_error" = "Error checking for updates";

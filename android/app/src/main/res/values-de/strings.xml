@@ -938,4 +938,12 @@
     <string name="population">Einwohner: %s</string>
     <string name="setting_value_system_default">Systemstandard</string>
     <string name="change_app_locale">App-Sprache</string>
+    <string name="downloader_check_updates_button">Updates prüfen</string>
+    <string name="downloader_check_updates_checking">Suche nach Updates...</string>
+    <string name="downloader_check_updates_updated">Karten-Updates verfügbar!</string>
+    <string name="downloader_check_updates_no_updates">Keine Updates verfügbar</string>
+    <string name="downloader_check_updates_eol">Keine Karten-Updates mehr für diese App-Version. Bitte mach ein App-Update!</string>
+    <string name="downloader_check_updates_error">Fehler beim Prüfen auf Updates</string>
+    <string name="pref_keyboard_typing_history_title">Tastatur-Privatsphärenmodus</string>
+    <string name="pref_keyboard_typing_history_summary">Das System dazu auffordern, den Tastatur-Eingabeverlauf nicht mitzuzeichnen</string>
 </resources>

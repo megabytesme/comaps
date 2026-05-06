@@ -781,7 +781,7 @@
     <string name="delete_place_empty_comment_error">Angiv begrundelsen for at slette stedet</string>
     <string name="disk_error_title">Diskfejl</string>
     <string name="error_enter_correct_instagram_page">Indtast et gyldigt Instagram-brugernavn eller en webadresse</string>
-    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="translated_om_site_url">https://comaps.app/da/</string>
     <string name="navigation_stop_button">Stop</string>
     <string name="error_enter_correct_vk_page">Indtast et gyldigt VK-brugernavn eller en webadresse</string>
     <string name="error_enter_correct_line_page">Indtast et gyldigt LINE ID eller en webadresse</string>
@@ -925,4 +925,12 @@
     <string name="population">Indbyggertal: %s</string>
     <string name="setting_value_system_default">Systemets standard</string>
     <string name="change_app_locale">App-sprog</string>
+    <string name="downloader_check_updates_button">Søg efter opdateringer</string>
+    <string name="downloader_check_updates_checking">Søger efter opdateringer...</string>
+    <string name="downloader_check_updates_eol">Ingen flere kortopdateringer for denne appversion. Opdater appen.</string>
+    <string name="downloader_check_updates_error">Fejl ved søgning efter opdateringer</string>
+    <string name="downloader_check_updates_no_updates">Ingen opdateringer tilgængelige</string>
+    <string name="downloader_check_updates_updated">Kortopdateringer tilgængelige!</string>
+    <string name="pref_keyboard_typing_history_title">Inkognitotilstand på tastatur</string>
+    <string name="pref_keyboard_typing_history_summary">Anmod systemtastatur om ikke at gemme tastetrykhistorik</string>
 </resources>

@@ -12,7 +12,7 @@
 "type.aeroway.aerodrome" = "Aeroport";
 "type.aeroway.aerodrome.international" = "Aeroport internacional";
 "type.aeroway.apron" = "Plataforma";
-"type.aeroway.gate" = "Porta d’embarcament";
+"type.aeroway.gate" = "Porta d'embarcament";
 "type.aeroway.helipad" = "Heliport";
 "type.aeroway.runway" = "Pista d’enlairament";
 "type.aeroway.taxiway" = "Pista de rodatge";

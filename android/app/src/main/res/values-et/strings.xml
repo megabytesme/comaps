@@ -934,4 +934,12 @@
     <string name="population">Rahvaarv: %s</string>
     <string name="setting_value_system_default">Süsteemi vaikeväärtus</string>
     <string name="change_app_locale">Rakenduse keel</string>
+    <string name="downloader_check_updates_button">Kontrolli uuendusi</string>
+    <string name="downloader_check_updates_checking">Kontrollin uuendusi...</string>
+    <string name="downloader_check_updates_updated">Saadaval on kaartide uuendused!</string>
+    <string name="downloader_check_updates_eol">Selle rakenduse versiooni jaoks enam kaardiuuendusi ei lisandu. Palun uuenda rakendust!</string>
+    <string name="downloader_check_updates_error">Viga uuenduste olemaolu kontrollimisel</string>
+    <string name="pref_keyboard_typing_history_title">Klahvistiku privaatne režiim</string>
+    <string name="pref_keyboard_typing_history_summary">Palu, et süsteemne klahvistik ei salvestaks sisestuste ajalugu</string>
+    <string name="downloader_check_updates_no_updates">Uuendusi pole saadaval</string>
 </resources>

@@ -1242,7 +1242,7 @@
 "type.shop.car_parts" = "Auto-onderdelenwinkel";
 "type.shop.car_repair" = "Autogarage";
 "type.shop.car_repair.tyres" = "Bandenreparatie";
-"type.shop.caravan" = "Caravan- en camperdealer";
+"type.shop.caravan" = "Caravan-/camperdealer";
 "type.shop.carpet" = "Tapijtenwinkel";
 "type.shop.chemist" = "Drogisterij";
 "type.shop.chocolate" = "Chocolaterie";
@@ -1410,7 +1410,7 @@
 "type.attraction.water_slide" = "Waterglijbaan";
 "type.tourism.attraction.specified" = "Attractie";
 "type.tourism.camp_site" = "Camping";
-"type.tourism.caravan_site" = "Caravan- en camperplaats";
+"type.tourism.caravan_site" = "Caravan-/camperplaats";
 /* A rentable countryside vacation house. */
 "type.tourism.chalet" = "Vakantiehuis";
 "type.tourism.gallery" = "Galerie";

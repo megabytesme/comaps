@@ -945,4 +945,12 @@
     <string name="population">Población: %s</string>
     <string name="setting_value_system_default">Configuración predeterminada del sistema</string>
     <string name="change_app_locale">Idioma de la aplicación</string>
+    <string name="downloader_check_updates_button">Buscar actualizaciones</string>
+    <string name="downloader_check_updates_error">Error al buscar actualizaciones</string>
+    <string name="downloader_check_updates_checking">Buscando actualizaciones…</string>
+    <string name="downloader_check_updates_updated">¡Actualizaciones de mapas disponibles!</string>
+    <string name="downloader_check_updates_no_updates">Sin actualizaciones</string>
+    <string name="downloader_check_updates_eol">Ya no habrá más actualizaciones de mapas para esta versión. ¡Por favor, actualiza la aplicación!</string>
+    <string name="pref_keyboard_typing_history_title">Modo incógnito del teclado</string>
+    <string name="pref_keyboard_typing_history_summary">Solicitar al teclado del sistema que no registre o guarde lo que se escribe</string>
 </resources>

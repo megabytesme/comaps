@@ -870,3 +870,9 @@
 "contribute_to_osm_add_place" = "Lisa koht";
 "contribute_to_osm_update_map" = "Kaastöö tegemiseks palun uuenda kaarti";
 "contribute_to_osm_update_map_description" = "Enne OpenStreetMapi andmete täiendamist palun uuenda „%@“ kaart viimase versioonini";
+"downloader_check_updates_button" = "Check for updates";
+"downloader_check_updates_checking" = "Checking for updates...";
+"downloader_check_updates_updated" = "Map updates available!";
+"downloader_check_updates_no_updates" = "No updates available";
+"downloader_check_updates_eol" = "No more map updates for this app version. Please update the app!";
+"downloader_check_updates_error" = "Error checking for updates";

@@ -500,7 +500,7 @@
     <string name="isolines_toast_zooms_1_10">Približajte, da si ogledate izočrte</string>
     <string name="downloader_loading_ios">Prenašam</string>
     <string name="download_map_title">Prenesite pregledni zemljevid sveta</string>
-    <string name="disk_error">Ni bilo mogoče ustvariti mape in premakniti datotek v notranji spomin naprave ali na SD kartico</string>
+    <string name="disk_error">Ni bilo mogoče ustvariti mape in premakniti datotek v notranji spomin naprave ali na kartico SD</string>
     <string name="disk_error_title">Diskovna napaka</string>
     <string name="connection_failure">Okvara povezave</string>
     <string name="disconnect_usb_cable_title">Odklopite kabel USB</string>

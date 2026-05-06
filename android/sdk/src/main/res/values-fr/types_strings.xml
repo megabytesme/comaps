@@ -4,7 +4,7 @@
     <string name="type.addr_interpolation">Adresse/Bloc</string>
     <string name="type.addr_interpolation.even">Adresse/Bloc</string>
     <string name="type.addr_interpolation.odd">Adresse/Bloc</string>
-    <string name="type.aerialway">Transport par câble aérien</string>
+    <string name="type.aerialway">Transport par câble</string>
     <string name="type.aerialway.cable_car">Téléphérique</string>
     <string name="type.aerialway.chair_lift">Télésiège</string>
     <string name="type.aerialway.drag_lift">Téléski</string>
@@ -15,7 +15,7 @@
     <string name="type.aeroway.aerodrome">Aéroport</string>
     <string name="type.aeroway.aerodrome.international">Aéroport International</string>
     <string name="type.aeroway.apron">Aire de stationnement pour aéronefs</string>
-    <string name="type.aeroway.gate">Porte d’embarquement</string>
+    <string name="type.aeroway.gate">Porte</string>
     <string name="type.aeroway.helipad">Héliport</string>
     <string name="type.aeroway.runway">Piste d\'atterrissage</string>
     <string name="type.aeroway.taxiway">Voie de circulation</string>

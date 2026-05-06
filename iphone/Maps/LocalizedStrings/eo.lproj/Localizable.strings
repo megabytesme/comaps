@@ -42,71 +42,71 @@
 "close" = "Fermi";
 "download" = "Elŝuti";
 /* REMOVE THIS STRING AFTER REFACTORING */
-"continue_button" = "Continue";
+"continue_button" = "Daŭri";
 /* "Add new bookmark list" dialog title */
-"add_new_set" = "Add a New List";
+"add_new_set" = "Aldoni nova listo";
 /* Add Bookmark list dialog - hint when the list name is empty */
-"bookmark_set_name" = "List Name";
+"bookmark_set_name" = "Nomo de listo";
 /* "Bookmark Lists" dialog title */
 "bookmark_sets" = "Favorite Lists";
 /* Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. */
-"bookmarks" = "Places";
+"bookmarks" = "Lokoj";
 /* "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt */
-"bookmarks_and_tracks" = "Favorataj";
+"bookmarks_and_tracks" = "Favoratoj";
 /* Default bookmark list name */
 "core_my_places" = "Miaj Favoratoj";
 /* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
-"address" = "Address";
+"address" = "Adreso";
 /* Settings button in system menu */
-"settings" = "Settings";
+"settings" = "Agordoj";
 /* Measurement units title in settings activity */
-"measurement_units" = "Measurement units";
+"measurement_units" = "Mezurunuo";
 /* Search category for cafes, bars, restaurants; any changes should be duplicated in categories.txt @category_eat! */
-"category_eat" = "Where to eat";
+"category_eat" = "Kie por manĝi";
 /* Search category for grocery stores; any changes should be duplicated in categories.txt @category_food! */
-"category_food" = "Groceries";
+"category_food" = "Manĝvendejoj";
 /* Search category for public transport; any changes should be duplicated in categories.txt @category_transport! */
-"category_transport" = "Transport";
+"category_transport" = "Transito";
 /* Search category for fuel stations; any changes should be duplicated in categories.txt @category_fuel! */
-"category_fuel" = "Gas";
+"category_fuel" = "Benzinejoj";
 /* Search category for parking lots; any changes should be duplicated in categories.txt @category_parking! */
-"category_parking" = "Parking";
+"category_parking" = "Parkumejoj";
 /* Search category for malls/clothes/shoes/gifts/jewellery/sport shops; any changes should be duplicated in categories.txt @category_shopping! */
-"category_shopping" = "Shopping";
+"category_shopping" = "Vendejoj";
 /* Search category for second_hand/charity/antique/auction shops; any changes should be duplicated in categories.txt @category_secondhand! */
-"category_secondhand" = "Second Hand";
+"category_secondhand" = "Revendejoj";
 /* Search category for places to stay; any changes should be duplicated in categories.txt @category_hotel! */
-"category_hotel" = "Hotel";
+"category_hotel" = "Hoteloj";
 /* Search category sight seeings and touristic attractions; any changes should be duplicated in categories.txt @category_tourism! */
-"category_tourism" = "Sights";
+"category_tourism" = "Turistaj allogaĵoj";
 /* Search category for entertainment; any changes should be duplicated in categories.txt @category_entertainment! */
-"category_entertainment" = "Entertainment";
+"category_entertainment" = "Amuzejoj";
 /* Search category for ATMs; any changes should be duplicated in categories.txt @category_atm! */
-"category_atm" = "ATM";
+"category_atm" = "Monaŭtomatoj";
 /* Search category for nightclubs/bars; any changes should be duplicated in categories.txt @category_nightlife! */
-"category_nightlife" = "Nightlife";
+"category_nightlife" = "Noktokluboj";
 /* Search category for water park/disneyland/playground/toys store; any changes should be duplicated in categories.txt @category_children! */
-"category_children" = "Family holiday";
+"category_children" = "Infanaj allogaĵoj";
 /* Search category for banks; any changes should be duplicated in categories.txt @category_bank! */
-"category_bank" = "Bank";
+"category_bank" = "Bankoj";
 /* Search category for pharmacies; any changes should be duplicated in categories.txt @category_pharmacy! */
-"category_pharmacy" = "Pharmacy";
+"category_pharmacy" = "Apotekoj";
 /* Search category for hospitals; any changes should be duplicated in categories.txt @category_hospital! */
-"category_hospital" = "Hospital";
+"category_hospital" = "Malsanulejoj";
 /* Search category for toilets; any changes should be duplicated in categories.txt @category_toilet! */
-"category_toilet" = "Toilet";
+"category_toilet" = "Necesejoj";
 /* Search category for post offices; any changes should be duplicated in categories.txt @category_post! */
-"category_post" = "Post";
+"category_post" = "Poŝtejoj";
 /* Search category for police; any changes should be duplicated in categories.txt @category_police! */
-"category_police" = "Police";
+"category_police" = "Policejoj";
 /* Search category for WiFi access; any changes should be duplicated in categories.txt @category_wifi! */
 "category_wifi" = "Wi-Fi";
 /* Search category for recycling; any changes should be duplicated in categories.txt @category_recycling! */
-"category_recycling" = "Recycling";
+"category_recycling" = "Recikligado";
 /* Search category for water; any changes should be duplicated in categories.txt @category_water! also used to sort bookmarks by type */
-"category_water" = "Water";
+"category_water" = "Akvo";
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
-"category_rv" = "RV Facilities";
+"category_rv" = "Lokoj por loĝaŭtoj";
 "share_bookmarks_email_body" = "Hello!\n\nAttached are my saved places; please open them in CoMaps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with CoMaps!";
 /* message title of loading file */
 "load_kmz_title" = "Loading Favorites";
@@ -302,13 +302,13 @@
 /* teal color */
 "teal" = "Teal";
 /* lime color */
-"lime" = "Lime";
+"lime" = "Lime-koloro";
 /* deep orange color */
-"deep_orange" = "Deep Orange";
+"deep_orange" = "Malluma oranĝkoloro";
 /* gray color */
-"gray" = "Gray";
+"gray" = "Grizo";
 /* blue gray color */
-"blue_gray" = "Blue Gray";
+"blue_gray" = "Blua grizo";
 "dialog_routing_disclaimer_title" = "When following the route, please keep in mind:";
 "dialog_routing_disclaimer_priority" = "— Road conditions, traffic laws, and road signs always take priority over navigation hints;";
 "dialog_routing_disclaimer_precision" = "— The map might be inaccurate, and the suggested route might not always be the most optimal way to reach the destination;";
@@ -316,10 +316,10 @@
 "dialog_routing_disclaimer_borders" = "— Exercise caution with routes in border zones: the routes created by our app may sometimes cross country borders in unauthorized places.";
 "dialog_routing_disclaimer_beware" = "Please stay alert and safe on the roads!";
 "dialog_routing_check_gps" = "Check GPS signal";
-"dialog_routing_error_location_not_found" = "Unable to create route. Current GPS coordinates could not be identified.";
+"dialog_routing_error_location_not_found" = "Ne povas krei vojon. Viaj nunaj koordinatoj ne troviĝis per GPS.";
 "dialog_routing_location_turn_wifi" = "Please check your GPS signal. Enabling Wi-Fi will improve your location accuracy.";
 "dialog_routing_location_turn_on" = "Enable location services";
-"dialog_routing_location_unknown_turn_on" = "Unable to locate current GPS coordinates. Enable location services to calculate route.";
+"dialog_routing_location_unknown_turn_on" = "Ne povas trovi viajn nunajn koordinatojn per GPS. Enŝaltu poziciajn servojn por krei vojon.";
 "dialog_routing_download_files" = "Download required files";
 "dialog_routing_download_and_update_all" = "Download or update all maps along the projected path to calculate a route.";
 "dialog_routing_unable_locate_route" = "Unable to locate route";
@@ -630,9 +630,9 @@
 "subway_data_unavailable" = "La mapo de la metroo ne estas disponebla";
 "title_error_downloading_bookmarks" = "An error occurred";
 "popular_place" = "Popular";
-"export_file" = "Export KMZ";
-"export_file_gpx" = "Export GPX";
-"delete_list" = "Delete list";
+"export_file" = "Eksporti je KMZ";
+"export_file_gpx" = "Eksporti je GPX";
+"delete_list" = "Forigi liston";
 "hide_from_map" = "Hide from map";
 "tags_loading_error_subtitle" = "An error occurred while loading tags, please try again";
 "download_button" = "Download";
@@ -870,3 +870,9 @@
 "contribute_to_osm_add_place" = "Aldoni lokon";
 "contribute_to_osm_update_map" = "Ĝisdatigu tiun ĉi mapon por kontribui";
 "contribute_to_osm_update_map_description" = "Vi devas ĝisdatigi la mapon %@ antaŭ vi kontribui ŝangojn al OpenStreetMap";
+"downloader_check_updates_button" = "Check for updates";
+"downloader_check_updates_checking" = "Checking for updates...";
+"downloader_check_updates_updated" = "Map updates available!";
+"downloader_check_updates_no_updates" = "No updates available";
+"downloader_check_updates_eol" = "No more map updates for this app version. Please update the app!";
+"downloader_check_updates_error" = "Error checking for updates";

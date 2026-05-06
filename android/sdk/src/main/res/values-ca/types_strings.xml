@@ -15,7 +15,7 @@
     <string name="type.aeroway.aerodrome">Aeroport</string>
     <string name="type.aeroway.aerodrome.international">Aeroport internacional</string>
     <string name="type.aeroway.apron">Plataforma</string>
-    <string name="type.aeroway.gate">Porta d’embarcament</string>
+    <string name="type.aeroway.gate">Porta d\'embarcament</string>
     <string name="type.aeroway.helipad">Heliport</string>
     <string name="type.aeroway.runway">Pista d’enlairament</string>
     <string name="type.aeroway.taxiway">Pista de rodatge</string>

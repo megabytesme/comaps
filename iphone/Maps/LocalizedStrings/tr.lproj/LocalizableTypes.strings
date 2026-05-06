@@ -12,7 +12,7 @@
 "type.aeroway.aerodrome" = "Havaalanı";
 "type.aeroway.aerodrome.international" = "Uluslararası Havalimanı";
 "type.aeroway.apron" = "Peron";
-"type.aeroway.gate" = "Geçit";
+"type.aeroway.gate" = "Kapı";
 "type.aeroway.helipad" = "Helikopter Pisti";
 "type.aeroway.runway" = "Pist";
 "type.aeroway.taxiway" = "Taksi Yolu";
@@ -709,7 +709,7 @@
 "type.leisure.indoor_play" = "Indoor Play Centre";
 "type.leisure.marina" = "Liman";
 "type.leisure.nature_reserve" = "Doğal Koruma Alanı";
-"type.leisure.outdoor_seating" = "Dış mekan oturma";
+"type.leisure.outdoor_seating" = "Açık Oturma Alanı";
 "type.leisure.firepit" = "Ateş çukuru";
 "type.leisure.park" = "Park";
 "type.leisure.park.no.access" = "Park";

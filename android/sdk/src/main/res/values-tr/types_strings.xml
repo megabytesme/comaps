@@ -15,7 +15,7 @@
     <string name="type.aeroway.aerodrome">Havaalanı</string>
     <string name="type.aeroway.aerodrome.international">Uluslararası Havalimanı</string>
     <string name="type.aeroway.apron">Peron</string>
-    <string name="type.aeroway.gate">Geçit</string>
+    <string name="type.aeroway.gate">Kapı</string>
     <string name="type.aeroway.helipad">Helikopter Pisti</string>
     <string name="type.aeroway.runway">Pist</string>
     <string name="type.aeroway.taxiway">Taksi Yolu</string>
@@ -626,7 +626,7 @@
     <string name="type.leisure.ice_rink">Buz Pateni Pisti</string>
     <string name="type.leisure.marina">Liman</string>
     <string name="type.leisure.nature_reserve">Doğal Koruma Alanı</string>
-    <string name="type.leisure.outdoor_seating">Dış mekan oturma</string>
+    <string name="type.leisure.outdoor_seating">Açık Oturma Alanı</string>
     <string name="type.leisure.park">Park</string>
     <string name="type.leisure.park.no.access">Park</string>
     <string name="type.leisure.park.permissive">Park</string>

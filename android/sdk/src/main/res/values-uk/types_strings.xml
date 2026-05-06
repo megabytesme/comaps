@@ -1490,4 +1490,8 @@
     <string name="type.leisure.sports_centre.sport.american_football">Спортивний центр</string>
     <string name="type.leisure.sports_centre.sport.archery">Спортивний центр</string>
     <string name="type.leisure.sports_centre.sport.athletics">Спортивний центр</string>
+    <string name="type.xmas.tree">Різдвяна ялинка</string>
+    <string name="type.leisure.sports_centre.sport.boules">Спортивний центр</string>
+    <string name="type.leisure.sports_centre.sport.four_square">Спортивний центр</string>
+    <string name="type.leisure.sports_centre.sport.pickleball">Спортивний центр</string>
 </resources>

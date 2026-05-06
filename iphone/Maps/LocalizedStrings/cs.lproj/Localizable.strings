@@ -870,3 +870,9 @@
 "contribute_to_osm_add_place" = "Přidat místo";
 "contribute_to_osm_update_map" = "Pro přispívání aktualizujte mapu";
 "contribute_to_osm_update_map_description" = "Před přispíváním do dat OpenStreetMap musíte nejprve aktualizovat mapu %@ na nejnovější verzi";
+"downloader_check_updates_button" = "Check for updates";
+"downloader_check_updates_checking" = "Checking for updates...";
+"downloader_check_updates_updated" = "Map updates available!";
+"downloader_check_updates_no_updates" = "No updates available";
+"downloader_check_updates_eol" = "No more map updates for this app version. Please update the app!";
+"downloader_check_updates_error" = "Error checking for updates";

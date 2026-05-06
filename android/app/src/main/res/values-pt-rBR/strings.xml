@@ -916,4 +916,12 @@
     <string name="population">População: %s</string>
     <string name="setting_value_system_default">Padrão do sistema</string>
     <string name="change_app_locale">Idioma do app</string>
+    <string name="downloader_check_updates_button">Verifique se há atualizações</string>
+    <string name="downloader_check_updates_checking">Buscando atualizações...</string>
+    <string name="downloader_check_updates_updated">Atualizações do mapa disponíveis!</string>
+    <string name="downloader_check_updates_no_updates">Nenhuma atualização disponível</string>
+    <string name="downloader_check_updates_eol">Não haverá mais atualizações de mapas para esta versão do aplicativo. Atualize o aplicativo!</string>
+    <string name="downloader_check_updates_error">Erro ao verificar atualizações</string>
+    <string name="pref_keyboard_typing_history_title">Modo anônimo do teclado</string>
+    <string name="pref_keyboard_typing_history_summary">Solicite ao teclado do sistema que não registre o histórico de digitação</string>
 </resources>

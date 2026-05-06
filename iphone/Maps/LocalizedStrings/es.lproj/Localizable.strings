@@ -870,3 +870,9 @@
 "contribute_to_osm_add_place" = "Añadir lugar";
 "contribute_to_osm_update_map" = "Actualiza el mapa para colaborar";
 "contribute_to_osm_update_map_description" = "Debes actualizar el mapa %@ a la última versión antes de poder colaborar con OpenStreetMap";
+"downloader_check_updates_error" = "Error al buscar actualizaciones";
+"downloader_check_updates_button" = "Buscar actualizaciones";
+"downloader_check_updates_checking" = "Checking for updates...";
+"downloader_check_updates_updated" = "Map updates available!";
+"downloader_check_updates_no_updates" = "No updates available";
+"downloader_check_updates_eol" = "No more map updates for this app version. Please update the app!";

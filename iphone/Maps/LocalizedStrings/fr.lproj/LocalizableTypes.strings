@@ -1,7 +1,7 @@
 "type.addr_interpolation" = "Adresse/Bloc";
 "type.addr_interpolation.even" = "Adresse/Bloc";
 "type.addr_interpolation.odd" = "Adresse/Bloc";
-"type.aerialway" = "Transport par câble aérien";
+"type.aerialway" = "Transport par câble";
 "type.aerialway.cable_car" = "Téléphérique";
 "type.aerialway.chair_lift" = "Télésiège";
 "type.aerialway.drag_lift" = "Téléski";
@@ -12,7 +12,7 @@
 "type.aeroway.aerodrome" = "Aéroport";
 "type.aeroway.aerodrome.international" = "Aéroport International";
 "type.aeroway.apron" = "Aire de stationnement pour aéronefs";
-"type.aeroway.gate" = "Porte d’embarquement";
+"type.aeroway.gate" = "Porte";
 "type.aeroway.helipad" = "Héliport";
 "type.aeroway.runway" = "Piste d'atterrissage";
 "type.aeroway.taxiway" = "Voie de circulation";

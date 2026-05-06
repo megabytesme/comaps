@@ -705,7 +705,7 @@
     <string name="downloader_loading_ios">ينزل</string>
     <string name="download_map_title">نزّل خريطة العالم</string>
     <!-- Used in DownloadResources startup screen -->
-    <string name="disk_error">تعذر إنشاء المجلد ونقل الملفات على الذاكرة الداخلية للجهاز أو على بطاقة SD</string>
+    <string name="disk_error">تعذّر إنشاء المجلد ونقل الملفات على الذاكرة الداخلية للجهاز أو على بطاقة SD</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="disk_error_title">حدث خطأ في التخزين</string>
     <!-- Used in DownloadResources startup screen -->
@@ -950,4 +950,12 @@
     <string name="population">السكان: %s</string>
     <string name="setting_value_system_default">النظام المبدئي</string>
     <string name="change_app_locale">لغة التطبيق</string>
+    <string name="downloader_check_updates_button">تحقق من وجود تحديثات</string>
+    <string name="downloader_check_updates_checking">يتحقق من وجود تحديثات...</string>
+    <string name="downloader_check_updates_updated">يتوفّر تحديثات خرائط!</string>
+    <string name="downloader_check_updates_no_updates">لا يتوفّر تحديثات</string>
+    <string name="downloader_check_updates_eol">لا تتوفّر تحديثات أخرى للخرائط لهذا الإصدار من التطبيق. يُرجى تحديث التطبيق!</string>
+    <string name="downloader_check_updates_error">خطأ أثناء التحقق من وجود تحديثات</string>
+    <string name="pref_keyboard_typing_history_title">وضع لوحة المفاتيح المتخفي</string>
+    <string name="pref_keyboard_typing_history_summary">اطلب لوحة مفاتيح النظام لكي لا تُسجل تاريخ الكتابة</string>
 </resources>

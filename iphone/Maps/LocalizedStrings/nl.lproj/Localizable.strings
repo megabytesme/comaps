@@ -68,7 +68,7 @@
 /* Search category for public transport; any changes should be duplicated in categories.txt @category_transport! */
 "category_transport" = "Transport";
 /* Search category for fuel stations; any changes should be duplicated in categories.txt @category_fuel! */
-"category_fuel" = "Benzine";
+"category_fuel" = "Tankstation";
 /* Search category for parking lots; any changes should be duplicated in categories.txt @category_parking! */
 "category_parking" = "Parkeerplaats";
 /* Search category for malls/clothes/shoes/gifts/jewellery/sport shops; any changes should be duplicated in categories.txt @category_shopping! */
@@ -121,7 +121,7 @@
 /* Subject for emailed bookmark */
 "bookmark_share_email_subject" = "Hey, bekijk mijn pin op CoMaps!";
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, bekijk mijn huidige locatie op CoMaps!";
+"my_position_share_email_subject" = "Hoi, bekijk mijn huidige locatie op CoMaps!";
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
 /* Text for message to copy something */
@@ -240,7 +240,7 @@
 /* Alert title */
 "email_error_title" = "E-mail verzendfout";
 /* Toast text when user hides UI with a long tap anywhere on the map */
-"long_tap_toast" = "Tik nogmaals lang op de kaart om de interface te zien";
+"long_tap_toast" = "Houd de kaart nogmaals lang ingedrukt om de interface te tonen";
 /* Update all button text */
 "downloader_update_all_button" = "Alles bijwerken";
 /* Downloaded maps list header */
@@ -262,7 +262,7 @@
 /* Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode */
 "downloader_delete_map_while_routing_dialog" = "Stop de navigatie om de kaart te verwijderen.";
 /* PointsInDifferentMWM */
-"routing_failed_cross_mwm_building" = "Alleen routes die volledig in één kaart passen, kunnen worden aangemaakt.";
+"routing_failed_cross_mwm_building" = "Er kunnen alleen routes worden gemaakt die volledig binnen een kaart van één regio liggen.";
 /* Context menu item for downloader. */
 "downloader_download_map" = "Kaart downloaden";
 /* Item status in downloader. */
@@ -313,11 +313,11 @@
 "dialog_routing_disclaimer_priority" = "— De situatie op de weg, verkeersregels en verkeersborden gaan altijd vóór op het advies van het navigatiesysteem;";
 "dialog_routing_disclaimer_precision" = "— De kaart kan onnauwkeurig zijn en de voorgestelde route is niet altijd de meest optimale manier om uw bestemming te bereiken;";
 "dialog_routing_disclaimer_recommendations" = "— Beschouw de voorgestelde routes enkel als aanbevelingen;";
-"dialog_routing_disclaimer_borders" = "— Wees voorzichtig met de routes in de grenszones: de routes die door onze app zijn gemaakt, gaan wellicht door landgrenzen in ongeautoriseerde plaatsen.";
+"dialog_routing_disclaimer_borders" = "— Wees voorzichtig met routes in grensgebieden: door onze app gemaakte routes kunnen soms landsgrenzen kruisen waar toegangsbeperkingen gelden.";
 "dialog_routing_disclaimer_beware" = "Blijf alert en rijd veilig!";
 "dialog_routing_check_gps" = "Controleer gps-signaal";
-"dialog_routing_error_location_not_found" = "Route samenstellen mislukt. De huidige gps-coördinaten kunnen niet worden geïdentificeerd.";
-"dialog_routing_location_turn_wifi" = "Controleer uw gps-signaal. Schakel WiFi in voor een meer nauwkeurige locatiebepaling.";
+"dialog_routing_error_location_not_found" = "Route samenstellen mislukt. De huidige gps-coördinaten kunnen niet worden bepaald.";
+"dialog_routing_location_turn_wifi" = "Controleer uw gps-signaal. De locatie wordt nauwkeuriger bepaald als wifi is ingeschakeld.";
 "dialog_routing_location_turn_on" = "Schakel locatiediensten in";
 "dialog_routing_location_unknown_turn_on" = "Kan de huidige gps-coördinaten niet bepalen. Schakel locatiediensten in om de route te berekenen.";
 "dialog_routing_download_files" = "Download de vereiste bestanden";
@@ -335,8 +335,8 @@
 "dialog_routing_system_error" = "Systeemfout";
 "dialog_routing_application_error" = "Route samenstellen mislukt door een applicatiefout.";
 "dialog_routing_try_again" = "Probeer het opnieuw";
-"dialog_routing_download_and_build_cross_route" = "Wilt u de kaart downloaden en een betere route samenstellen die meer dan één kaart beslaat?";
-"dialog_routing_download_cross_route" = "Download de kaart om een betere route samen te stellen die de grenzen van deze kaart overschrijdt.";
+"dialog_routing_download_and_build_cross_route" = "Kaart(en) downloaden om een betere route samen te stellen die meer dan één kaart omvat?";
+"dialog_routing_download_cross_route" = "Download extra kaarten om een betere route samen te stellen die de grenzen van deze kaart overschrijdt.";
 /* «Show» context menu */
 "show" = "Tonen";
 /* «Hide» context menu */
@@ -361,17 +361,17 @@
 "wikimedia_commons" = "Wikimedia Commons";
 "p2p_your_location" = "Uw locatie";
 "p2p_start" = "Start";
-"p2p_from_here" = "Van";
-"p2p_to_here" = "Naar";
+"p2p_from_here" = "Route van";
+"p2p_to_here" = "Route naar";
 "p2p_only_from_current" = "Navigatie is alleen beschikbaar vanuit uw huidige locatie.";
 "p2p_reroute_from_current" = "Wilt u een route plannen vanaf uw huidige locatie?";
-"editor_time_add" = "Schema toevoegen";
-"editor_time_delete" = "Schema verwijderen";
+"editor_time_add" = "Tijdschema toevoegen";
+"editor_time_delete" = "Tijdschema verwijderen";
 /* Text for allday switch. */
 "editor_time_allday" = "Hele dag (24 uur)";
 "editor_time_open" = "Open";
 "editor_time_close" = "Gesloten";
-"editor_time_add_closed" = "Sluitingstijden toevoegen";
+"editor_time_add_closed" = "Gesloten-tijden toevoegen";
 "editor_time_title" = "Openingstijden";
 "editor_time_advanced" = "Geavanceerde modus";
 "editor_time_simple" = "Simpele modus";
@@ -453,7 +453,7 @@
 "downloader_search_field_hint" = "Kaart zoeken";
 "migration_download_error_dialog" = "Downloadfout";
 "common_check_internet_connection_dialog" = "Controleer je instellingen en zorg ervoor dat het apparaat verbonden is met het internet.";
-"downloader_no_space_title" = "Onvoldoende ruimte";
+"downloader_no_space_title" = "Onvoldoende opslagruimte";
 "downloader_no_space_message" = "Verwijder overbodige gegevens";
 "editor_profile_changes" = "Gecontroleerde wijzigingen";
 "editor_focus_map_on_location" = "Sleep de kaart om het kruis op de locatie van de plaats of het bedrijf te plaatsen.";
@@ -513,7 +513,7 @@
 /* abbreviation for kilometers */
 "km" = "km";
 /* abbreviation for kilometers per hour */
-"kilometers_per_hour" = "km/h";
+"kilometers_per_hour" = "km/u";
 /* abbreviation for mile(s) */
 "mi" = "mi";
 /* A unit of measure */
@@ -545,10 +545,10 @@
 "refresh" = "Update";
 "placepage_add_place_button" = "Plaats toevoegen aan OpenStreetMap";
 /* Displayed when saving some edits to the map to warn against publishing personal data */
-"editor_share_to_all_dialog_title" = "Wilt u het naar alle gebruikers sturen?";
+"editor_share_to_all_dialog_title" = "Wijzigingen publiceren voor alle gebruikers?";
 /* Dialog before publishing the modifications to the public map. */
 "editor_share_to_all_dialog_message_1" = "Controleer dat je geen persoonlijke gegevens hebt ingevoerd.";
-"editor_share_to_all_dialog_message_2" = "OpenStreetMap-editors zullen de wijzigingen controleren en contact met u opnemen als ze vragen hebben.";
+"editor_share_to_all_dialog_message_2" = "Vrijwilligers van OpenStreetMap zullen de wijzigingen controleren en contact met u opnemen als ze vragen hebben.";
 "navigation_stop_button" = "Stop";
 /* iOS dialog for the case when recent track recording is on and the app comes back from background */
 "recent_track_background_dialog_title" = "Vastleggen van uw onlangs afgelegde route uitschakelen?";
@@ -636,7 +636,7 @@
 "hide_from_map" = "Verberg van de kaart";
 "tags_loading_error_subtitle" = "Er is een fout opgetreden tijdens het laden van tags, probeer het opnieuw";
 "download_button" = "Download";
-"speedcams_alert_title" = "Snelheidscamera's";
+"speedcams_alert_title" = "Flitspalen";
 "place_description_title" = "Plaatsbeschrijving";
 /* "Speed cameras" settings menu option (should be short! no more than 47-50 chars) to warn a driver if there is a risk of exceeding the speed limit */
 "pref_tts_speedcams_auto" = "Waarschuw bij overschrijden snelheidslimiet";
@@ -660,8 +660,8 @@
 "avoid_steps" = "Trappen vermijden";
 "avoid_ferry" = "Veerboten vermijden";
 "avoid_motorways" = "Snelwegen vermijden";
-"unable_to_calc_alert_title" = "Kan route niet berekenen";
-"unable_to_calc_alert_subtitle" = "Een route kon niet worden gevonden. Dit kan worden veroorzaakt door uw route-instellingen of onvolledige OpenStreetMap-gegevens. Wijzig uw route-instellingen en probeer het opnieuw.";
+"unable_to_calc_alert_title" = "Kan geen route berekenen";
+"unable_to_calc_alert_subtitle" = "Het is niet gelukt om een route te vinden. Dit kan worden veroorzaakt door uw route-instellingen of onvolledige OpenStreetMap-gegevens. Wijzig uw route-instellingen en probeer het opnieuw.";
 "define_to_avoid_btn" = "Te vermijden wegen instellen";
 "change_driving_options_btn" = "Route-instellingen ingeschakeld";
 "toll_road" = "Tolweg";
@@ -870,3 +870,9 @@
 "contribute_to_osm_add_place" = "Voeg plaats toe";
 "contribute_to_osm_update_map" = "Update de kaart om bij te dragen";
 "contribute_to_osm_update_map_description" = "U moet de kaart %@ bijwerken naar de nieuwste versie voordat u kunt bijdragen aan de OpenStreetMap-gegevens";
+"downloader_check_updates_button" = "Check for updates";
+"downloader_check_updates_checking" = "Checking for updates...";
+"downloader_check_updates_updated" = "Map updates available!";
+"downloader_check_updates_no_updates" = "No updates available";
+"downloader_check_updates_eol" = "No more map updates for this app version. Please update the app!";
+"downloader_check_updates_error" = "Error checking for updates";

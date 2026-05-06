@@ -1508,10 +1508,10 @@
 "type.amenity.dojo" = "Додзьо";
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Спортивний зал";
-"type.xmas.tree" = "Christmas Tree";
-"type.leisure.sports_centre.sport.four_square" = "Sports Centre";
+"type.xmas.tree" = "Різдвяна ялинка";
+"type.leisure.sports_centre.sport.four_square" = "Спортивний центр";
 "type.sport.four_square" = "Four Square";
 "type.sport.boules" = "Boules";
-"type.leisure.sports_centre.sport.boules" = "Sports Centre";
+"type.leisure.sports_centre.sport.boules" = "Спортивний центр";
 "type.sport.pickleball" = "Pickleball";
-"type.leisure.sports_centre.sport.pickleball" = "Sports Centre";
+"type.leisure.sports_centre.sport.pickleball" = "Спортивний центр";

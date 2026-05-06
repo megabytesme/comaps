@@ -940,4 +940,12 @@
     <string name="population">人口：%s</string>
     <string name="setting_value_system_default">系统默认</string>
     <string name="change_app_locale">应用语言</string>
+    <string name="downloader_check_updates_button">检查更新</string>
+    <string name="downloader_check_updates_checking">正在检查更新…</string>
+    <string name="downloader_check_updates_updated">地图有更新可用！</string>
+    <string name="downloader_check_updates_no_updates">没有可用更新</string>
+    <string name="downloader_check_updates_eol">此应用版本不再有地图更新。请更新应用！</string>
+    <string name="downloader_check_updates_error">检查更新时出错</string>
+    <string name="pref_keyboard_typing_history_title">键盘隐身模式</string>
+    <string name="pref_keyboard_typing_history_summary">请求系统键盘不记录输入历史记录</string>
 </resources>

@@ -1103,7 +1103,7 @@
     <string name="type.shop.car_parts">Auto-onderdelenwinkel</string>
     <string name="type.shop.car_repair">Autogarage</string>
     <string name="type.shop.car_repair.tyres">Bandenreparatie</string>
-    <string name="type.shop.caravan">Caravan- en camperdealer</string>
+    <string name="type.shop.caravan">Caravan-/camperdealer</string>
     <string name="type.shop.carpet">Tapijtenwinkel</string>
     <string name="type.shop.chemist">Drogisterij</string>
     <string name="type.shop.chocolate">Chocolaterie</string>
@@ -1262,7 +1262,7 @@
     <string name="type.attraction.water_slide">Waterglijbaan</string>
     <string name="type.tourism.attraction.specified">Attractie</string>
     <string name="type.tourism.camp_site">Camping</string>
-    <string name="type.tourism.caravan_site">Caravan- en camperplaats</string>
+    <string name="type.tourism.caravan_site">Caravan-/camperplaats</string>
     <!-- A rentable countryside vacation house. -->
     <string name="type.tourism.chalet">Vakantiehuis</string>
     <string name="type.tourism.gallery">Galerie</string>

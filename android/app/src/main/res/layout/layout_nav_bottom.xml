@@ -60,6 +60,7 @@
       android:layout_weight="0.2"
       android:background="?selectableItemBackgroundBorderless"
       android:scaleType="center"
+      android:contentDescription="@string/settings"
       app:srcCompat="@drawable/ic_settings"
       app:tint="?iconTint" />
 

@@ -2,6 +2,7 @@ package app.organicmaps.widget.menu;
 
 import android.annotation.SuppressLint;
 import android.content.SharedPreferences;
+import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.util.Pair;
 import android.view.MotionEvent;
@@ -21,6 +22,7 @@ import app.organicmaps.util.Graphics;
 import app.organicmaps.util.UiUtils;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.color.MaterialColors;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.progressindicator.CircularProgressIndicator;
 import com.google.android.material.progressindicator.LinearProgressIndicator;
@@ -243,9 +245,10 @@ public class NavMenu
 
   public void refreshTts()
   {
-    mTts.setImageDrawable(TtsPlayer.isEnabled() ? Graphics.tint(mActivity, R.drawable.ic_voice_on,
-                                                                com.google.android.material.R.attr.colorSecondary)
-                                                : Graphics.tint(mActivity, R.drawable.ic_voice_off));
+    boolean ttsEnabled = TtsPlayer.isEnabled();
+    mTts.setImageResource(ttsEnabled ? R.drawable.ic_voice_on : R.drawable.ic_voice_off);
+    mTts.setImageTintList(MaterialColors.getColorStateListOrNull(mActivity, ttsEnabled ? com.google.android.material.R.attr.colorSecondary : R.attr.iconTint));
+    mTts.setContentDescription(mActivity.getResources().getString(ttsEnabled ? R.string.tts_toggle_disable : R.string.tts_toggle_enable));
   }
 
   private void updateTime(int timeInSeconds)

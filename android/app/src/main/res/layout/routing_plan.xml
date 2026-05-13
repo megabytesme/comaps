@@ -29,6 +29,7 @@
             android:layout_height="?attr/actionBarSize"
             android:layout_alignParentStart="true"
             android:background="?selectableItemBackgroundBorderless"
+            android:contentDescription="@string/abc_action_bar_up_description"
             app:srcCompat="?homeAsUpIndicator"
             android:scaleType="center" />
 

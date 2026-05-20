@@ -23,7 +23,7 @@ namespace
 double constexpr kSecondTurnThresholdDistM = 400.0;
 // If the distance between two sequential turns is less than kDistanceNotifyThresholdM
 // the notification will *not* append second distance, (like "In 500 meters. Turn left. Then. Turn right.")
-double constexpr kDistanceNotifyThresholdM = 50.0;
+double constexpr kDistanceNotifyThresholdM = 80.0;
 
 // Returns true if the closest turn is an entrance to a roundabout and the second is
 // an exit form a roundabout.
@@ -204,12 +204,82 @@ void NotificationManager::GenerateTurnNotifications(std::vector<TurnItemDist> co
   if (isClassicRoundabout)
   {
     TurnItemDist const & exitTurn = turns[1];
-    std::string notification = GenerateRoundaboutNotification(firstTurn, exitTurn, nextStreetInfo);
+
+    // If a third turn follows shortly after the roundabout exit, skip the exit street name —
+    // we'll announce it with the chained third turn instead.
+    bool hasCloseThirdTurn = false;
+    double distFromExitToThirdTurnM = 0.0;
+    if (turns.size() >= 3)
+    {
+      distFromExitToThirdTurnM = turns[2].m_distMeters - exitTurn.m_distMeters;
+      hasCloseThirdTurn = distFromExitToThirdTurnM <= kSecondTurnThresholdDistM;
+    }
+    RouteSegment::RoadNameInfo const & roundaboutStreetInfo =
+        hasCloseThirdTurn ? RouteSegment::RoadNameInfo{} : nextStreetInfo;
+
+    std::string notification = GenerateRoundaboutNotification(firstTurn, exitTurn, roundaboutStreetInfo);
     if (m_nextTurnNotificationProgress == PronouncedNotification::Nothing)
       return;
-    if (!notification.empty())
+    bool const hasNotification = !notification.empty();
+    if (hasNotification)
       turnNotifications.emplace_back(std::move(notification));
+
+    if (hasCloseThirdTurn && hasNotification)
+    {
+      TurnItemDist const & thirdTurn = turns[2];
+      bool const isThirdTurnRoundaboutEntrance =
+          turns.size() >= 4 && IsClassicEntranceToRoundabout(thirdTurn, turns[3]);
+
+      std::string thirdNotification;
+      if (isThirdTurnRoundaboutEntrance)
+      {
+        // Second roundabout in the chain: "Then at the roundabout, take the Xth exit."
+        // The second roundabout's exit street name is not threaded through this layer.
+        thirdNotification = m_getTtsText.GetTurnNotification(
+            {0 /* distanceUnits */, static_cast<uint8_t>(turns[3].m_turnItem.m_exitNum),
+             true /* useThenInsteadOfDistance */, CarDirection::LeaveRoundAbout, m_settings.GetLengthUnits(),
+             RouteSegment::RoadNameInfo{}, true /* useAtRoundaboutPrefix */});
+      }
+      else
+      {
+        double const distForNotification =
+            distFromExitToThirdTurnM < kDistanceNotifyThresholdM ? 0 : distFromExitToThirdTurnM;
+        thirdNotification =
+            GenerateTurnText(m_settings.ConvertMetersToUnits(distForNotification), thirdTurn.m_turnItem.m_exitNum,
+                             true /* useThenInsteadOfDistance */, thirdTurn.m_turnItem, nextStreetInfo);
+      }
+
+      if (!thirdNotification.empty())
+      {
+        // Concatenate to avoid a TTS pause between the two instructions.
+        if (!turnNotifications.empty())
+          turnNotifications.back() += " " + thirdNotification;
+        else
+          turnNotifications.emplace_back(std::move(thirdNotification));
+      }
+      m_turnNotificationWithThen = true;
+    }
     return;
+  }
+
+  // LeaveRoundAbout as the nearest turn — we're inside the roundabout, past the entrance.
+  // Within ~60m of the exit, suppress: GPS+TTS latency would deliver the announcement after the
+  // user has already exited. Outside that range, fall through to the normal distance-based path
+  // (large multi-exit roundabouts need that to time the notification correctly).
+  if (firstTurn.m_turnItem.m_turn == CarDirection::LeaveRoundAbout)
+  {
+    static constexpr double kSmallRoundaboutExitDistM = 60.0;
+    if (m_nextTurnIndex != firstTurn.m_turnItem.m_index)
+    {
+      m_nextTurnNotificationProgress = PronouncedNotification::Nothing;
+      m_nextTurnIndex = firstTurn.m_turnItem.m_index;
+    }
+    if (firstTurn.m_distMeters < kSmallRoundaboutExitDistM)
+    {
+      m_nextTurnNotificationProgress = PronouncedNotification::Second;
+      FastForwardFirstTurnNotification();
+      return;
+    }
   }
 
   std::string firstNotification = GenerateFirstTurnSound(firstTurn.m_turnItem, firstTurn.m_distMeters, nextStreetInfo);
@@ -236,12 +306,34 @@ void NotificationManager::GenerateTurnNotifications(std::vector<TurnItemDist> co
     distBetweenTurnsMeters = 0;
   }
 
-  std::string secondNotification =
-      GenerateTurnText(m_settings.ConvertMetersToUnits(distBetweenTurnsMeters), secondTurn.m_turnItem.m_exitNum,
-                       true /* useThenInsteadOfDistance */, secondTurn.m_turnItem, RouteSegment::RoadNameInfo{});
+  // If the second turn is itself a roundabout entrance with an exit, chain it as
+  // "Then at the roundabout, take the Xth exit" instead of "Then enter the roundabout".
+  bool const isSecondTurnRoundaboutEntrance =
+      turns.size() >= 3 && IsClassicEntranceToRoundabout(secondTurn, turns[2]);
+
+  std::string secondNotification;
+  if (isSecondTurnRoundaboutEntrance)
+  {
+    TurnItemDist const & secondRoundaboutExit = turns[2];
+    secondNotification = m_getTtsText.GetTurnNotification(
+        {0 /* distanceUnits */, static_cast<uint8_t>(secondRoundaboutExit.m_turnItem.m_exitNum),
+         true /* useThenInsteadOfDistance */, CarDirection::LeaveRoundAbout, m_settings.GetLengthUnits(),
+         RouteSegment::RoadNameInfo{}, true /* useAtRoundaboutPrefix */});
+  }
+  else
+  {
+    secondNotification =
+        GenerateTurnText(m_settings.ConvertMetersToUnits(distBetweenTurnsMeters), secondTurn.m_turnItem.m_exitNum,
+                         true /* useThenInsteadOfDistance */, secondTurn.m_turnItem, RouteSegment::RoadNameInfo{});
+  }
   if (secondNotification.empty())
     return;
-  turnNotifications.emplace_back(std::move(secondNotification));
+
+  // Concatenate to avoid a TTS pause between the two instructions.
+  if (!turnNotifications.empty())
+    turnNotifications.back() += " " + secondNotification;
+  else
+    turnNotifications.emplace_back(std::move(secondNotification));
 
   // Log turn notifications TTS
   if (!turnNotifications.empty())

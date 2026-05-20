@@ -459,13 +459,13 @@ UNIT_TEST(TurnsSound_RoundaboutTurnTest)
   TEST(turnNotifications.empty(), ());
   TEST_EQUAL(notificationManager.GetSecondTurnNotification(), CarDirection::None, ());
 
-  // 3 meters till the second turn.
+  // 3 meters till the exit — small-roundabout exit notifications are suppressed (GPS+TTS
+  // latency would deliver the announcement after the user has already exited).
   vector<TurnItemDist> const turns6 = {
       {{10 /* idx */, CarDirection::LeaveRoundAbout, 2 /* m_exitNum */}, 3. /* m_distMeters */},
       {{15 /* idx */, CarDirection::EnterRoundAbout, 1 /* m_exitNum */}, 1003. /* m_distMeters */}};
-  vector<string> const expectedNotification6 = {{"Leave the roundabout."}};
   notificationManager.GenerateTurnNotifications(turns6, turnNotifications);
-  TEST_EQUAL(turnNotifications, expectedNotification6, ());
+  TEST(turnNotifications.empty(), ());
   TEST_EQUAL(notificationManager.GetSecondTurnNotification(), CarDirection::None, ());
 
   // 5 meters till the third turn — first call fast-forwards, second emits the reminder.

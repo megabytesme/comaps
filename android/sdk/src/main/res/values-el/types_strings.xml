@@ -457,20 +457,20 @@
     <string name="type.highway.trunk.bridge">Γέφυρα</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.trunk.tunnel">Σήραγγα</string>
-    <string name="type.highway.trunk_link">Οδός</string>
+    <string name="type.highway.trunk_link">Συνδετήρια Οδός Αυτοκινητοδρόμου</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.trunk_link.bridge">Γέφυρα</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.trunk_link.tunnel">Σήραγγα</string>
-    <string name="type.highway.unclassified">Οδός</string>
-    <string name="type.highway.unclassified.area">Οδός</string>
+    <string name="type.highway.unclassified">Τοπική Οδός</string>
+    <string name="type.highway.unclassified.area">Τοπική Οδός</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.unclassified.bridge">Γέφυρα</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.unclassified.tunnel">Σήραγγα</string>
     <string name="type.area_highway.footway">Μονοπάτι πεζών</string>
-    <string name="type.area_highway.living_street">Οδός</string>
-    <string name="type.area_highway.motorway">Οδός</string>
+    <string name="type.area_highway.living_street">Οδός Ήπιας Κυκλοφορίας</string>
+    <string name="type.area_highway.motorway">Αυτοκινητόδρομος</string>
     <string name="type.area_highway.path">Μονοπάτι</string>
     <string name="type.area_highway.pedestrian">Πεζόδρομος</string>
     <string name="type.area_highway.primary">Πρωτεύων δρόμος</string>
@@ -479,31 +479,31 @@
     <string name="type.area_highway.service">Δρόμος υπηρεσίας</string>
     <string name="type.area_highway.tertiary">Τριτεύων δρόμος</string>
     <string name="type.area_highway.steps">Σκαλοπάτια</string>
-    <string name="type.area_highway.track">Οδός</string>
-    <string name="type.area_highway.trunk">Οδός</string>
-    <string name="type.area_highway.unclassified">Οδός</string>
+    <string name="type.area_highway.track">Αγροτικός δρόμος</string>
+    <string name="type.area_highway.trunk">Κύριος Οδικός Άξονας</string>
+    <string name="type.area_highway.unclassified">Τοπική Οδός</string>
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">Ιστορικό αντικείμενο</string>
     <string name="type.historic.aircraft">Ιστορικό αεροσκάφος</string>
     <string name="type.historic.anchor">Ιστορική άγκυρα</string>
     <string name="type.historic.archaeological_site">Αρχαιολογικός χώρος</string>
     <string name="type.historic.battlefield">Ιστορικό πεδίο μάχης</string>
-    <string name="type.historic.boundary_stone">Οριακή πέτρα</string>
+    <string name="type.historic.boundary_stone">Συνοριακή Πέτρα</string>
     <string name="type.historic.cannon">Κανόνι</string>
     <string name="type.historic.castle">Κάστρο</string>
     <string name="type.historic.castle.castrum">Ρωμαϊκό κάστρο</string>
     <string name="type.historic.castle.defensive">Κάστρο</string>
     <string name="type.historic.castle.fortified_church">Οχυρωμένη εκκλησία</string>
     <string name="type.historic.castle.fortress">Φρούριο</string>
-    <string name="type.historic.castle.hillfort">Φρούριο</string>
+    <string name="type.historic.castle.hillfort">Οχυρωμένος λόφος</string>
     <string name="type.historic.castle.kremlin">Κρεμλίνο</string>
-    <string name="type.historic.castle.manor">Αρχοντικό</string>
+    <string name="type.historic.castle.manor">Έπαυλη</string>
     <string name="type.historic.castle.palace">Παλάτι</string>
     <string name="type.historic.castle.shiro">Ιαπωνικό κάστρο</string>
     <string name="type.historic.castle.stately">Κάστρο</string>
     <string name="type.historic.city_gate">Πύλη της πόλης</string>
     <string name="type.historic.citywalls">Τείχος της πόλης</string>
-    <string name="type.historic.fort">Φορτ</string>
+    <string name="type.historic.fort">Οχυρό</string>
     <string name="type.historic.gallows">Αγχόνη</string>
     <string name="type.historic.locomotive">Ιστορική Ατμομηχανή</string>
     <string name="type.historic.memorial">Μνημείο</string>
@@ -513,7 +513,7 @@
     <string name="type.historic.memorial.statue">Άγαλμα</string>
     <string name="type.historic.memorial.stolperstein">Λίθοι Μνήμης</string>
     <string name="type.historic.stone">Ιστορική Πέτρα</string>
-    <string name="type.historic.memorial.war_memorial">Μνημείο του Αγνώστου Στρατιώτη</string>
+    <string name="type.historic.memorial.war_memorial">Πολεμικό Μνημείο</string>
     <string name="type.historic.mine">Ιστορικό Ορυχείο</string>
     <string name="type.historic.monument">Μνημείο</string>
     <string name="type.historic.pillory">Κύφωνας</string>

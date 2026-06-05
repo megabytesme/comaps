@@ -109,4 +109,11 @@
     <string name="downloader_download_all_button">Shkarko të gjitha</string>
     <string name="downloader_downloading">Duke shkarkuar:</string>
     <string name="category_transport">Transport</string>
+    <string name="routing_failed_cross_mwm_building">Mund të krijohen vetëm intinerare që përmbahen plotësisht brenda një harte të një rajoni të vetëm.</string>
+    <string name="downloader_download_map">Shkarko hartën</string>
+    <string name="downloader_retry">Provo sërish</string>
+    <string name="downloader_delete_map">Fshi hartën</string>
+    <string name="routing_download_maps_along">Shkarko të gjitha hartat përgjatë intinerarit tënd</string>
+    <string name="routing_requires_all_map">Për të krijuar një itinerar, duhet të shkarkojmë dhe përditësojmë të gjitha hartat nga vendndodhja juaj deri te destinacioni juaj.</string>
+    <string name="save">Ruaj</string>
 </resources>

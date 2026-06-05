@@ -578,21 +578,21 @@
 "type.highway.trunk.bridge" = "Γέφυρα";
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.trunk.tunnel" = "Σήραγγα";
-"type.highway.trunk_link" = "Οδός";
+"type.highway.trunk_link" = "Συνδετήρια Οδός Αυτοκινητοδρόμου";
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.trunk_link.bridge" = "Γέφυρα";
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.trunk_link.tunnel" = "Σήραγγα";
-"type.highway.unclassified" = "Οδός";
-"type.highway.unclassified.area" = "Οδός";
+"type.highway.unclassified" = "Τοπική Οδός";
+"type.highway.unclassified.area" = "Τοπική Οδός";
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.unclassified.bridge" = "Γέφυρα";
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.unclassified.tunnel" = "Σήραγγα";
 "type.area_highway.cycleway" = "Μονοπάτι ποδηλάτων";
 "type.area_highway.footway" = "Μονοπάτι πεζών";
-"type.area_highway.living_street" = "Οδός";
-"type.area_highway.motorway" = "Οδός";
+"type.area_highway.living_street" = "Οδός Ήπιας Κυκλοφορίας";
+"type.area_highway.motorway" = "Αυτοκινητόδρομος";
 "type.area_highway.path" = "Μονοπάτι";
 "type.area_highway.pedestrian" = "Πεζόδρομος";
 "type.area_highway.primary" = "Πρωτεύων δρόμος";
@@ -601,30 +601,30 @@
 "type.area_highway.service" = "Δρόμος υπηρεσίας";
 "type.area_highway.tertiary" = "Τριτεύων δρόμος";
 "type.area_highway.steps" = "Σκαλοπάτια";
-"type.area_highway.track" = "Οδός";
-"type.area_highway.trunk" = "Οδός";
-"type.area_highway.unclassified" = "Οδός";
+"type.area_highway.track" = "Αγροτικός δρόμος";
+"type.area_highway.trunk" = "Κύριος Οδικός Άξονας";
+"type.area_highway.unclassified" = "Τοπική Οδός";
 "type.historic" = "Ιστορικό αντικείμενο";
 "type.historic.aircraft" = "Ιστορικό αεροσκάφος";
 "type.historic.anchor" = "Ιστορική άγκυρα";
 "type.historic.archaeological_site" = "Αρχαιολογικός χώρος";
 "type.historic.battlefield" = "Ιστορικό πεδίο μάχης";
-"type.historic.boundary_stone" = "Οριακή πέτρα";
+"type.historic.boundary_stone" = "Συνοριακή Πέτρα";
 "type.historic.cannon" = "Κανόνι";
 "type.historic.castle" = "Κάστρο";
 "type.historic.castle.castrum" = "Ρωμαϊκό κάστρο";
 "type.historic.castle.defensive" = "Κάστρο";
 "type.historic.castle.fortified_church" = "Οχυρωμένη εκκλησία";
 "type.historic.castle.fortress" = "Φρούριο";
-"type.historic.castle.hillfort" = "Φρούριο";
+"type.historic.castle.hillfort" = "Οχυρωμένος λόφος";
 "type.historic.castle.kremlin" = "Κρεμλίνο";
-"type.historic.castle.manor" = "Αρχοντικό";
+"type.historic.castle.manor" = "Έπαυλη";
 "type.historic.castle.palace" = "Παλάτι";
 "type.historic.castle.shiro" = "Ιαπωνικό κάστρο";
 "type.historic.castle.stately" = "Κάστρο";
 "type.historic.city_gate" = "Πύλη της πόλης";
 "type.historic.citywalls" = "Τείχος της πόλης";
-"type.historic.fort" = "Φορτ";
+"type.historic.fort" = "Οχυρό";
 "type.historic.gallows" = "Αγχόνη";
 "type.historic.locomotive" = "Ιστορική Ατμομηχανή";
 "type.historic.memorial" = "Μνημείο";
@@ -634,7 +634,7 @@
 "type.historic.memorial.statue" = "Άγαλμα";
 "type.historic.memorial.stolperstein" = "Λίθοι Μνήμης";
 "type.historic.stone" = "Ιστορική Πέτρα";
-"type.historic.memorial.war_memorial" = "Μνημείο του Αγνώστου Στρατιώτη";
+"type.historic.memorial.war_memorial" = "Πολεμικό Μνημείο";
 "type.historic.mine" = "Ιστορικό Ορυχείο";
 "type.historic.monument" = "Μνημείο";
 "type.historic.pillory" = "Κύφωνας";

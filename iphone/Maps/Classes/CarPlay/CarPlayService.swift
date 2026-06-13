@@ -477,9 +477,12 @@ extension CarPlayService: CPMapTemplateDelegate {
   }
 
   func mapTemplate(_ mapTemplate: CPMapTemplate, displayStyleFor maneuver: CPManeuver) -> CPManeuverDisplayStyle {
-    if let type = maneuver.userInfo as? String,
-      type == CPConstants.Maneuvers.secondary {
-      return .trailingSymbol
+    if let type = maneuver.userInfo as? String {
+      switch type {
+      case CPConstants.Maneuvers.lanes: return .symbolOnly
+      case CPConstants.Maneuvers.secondary: return .trailingSymbol
+      default: break
+      }
     }
     return .leadingSymbol
   }

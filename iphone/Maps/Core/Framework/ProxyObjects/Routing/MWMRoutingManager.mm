@@ -11,6 +11,7 @@
 #include <CoreApi/Framework.h>
 
 #include "routing/following_info.hpp"
+#include "routing/lanes/lane_info.hpp"
 
 @interface MWMRoutingManager()<MWMFrameworkRouteBuilderObserver, MWMLocationObserver>
 @property(nonatomic, readonly) RoutingManager & rm;
@@ -96,6 +97,16 @@
     roundExitNumber = info.m_exitNum;
   }
 
+  NSMutableArray<MWMLaneInfo *> *lanes = [NSMutableArray arrayWithCapacity:info.m_lanes.size()];
+  for (auto const & lane : info.m_lanes) {
+    auto const activeWays = lane.laneWays.GetActiveLaneWays();
+    NSMutableArray<NSNumber *> *laneWays = [NSMutableArray arrayWithCapacity:activeWays.size()];
+    for (auto const way : activeWays)
+      [laneWays addObject:@(static_cast<uint8_t>(way))];
+    [lanes addObject:[[MWMLaneInfo alloc] initWithLaneWays:laneWays
+                                            recommendedWay:static_cast<uint8_t>(lane.recommendedWay)]];
+  }
+
   MWMRouteInfo *objCInfo = [[MWMRouteInfo alloc] initWithTimeToTarget:info.m_time
                                                      targetDistance: info.m_distToTarget.GetDistance()
                                                      targetUnitsIndex:static_cast<UInt8>(info.m_distToTarget.GetUnits())
@@ -106,7 +117,8 @@
                                                     nextTurnImageName:[self turnImageName:info.m_nextTurn isPrimary:NO]
                                                              speedMps:speedMps
                                                         speedLimitMps:info.m_speedLimitMps
-                                                      roundExitNumber:roundExitNumber];
+                                                      roundExitNumber:roundExitNumber
+                                                                lanes:lanes];
   return objCInfo;
 }
 

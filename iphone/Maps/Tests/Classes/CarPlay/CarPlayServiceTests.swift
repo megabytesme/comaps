@@ -26,7 +26,8 @@ final class CarPlayServiceTests: XCTestCase {
                               nextTurnImageName: nil,
                               speedMps: 40.5,
                               speedLimitMps: 60,
-                              roundExitNumber: 0)
+                              roundExitNumber: 0,
+                              lanes: [])
     let estimates = carPlayService.createEstimates(routeInfo: routeInfo)
 
     guard let estimates else {

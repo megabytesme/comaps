@@ -1,3 +1,4 @@
+import AVFoundation
 import CarPlay
 import Contacts
 
@@ -283,7 +284,21 @@ extension CarPlayRouter {
     if let estimates = createEstimates(routeInfo) {
       primaryManeuver.initialTravelEstimates = estimates
     }
+    // Lane guidance for the instrument cluster / any surface that consumes it (not the app screen).
+    if #available(iOS 18.0, *), !routeInfo.lanes.isEmpty {
+      primaryManeuver.linkedLaneGuidance = laneGuidance(for: routeInfo)
+    }
     maneuvers.append(primaryManeuver)
+    // Lanes must always be the second maneuver supplied to CarPlay, per Developer guidance 2026
+    // https://developer.apple.com/download/files/CarPlay-Developer-Guide.pdf
+    if !routeInfo.lanes.isEmpty, let laneImages = laneImageSet(for: routeInfo.lanes) {
+      let laneManeuver = CPManeuver()
+      laneManeuver.userInfo = CPConstants.Maneuvers.lanes
+      laneManeuver.instructionVariants = []
+      laneManeuver.symbolSet = laneImages
+      maneuvers.append(laneManeuver)
+    }
+    // Always provide the next upcoming turn, as you should provide as many meaneuvers as possible
     if let imageName = routeInfo.nextTurnImageName,
       let symbol = UIImage(named: imageName) {
       let secondaryManeuver = CPManeuver()
@@ -293,6 +308,58 @@ extension CarPlayRouter {
       maneuvers.append(secondaryManeuver)
     }
     return maneuvers
+  }
+
+  /// Lane strip for the symbol-only second maneuver, as a `CPImageSet`.
+  /// The guidance card is a fixed dark green (`guidanceBackgroundColor`) in both CarPlay light and
+  /// dark modes, so white glyphs are used for both image variants to match the white card text.
+  private func laneImageSet(for lanes: [LaneInfo]) -> CPImageSet? {
+    guard !lanes.isEmpty, let image = laneStripImage(for: lanes, tint: .white) else {
+      return nil
+    }
+    return CPImageSet(lightContentImage: image, darkContentImage: image)
+  }
+
+  /// Draws the upcoming turn's lanes as one horizontal strip, centered in a 120x18pt canvas (max per Apple).
+  /// The recommended lane(s) use `tint` at full opacity; others are dimmed, mirroring Android.
+  private func laneStripImage(for lanes: [LaneInfo], tint: UIColor) -> UIImage? {
+    guard !lanes.isEmpty else { return nil }
+    let maxWidth: CGFloat = 120
+    let height: CGFloat = 18
+    let count = CGFloat(lanes.count)
+    let cell = min(height, maxWidth / count)
+    let xOffset = (maxWidth - cell * count) / 2
+    let config = UIImage.SymbolConfiguration(pointSize: cell * 0.85, weight: .semibold)
+    let renderer = UIGraphicsImageRenderer(size: CGSize(width: maxWidth, height: height))
+    return renderer.image { _ in
+      for (i, lane) in lanes.enumerated() {
+        let recommended = LaneWay(rawValue: lane.recommendedWay)
+        let isActive = recommended != nil && recommended != LaneWay.none
+        let way = isActive ? recommended!
+          : (lane.laneWays.compactMap { LaneWay(rawValue: $0) }.first ?? .through)
+        let color = isActive ? tint : tint.withAlphaComponent(0.38)
+        guard let symbol = UIImage(systemName: way.symbolName, withConfiguration: config)?
+          .withTintColor(color, renderingMode: .alwaysOriginal) else { continue }
+        let cellRect = CGRect(x: xOffset + CGFloat(i) * cell, y: 0, width: cell, height: height)
+        symbol.draw(in: AVMakeRect(aspectRatio: symbol.size, insideRect: cellRect))
+      }
+    }
+  }
+
+  @available(iOS 18.0, *)
+  private func laneGuidance(for routeInfo: RouteInfo) -> CPLaneGuidance {
+    let guidance = CPLaneGuidance()
+    guidance.lanes = routeInfo.lanes.map { lane in
+      let angles = lane.laneWays.compactMap { LaneWay(rawValue: $0)?.angle }
+      // CPLane requires at least one angle; fall back to "straight" for unmarked lanes.
+      let safeAngles = angles.isEmpty ? [Measurement(value: 0, unit: UnitAngle.degrees)] : angles
+      if let recommended = LaneWay(rawValue: lane.recommendedWay), recommended != .none {
+        return CPLane(angles: safeAngles, highlightedAngle: recommended.angle, isPreferred: true)
+      }
+      return CPLane(angles: safeAngles)
+    }
+    guidance.instructionVariants = [routeInfo.streetName]
+    return guidance
   }
 
   func createTrip(startPoint: MWMRoutePoint, endPoint: MWMRoutePoint, routeInfo: RouteInfo? = nil) -> CPTrip {

@@ -948,4 +948,9 @@
     <string name="oh_unknown">Horas de abertura desconhecidas</string>
     <string name="editor_add_select_category_all_subtitle">Todas as Categorias</string>
     <string name="editor_add_select_category_recent_subtitle">Recentemente usados</string>
+    <string name="enable_long_tap_fullscreen">Pressionar para esconder o interface do utilizador</string>
+    <string name="long_tap_disabled_toast">Para esconder o interface, ative a opção de pressionar nas definições</string>
+    <string name="sort_categories">Ordenar Listas de Favoritos</string>
+    <string name="by_recently_used">Por usados recentemente</string>
+    <string name="by_custom">Por ordem personalizada</string>
 </resources>

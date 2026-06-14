@@ -929,7 +929,7 @@
 "type.railway.abandoned" = "Напуштена пруга";
 "type.railway.construction" = "Пруга у изградњи";
 "type.railway.crossing" = "Пружни прелаз";
-"type.railway.disused" = "Напуштена пруга";
+"type.railway.disused" = "Некоришћена пруга";
 "type.railway.disused.bridge" = "Напуштени железнички мост";
 "type.railway.disused.tunnel" = "Напуштени железнички тунел";
 "type.railway.funicular" = "Успињача";

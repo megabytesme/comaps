@@ -956,4 +956,6 @@
     <string name="sort_categories">Сортирање листи</string>
     <string name="by_recently_used">По последњем коришћењу</string>
     <string name="by_custom">По жељеном редоследу</string>
+    <string name="enable_long_tap_fullscreen">Дуги додир за сакривање интерфејса</string>
+    <string name="long_tap_disabled_toast">Да бисте сакрили интерфејс укључите дуги додир у подешавањима</string>
 </resources>

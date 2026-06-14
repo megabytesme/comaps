@@ -956,4 +956,9 @@
     <string name="oh_unknown">营业时间未知</string>
     <string name="editor_add_select_category_all_subtitle">所有类别</string>
     <string name="editor_add_select_category_recent_subtitle">最近用过</string>
+    <string name="enable_long_tap_fullscreen">长按隐藏用户界面</string>
+    <string name="long_tap_disabled_toast">要隐藏界面，请在设置中启用长按功能</string>
+    <string name="sort_categories">排序收藏列表</string>
+    <string name="by_recently_used">按最近使用过</string>
+    <string name="by_custom">按自定义顺序</string>
 </resources>

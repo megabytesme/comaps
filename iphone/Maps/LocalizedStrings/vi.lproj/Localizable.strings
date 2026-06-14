@@ -459,7 +459,7 @@
 "editor_focus_map_on_location" = "Kéo bản đồ để đặt dấu thập vào vị trí của địa điểm hoặc doanh nghiệp.";
 "editor_add_select_category" = "Chọn thể loại";
 "editor_add_select_category_popular_subtitle" = "Phổ biến";
-"editor_add_select_category_all_subtitle" = "Mọi thể loại";
+"editor_add_select_category_all_subtitle" = "Tất cả danh mục";
 "editor_edit_place_title" = "Chỉnh sửa";
 "editor_add_place_title" = "Thêm";
 "editor_edit_place_name_hint" = "Tên địa điểm";
@@ -876,5 +876,5 @@
 "downloader_check_updates_no_updates" = "Không có bản cập nhật mới";
 "downloader_check_updates_eol" = "Phiên bản ứng dụng này không còn nhận được các bản cập nhật bản đồ. Vui lòng cập nhật ứng dụng!";
 "downloader_check_updates_error" = "Xảy ra lỗi khi kiểm tra cập nhật";
-"editor_add_select_category_recent_subtitle" = "Recently Used";
-"oh_unknown" = "Opening hours unknown";
+"editor_add_select_category_recent_subtitle" = "Đã dùng gần đây";
+"oh_unknown" = "Giờ mở cửa không được biết";

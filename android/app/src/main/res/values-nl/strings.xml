@@ -954,4 +954,9 @@
     <string name="oh_unknown">Openingstijden onbekend</string>
     <string name="editor_add_select_category_recent_subtitle">Recentelijk gebruikt</string>
     <string name="editor_add_select_category_all_subtitle">Alle categorieën</string>
+    <string name="enable_long_tap_fullscreen">Gebruikersinterface verbergen bij lang indrukken</string>
+    <string name="long_tap_disabled_toast">Activeer lang indrukken in de instellingen om de interface te verbergen</string>
+    <string name="sort_categories">Favorietenlijsten sorteren</string>
+    <string name="by_recently_used">Op laatst gebruikt</string>
+    <string name="by_custom">Aangepaste volgorde</string>
 </resources>

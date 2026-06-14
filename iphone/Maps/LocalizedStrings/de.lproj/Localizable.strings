@@ -165,7 +165,7 @@
 /* Generic «Auto» string */
 "auto" = "Auto";
 /* Settings «Map» category: «Perspective view» title */
-"pref_map_3d_title" = "Perspektivische Ansicht";
+"pref_map_3d_title" = "3D-Ansicht";
 /* Settings «Map» category: «3D buildings» title */
 "pref_map_3d_buildings_title" = "3D-Gebäude";
 /* A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled */

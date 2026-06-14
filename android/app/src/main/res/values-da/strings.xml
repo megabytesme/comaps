@@ -941,4 +941,9 @@
     <string name="oh_unknown">Åbningstider ukendt</string>
     <string name="editor_add_select_category_all_subtitle">Alle kategorier</string>
     <string name="editor_add_select_category_recent_subtitle">Nyligt anvendt</string>
+    <string name="enable_long_tap_fullscreen">Langt tryk for at skjule brugergrænseflade</string>
+    <string name="long_tap_disabled_toast">Aktivér indstillinger for langt tryk for at skjule grænsefladen</string>
+    <string name="sort_categories">Sortér favoritlister</string>
+    <string name="by_recently_used">Efter senest anvendte</string>
+    <string name="by_custom">Efter brugerdefineret rækkefølge</string>
 </resources>

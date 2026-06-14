@@ -203,7 +203,7 @@
     <!-- Generic «Auto» string -->
     <string name="auto">Auto</string>
     <!-- Settings «Map» category: «Perspective view» title -->
-    <string name="pref_map_3d_title">Perspektivische Ansicht</string>
+    <string name="pref_map_3d_title">3D-Ansicht</string>
     <!-- Settings «Map» category: «3D buildings» title -->
     <string name="pref_map_3d_buildings_title">3D-Gebäude</string>
     <!-- A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled -->
@@ -954,4 +954,9 @@
     <string name="pref_aa_support_summary_no">Die App wurde nicht über Google Play installiert, du kannst sie nicht in deinem Auto nutzen. Gehe zu den Einstellungen um mehr Details aus unserem FAQ zu erfahren.</string>
     <string name="editor_add_select_category_recent_subtitle">Kürzlich verwendet</string>
     <string name="pref_aa_support_title">Android Auto</string>
+    <string name="enable_long_tap_fullscreen">Tippen und Halten, um die Benutzeroberfläche zu verstecken</string>
+    <string name="long_tap_disabled_toast">Um die Benutzeroberfläche zu verstecken, aktiviere „Tippen und Halten, um die Benutzeroberfläche zu verstecken“ in den Einstellungen</string>
+    <string name="sort_categories">Favoritenliste sortieren</string>
+    <string name="by_recently_used">Zuletzt verwendet</string>
+    <string name="by_custom">benutzerdefiniert</string>
 </resources>

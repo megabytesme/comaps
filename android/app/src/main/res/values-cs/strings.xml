@@ -953,4 +953,9 @@
     <string name="editor_add_select_category_all_subtitle">Všechny kategorie</string>
     <string name="editor_add_select_category_recent_subtitle">Naposledy použito</string>
     <string name="oh_unknown">Neznámá otevírací doba</string>
+    <string name="enable_long_tap_fullscreen">Podržte pro skrytí uživatelského rozhraní</string>
+    <string name="long_tap_disabled_toast">Pro skrytí rozhraní povolte podržení v nastavení</string>
+    <string name="sort_categories">Seřadit seznamy oblíbených</string>
+    <string name="by_recently_used">Podle nedávno použitých</string>
+    <string name="by_custom">Podle vlastního pořadí</string>
 </resources>

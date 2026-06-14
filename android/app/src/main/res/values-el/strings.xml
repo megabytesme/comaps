@@ -38,7 +38,7 @@
     <!-- Text in About screen -->
     <string name="about_proposition_1">• Εύκολο στη χρήση και προσεγμένο</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Δεν εξαντλεί τη μπαταρία, λειτουργεί εκτός σύνδεσης</string>
+    <string name="about_proposition_2">• Εστιασμένο στην ιδιωτικότητα και χωρίς διαφημίσεις</string>
     <!-- Text in About screen -->
     <string name="about_proposition_3">• Εκτός σύνδεσης, γρήγορο και συμπαγές</string>
     <!-- Text in About screen -->
@@ -195,17 +195,17 @@
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Νυχτερινή λειτουργία</string>
     <!-- Generic «Off» string -->
-    <string name="off">Απενεργ.</string>
+    <string name="off">Ανενεργό</string>
     <!-- Generic «On» string -->
-    <string name="on">Ενεργ.</string>
+    <string name="on">Ενεργό</string>
     <!-- Generic «Auto» string -->
     <string name="auto">Αυτόματα</string>
     <!-- Settings «Map» category: «Perspective view» title -->
     <string name="pref_map_3d_title">Οπτική γωνία</string>
     <!-- Settings «Map» category: «3D buildings» title -->
-    <string name="pref_map_3d_buildings_title">Τρισδιάστατα κτίρια</string>
+    <string name="pref_map_3d_buildings_title">3D κτίρια</string>
     <!-- A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled -->
-    <string name="pref_map_3d_buildings_disabled_summary">Τα τρισδιάστατα κτίρια είναι απενεργοποιημένα σε λειτουργία εξοικονόμησης ενέργειας</string>
+    <string name="pref_map_3d_buildings_disabled_summary">Τα 3D κτίρια είναι απενεργοποιημένα σε λειτουργία εξοικονόμησης ενέργειας</string>
     <!-- Settings «Route» category: «Tts enabled» title -->
     <string name="pref_tts_enable_title">Φωνητικές οδηγίες</string>
     <!-- Settings «Route» category: «Tts announce street names» title -->
@@ -369,7 +369,7 @@
     <string name="search_history_text">Προβολή πρόσφατων αναζητήσεων</string>
     <string name="clear_search">Εκκαθάριση ιστορικού αναζητήσεων</string>
     <!-- Place Page link to Wikipedia article (if map object has it). -->
-    <string name="read_in_wikipedia">Βικιπέδια</string>
+    <string name="read_in_wikipedia">Βικιπαίδεια</string>
     <string name="p2p_your_location">Η τοποθεσία σας</string>
     <string name="p2p_start">Έναρξη</string>
     <string name="p2p_from_here">Διαδρομή από</string>
@@ -455,7 +455,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">Δεδομένα OpenStreetMap που δημιουργήθηκαν από την κοινότητα στις %s. Μάθετε περισσότερα για τον τρόπο επεξεργασίας και ενημέρωσης του χάρτη στο OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">Το OpenStreetMap.org (OSM) είναι ένα κοινοτικό έργο για τη δημιουργία ενός ελεύθερου και ανοικτού χάρτη. Είναι η κύρια πηγή δεδομένων χάρτη στους CoMaps και λειτουργεί παρόμοια με τη Wikipedia. Μπορείτε να προσθέσετε ή να επεξεργαστείτε τοποθεσίες και αυτές γίνονται διαθέσιμες σε εκατομμύρια χρήστες σε όλο τον κόσμο. \nΕνταχθείτε στην κοινότητα και βοηθήστε να φτιάξουμε έναν καλύτερο χάρτη για όλους!</string>
+    <string name="login_osm_presentation">Το OpenStreetMap.org (OSM) είναι ένα κοινοτικό έργο για τη δημιουργία ενός ελεύθερου και ανοικτού χάρτη. Είναι η κύρια πηγή δεδομένων χάρτη στους CoMaps και λειτουργεί παρόμοια με τη Βικιπαίδεια. Μπορείτε να προσθέσετε ή να επεξεργαστείτε τοποθεσίες και αυτές γίνονται διαθέσιμες σε εκατομμύρια χρήστες σε όλο τον κόσμο. \nΕνταχθείτε στην κοινότητα και βοηθήστε να φτιάξουμε έναν καλύτερο χάρτη για όλους!</string>
     <string name="login_to_make_edits_visible">Δημιουργήστε έναν λογαριασμό OpenStreetMap ή συνδεθείτε για να δημοσιεύσετε τις επεξεργασίες του χάρτη σας στον κόσμο</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d από %2$d</string>
@@ -510,7 +510,7 @@
     <!-- Dialog before publishing the modifications to the public map. -->
     <string name="editor_share_to_all_dialog_message_1">Βεβαιωθείτε ότι δεν έχετε εισάγει προσωπικά δεδομένα.</string>
     <string name="editor_share_to_all_dialog_message_2">Οι συντάκτες του OpenStreetMap θα ελέγξουν τις αλλαγές και θα επικοινωνήσουν μαζί σας εάν έχουν απορίες.</string>
-    <string name="navigation_stop_button">Τέλος</string>
+    <string name="navigation_stop_button">Διακοπή</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Καταγραφή του ίχνους</string>
     <!-- For the first routing -->
@@ -556,8 +556,8 @@
     <string name="bookmark_lists_hide_all">Απόκρυψη όλων</string>
     <string name="bookmark_lists_show_all">Εμφάνιση όλων</string>
     <plurals name="bookmarks_places">
-        <item quantity="one">%d αγαπημένο μέρος</item>
-        <item quantity="other">%d αγαπημένα μέρη</item>
+        <item quantity="one">%d αποθηκευμένο μέρος</item>
+        <item quantity="other">%d αποθηκευμένα μέρη</item>
     </plurals>
     <string name="bookmarks_create_new_group">Δημιουργία νέας λίστας</string>
     <!-- Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files -->
@@ -658,7 +658,7 @@
     <string name="month_ago_sorttype">Ένα μήνα πριν</string>
     <string name="moremonth_ago_sorttype">Περισσότερο από έναν μήνα πριν</string>
     <string name="moreyear_ago_sorttype">Περισσότερο από ένα χρόνο πριν</string>
-    <string name="near_me_sorttype">Δίπλα μου</string>
+    <string name="near_me_sorttype">Κοντά μου</string>
     <string name="others_sorttype">Άλλα</string>
     <!-- SECTION: Bookmark types used for sorting -->
     <string name="food_places">Φαγητό</string>
@@ -808,7 +808,7 @@
     <string name="level_value_generic">Όροφος: %s</string>
     <string name="miles_per_hour">μλ/ώ</string>
     <string name="minute">λεπ</string>
-    <string name="day">μέρ</string>
+    <string name="day">η</string>
     <string name="hour">ώ</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>

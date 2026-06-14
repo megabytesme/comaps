@@ -159,17 +159,17 @@
 /* Generic «Disabled» string */
 "disabled" = "Απενεργοποιημένο";
 /* Generic «Off» string */
-"off" = "Απενεργ.";
+"off" = "Ανενεργό";
 /* Generic «On» string */
-"on" = "Ενεργ.";
+"on" = "Ενεργό";
 /* Generic «Auto» string */
 "auto" = "Αυτόματα";
 /* Settings «Map» category: «Perspective view» title */
 "pref_map_3d_title" = "Οπτική γωνία";
 /* Settings «Map» category: «3D buildings» title */
-"pref_map_3d_buildings_title" = "Τρισδιάστατα κτίρια";
+"pref_map_3d_buildings_title" = "3D κτίρια";
 /* A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled */
-"pref_map_3d_buildings_disabled_summary" = "Τα τρισδιάστατα κτίρια είναι απενεργοποιημένα σε λειτουργία εξοικονόμησης ενέργειας";
+"pref_map_3d_buildings_disabled_summary" = "Τα 3D κτίρια είναι απενεργοποιημένα σε λειτουργία εξοικονόμησης ενέργειας";
 /* Settings «Route» category: «Tts enabled» title */
 "pref_tts_title" = "Φωνητικές οδηγίες";
 /* Settings «Route» category: «Tts enable» title */
@@ -356,7 +356,7 @@
 "search_history_text" = "Προβολή πρόσφατων αναζητήσεων.";
 "clear_search" = "Εκκαθάριση ιστορικού αναζητήσεων";
 /* Place Page link to Wikipedia article (if map object has it). */
-"read_in_wikipedia" = "Βικιπέδια";
+"read_in_wikipedia" = "Βικιπαίδεια";
 /* Place Page link to Wikimedia Commons. */
 "wikimedia_commons" = "Κοινά της Wikimedia";
 "p2p_your_location" = "Η τοποθεσία σας";
@@ -521,7 +521,7 @@
 "miles_per_hour" = "μλ/ώ";
 "hour" = "ώ";
 "minute" = "λεπ";
-"day" = "μέρ";
+"day" = "η";
 "placepage_more_button" = "Περισσότερα";
 "book_button" = "Κράτηση";
 "placepage_call_button" = "Κλήση";
@@ -549,7 +549,7 @@
 /* Dialog before publishing the modifications to the public map. */
 "editor_share_to_all_dialog_message_1" = "Βεβαιωθείτε ότι δεν έχετε εισάγει προσωπικά δεδομένα.";
 "editor_share_to_all_dialog_message_2" = "Οι συντάκτες του OpenStreetMap θα ελέγξουν τις αλλαγές και θα επικοινωνήσουν μαζί σας εάν έχουν απορίες.";
-"navigation_stop_button" = "Τέλος";
+"navigation_stop_button" = "Διακοπή";
 /* iOS dialog for the case when recent track recording is on and the app comes back from background */
 "recent_track_background_dialog_title" = "Θέλετε να απενεργοποιήσετε την καταγραφή της πρόσφατης διαδρομής σας;";
 "off_recent_track_background_button" = "Απενεργοποίηση";
@@ -714,7 +714,7 @@
 "month_ago_sorttype" = "Ένα μήνα πριν";
 "moremonth_ago_sorttype" = "Περισσότερο από έναν μήνα πριν";
 "moreyear_ago_sorttype" = "Περισσότερο από ένα χρόνο πριν";
-"near_me_sorttype" = "Δίπλα μου";
+"near_me_sorttype" = "Κοντά μου";
 "others_sorttype" = "Άλλα";
 "food_places" = "Φαγητό";
 "tourist_places" = "Αξιοθέατα";

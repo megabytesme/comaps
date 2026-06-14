@@ -311,12 +311,12 @@
     <string name="type.healthcare.laboratory">Phòng thí nghiệm y tế</string>
     <string name="type.healthcare.physiotherapist">Nhà vật lý trị liệu</string>
     <string name="type.healthcare.alternative">Liều thuốc thay thế</string>
-    <string name="type.healthcare.audiologist">Thính học</string>
+    <string name="type.healthcare.audiologist">Bác sĩ thính học</string>
     <string name="type.healthcare.blood_donation">Trung tâm hiến máu</string>
-    <string name="type.healthcare.optometrist">Khúc xạ nhãn khoa</string>
-    <string name="type.healthcare.podiatrist">khoa bàn chân</string>
-    <string name="type.healthcare.psychotherapist">Tâm lý trị liệu</string>
-    <string name="type.healthcare.sample_collection">lấy mẫu</string>
+    <string name="type.healthcare.optometrist">Bác sĩ đo thị lực</string>
+    <string name="type.healthcare.podiatrist">Bác sĩ chuyên khoa chân</string>
+    <string name="type.healthcare.psychotherapist">Chuyên gia tâm lý trị liệu</string>
+    <string name="type.healthcare.sample_collection">Trung tâm lấy mẫu</string>
     <string name="type.healthcare.speech_therapist">Ngôn ngữ trị liệu</string>
     <!-- SECTION: Types: Roads -->
     <!-- These translations are used for all type.highway.*.bridge. -->
@@ -364,21 +364,21 @@
     <string name="type.highway.path.difficult">Đường đi khó hoặc khó nhìn thấy</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
     <string name="type.highway.path.expert">Đường đi rất khó khăn hoặc không thể phân biệt được</string>
-    <string name="type.highway.path.bicycle">Đường</string>
-    <string name="type.highway.footway.bicycle">Đường</string>
+    <string name="type.highway.path.bicycle">Đường đi bộ và xe đạp</string>
+    <string name="type.highway.footway.bicycle">Đường đi bộ và xe đạp</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.path.bridge">Cầu</string>
     <string name="type.highway.path.horse">Đường</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.path.tunnel">Đường hầm</string>
-    <string name="type.highway.pedestrian">Phố</string>
-    <string name="type.highway.pedestrian.area">Phố</string>
+    <string name="type.highway.pedestrian">Phố đi bộ</string>
+    <string name="type.highway.pedestrian.area">Khu vực dành cho người đi bộ</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
-    <string name="type.highway.pedestrian.bridge">Cầu</string>
+    <string name="type.highway.pedestrian.bridge">Cầu đi bộ</string>
     <string name="type.highway.pedestrian.square">Quảng trường</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.pedestrian.tunnel">Đường hầm</string>
-    <string name="type.highway.primary">Phố</string>
+    <string name="type.highway.primary">Đường cấp một</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.primary.bridge">Cầu</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
@@ -389,21 +389,21 @@
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.primary_link.tunnel">Đường hầm</string>
     <string name="type.highway.raceway">Đường đua</string>
-    <string name="type.highway.residential">Phố</string>
-    <string name="type.highway.residential.area">Phố</string>
+    <string name="type.highway.residential">Phố dân cư</string>
+    <string name="type.highway.residential.area">Phố dân cư</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.residential.bridge">Cầu</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.residential.tunnel">Đường hầm</string>
     <string name="type.highway.rest_area">Khu Vực Thụt Vào Để Đỗ Xe</string>
-    <string name="type.highway.road">Phố</string>
+    <string name="type.highway.road">Đường</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.road.bridge">Cầu</string>
     <!-- A bridge structure outline. -->
     <string name="type.man_made.bridge">Cầu</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.road.tunnel">Đường hầm</string>
-    <string name="type.highway.secondary">Phố</string>
+    <string name="type.highway.secondary">Đường cấp hai</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.secondary.bridge">Cầu</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
@@ -427,7 +427,7 @@
     <string name="type.highway.steps.bridge">Cầu</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.steps.tunnel">Đường hầm</string>
-    <string name="type.highway.tertiary">Phố</string>
+    <string name="type.highway.tertiary">Đường cấp ba</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.tertiary.bridge">Cầu</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
@@ -456,26 +456,26 @@
     <string name="type.highway.trunk_link.bridge">Cầu</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.trunk_link.tunnel">Đường hầm</string>
-    <string name="type.highway.unclassified">Phố</string>
-    <string name="type.highway.unclassified.area">Phố</string>
+    <string name="type.highway.unclassified">Đường cấp thấp</string>
+    <string name="type.highway.unclassified.area">Đường cấp thấp</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.unclassified.bridge">Cầu</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.unclassified.tunnel">Đường hầm</string>
-    <string name="type.area_highway.footway">Đường</string>
+    <string name="type.area_highway.footway">Lối đi bộ</string>
     <string name="type.area_highway.living_street">Phố</string>
-    <string name="type.area_highway.motorway">Phố</string>
-    <string name="type.area_highway.path">Đường</string>
-    <string name="type.area_highway.pedestrian">Phố</string>
-    <string name="type.area_highway.primary">Phố</string>
-    <string name="type.area_highway.residential">Phố</string>
-    <string name="type.area_highway.secondary">Phố</string>
-    <string name="type.area_highway.service">Phố</string>
-    <string name="type.area_highway.tertiary">Phố</string>
-    <string name="type.area_highway.steps">Đường</string>
+    <string name="type.area_highway.motorway">Đường cao tốc</string>
+    <string name="type.area_highway.path">Lối đi</string>
+    <string name="type.area_highway.pedestrian">Phố đi bộ</string>
+    <string name="type.area_highway.primary">Đường cấp một</string>
+    <string name="type.area_highway.residential">Phố dân cư</string>
+    <string name="type.area_highway.secondary">Đường cấp hai</string>
+    <string name="type.area_highway.service">Đường dịch vụ</string>
+    <string name="type.area_highway.tertiary">Đường cấp ba</string>
+    <string name="type.area_highway.steps">Cầu thang</string>
     <string name="type.area_highway.track">Phố</string>
-    <string name="type.area_highway.trunk">Phố</string>
-    <string name="type.area_highway.unclassified">Phố</string>
+    <string name="type.area_highway.trunk">Đường quốc lộ</string>
+    <string name="type.area_highway.unclassified">Đường cấp thấp</string>
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">Đối tượng lịch sử</string>
     <string name="type.historic.aircraft">Máy bay lịch sử</string>
@@ -580,7 +580,7 @@
     <string name="type.man_made.water_well.drinking_water_no">Giếng Nước</string>
     <string name="type.man_made.windmill">Cối xay gió</string>
     <string name="type.military.bunker">Boongke</string>
-    <string name="type.natural">Tự nhiên</string>
+    <string name="type.natural">Thiên nhiên</string>
     <!-- A rocky land cover. -->
     <string name="type.natural.bare_rock">Đá trần</string>
     <!-- A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. -->
@@ -681,10 +681,10 @@
     <string name="type.power.substation">Trạm biến áp</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Trụ Điện</string>
-    <string name="type.railway.funicular">Đường sắt leo núi</string>
+    <string name="type.railway.funicular">Đường sắt cáp kéo</string>
     <string name="type.railway.halt">Đường tàu hỏa</string>
     <string name="type.railway.level_crossing">Chỗ qua đường sắt</string>
-    <string name="type.railway.monorail">Đường sắt một chiều</string>
+    <string name="type.railway.monorail">Đường sắt một ray</string>
     <string name="type.railway.rail">Đường sắt</string>
     <string name="type.railway.rail.highspeed">Đường sắt cao tốc</string>
     <string name="type.railway.rail.tourism">Đường sắt du lịch</string>
@@ -960,14 +960,14 @@
     <string name="type.shop.butcher">Cửa hàng thịt</string>
     <string name="type.shop.cannabis">Cửa hàng cần sa</string>
     <string name="type.shop.car">Cửa hàng xe</string>
-    <string name="type.shop.car_parts">Những bộ phận xe hơi</string>
+    <string name="type.shop.car_parts">Cửa hàng bán bộ phận xe hơi</string>
     <string name="type.shop.car_repair">Cửa hàng sửa chữa ô tô</string>
     <string name="type.shop.car_repair.tyres">Vá Lốp</string>
-    <string name="type.shop.carpet">Những cái thảm</string>
+    <string name="type.shop.carpet">Cửa hàng bán thảm</string>
     <string name="type.shop.chemist">Cửa hàng Hóa chất</string>
     <string name="type.shop.chocolate">Cửa hàng socola</string>
     <string name="type.shop.clothes">Cửa hàng quần áo</string>
-    <string name="type.shop.coffee">Quán cà phê</string>
+    <string name="type.shop.coffee">Tiệm bán sản phẩm cà phê</string>
     <string name="type.shop.computer">Cửa hàng máy tính</string>
     <string name="type.shop.confectionery">Cửa hàng kẹo</string>
     <string name="type.shop.convenience">Cửa hàng tạp hóa</string>
@@ -1107,7 +1107,7 @@
     <string name="type.tourism.artwork.painting">Du lịch</string>
     <string name="type.tourism.artwork.sculpture">Du lịch</string>
     <string name="type.tourism.artwork.statue">Du lịch</string>
-    <string name="type.tourism.attraction">Hấp dẫn</string>
+    <string name="type.tourism.attraction">Điểm thu hút khách du lịch</string>
     <string name="type.attraction.amusement_ride">Đi xe giải trí</string>
     <string name="type.attraction.animal">Chuồng nuôi nhốt động vật</string>
     <string name="type.attraction.carousel">băng chuyền</string>
@@ -1271,4 +1271,212 @@
     <string name="type.entrance.entry">Lối vào (Chỉ vào)</string>
     <string name="type.entrance.emergency">Lối thoát hiểm</string>
     <string name="type.highway.cycleway">Đường dành cho xe đạp</string>
+    <string name="type.amenity.hydrant">Trụ cấp nước tưới</string>
+    <string name="type.beacon.safe_water">Phao báo vùng nước an toàn</string>
+    <string name="type.beacon.special_purpose">Phao tín hiệu chuyên dùng</string>
+    <string name="type.buoy.cardinal.east">Phao chỉ hướng</string>
+    <string name="type.buoy.cardinal.north">Phao chỉ hướng</string>
+    <string name="type.buoy.cardinal.south">Phao chỉ hướng</string>
+    <string name="type.buoy.cardinal.west">Phao chỉ hướng</string>
+    <string name="type.buoy.isolated_danger">Phao báo mối nguy hiểm biệt lập</string>
+    <string name="type.buoy.lateral.port">Phao giới hạn luồng</string>
+    <string name="type.buoy.lateral.starboard">Phao giới hạn luồng</string>
+    <string name="type.buoy.safe_water">Phao vùng nước an toàn</string>
+    <string name="type.buoy.special_purpose">Phao tín hiệu chuyên dùng</string>
+    <string name="type.spherical_buoy.cardinal.east">Phao chỉ hướng hình cầu</string>
+    <string name="type.spherical_buoy.cardinal.north">Phao chỉ hướng hình cầu</string>
+    <string name="type.spherical_buoy.cardinal.south">Phao chỉ hướng hình cầu</string>
+    <string name="type.spherical_buoy.cardinal.west">Phao chỉ hướng hình cầu</string>
+    <string name="type.spherical_buoy.isolated_danger">Pháo báo mối nguy hiểm biệt lập hình cầu</string>
+    <string name="type.spherical_buoy.lateral.port">Phao giới hạn luồng hình cầu</string>
+    <string name="type.spherical_buoy.lateral.starboard">Phao giới hạn luồng hình cầu</string>
+    <string name="type.spherical_buoy.safe_water">Phao vùng nước an toàn hình cầu</string>
+    <string name="type.spherical_buoy.special_purpose">Phao tín hiệu chuyên dùng hình cầu</string>
+    <string name="type.lateral.port">Mạn trái</string>
+    <string name="type.lateral.starboard">Mạn phải</string>
+    <string name="type.cardinal.east">Đông</string>
+    <string name="type.cardinal.north">Bắc</string>
+    <string name="type.cardinal.south">Nam</string>
+    <string name="type.cardinal.west">Tây</string>
+    <string name="type.fee.yes">$</string>
+    <string name="type.highway">Đường quốc lộ</string>
+    <string name="type.highway.bridleway">Đường dành cho cưỡi ngựa</string>
+    <string name="type.highway.bridleway.permissive">Đường dành cho cưỡi ngựa</string>
+    <string name="type.highway.cycleway.permissive">Đường dành cho xe đạp</string>
+    <string name="type.highway.elevator">Thang máy</string>
+    <string name="type.highway.services">Khu dịch vụ</string>
+    <string name="type.highway.ladder">Cái thang</string>
+    <string name="type.area_highway.cycleway">Đường dành cho xe đạp</string>
+    <string name="type.internet_access">Internet</string>
+    <string name="type.internet_access.wlan">Internet</string>
+    <string name="type.junction">Nút giao</string>
+    <string name="type.junction.circular">Vòng xuyến</string>
+    <string name="type.junction.roundabout">Vòng xuyến</string>
+    <string name="type.landuse">Mục đích sử dụng đất</string>
+    <string name="type.landuse.allotments">Đất phân lô để canh tác</string>
+    <string name="type.landuse.brownfield">Đất ô nhiễm chờ tái phát triển</string>
+    <string name="type.landuse.religious">Đất tôn giáo</string>
+    <string name="type.landuse.commercial">Khu vực thương mại</string>
+    <string name="type.landuse.construction">Khu vực đang xây dựng</string>
+    <string name="type.landuse.education">Cơ sở giáo dục</string>
+    <string name="type.landuse.farmyard">Khuôn viên trang trại</string>
+    <string name="type.landuse.garages">Nhà để xe riêng tư</string>
+    <string name="type.landuse.greenfield">Đất xanh</string>
+    <string name="type.landuse.greenhouse_horticulture">Nhà kính</string>
+    <string name="type.landuse.industrial">Khu vực công nghiệp</string>
+    <string name="type.landuse.meadow">Bãi cỏ</string>
+    <string name="type.landuse.military">Khu vực quân sự</string>
+    <string name="type.landuse.orchard">Vườn cây ăn quả</string>
+    <string name="type.landuse.quarry">Mỏ đá</string>
+    <string name="type.landuse.recreation_ground">Sân chơi công cộng</string>
+    <string name="type.landuse.residential">Khu vực dân cư</string>
+    <string name="type.landuse.retail">Khu vực bán lẻ</string>
+    <string name="type.landuse.salt_pond">Ruộng muối</string>
+    <string name="type.landuse.village_green">Đất</string>
+    <string name="type.landuse.vineyard">Vườn nho</string>
+    <string name="type.landuse.plant_nursery">Vườn ươm cây giống</string>
+    <string name="type.leisure">Thời gian rảnh rỗi</string>
+    <string name="type.leisure.bandstand">Bục biểu diễn ca nhạc</string>
+    <string name="type.leisure.common">Đất công cộng</string>
+    <string name="type.leisure.escape_game">Phòng trò chơi trốn thoát</string>
+    <string name="type.leisure.miniature_golf">Sân golf mini</string>
+    <string name="type.leisure.ice_rink">Sân trượt băng</string>
+    <string name="type.leisure.indoor_play">Sân chơi trẻ em trong nhà</string>
+    <string name="type.leisure.marina">Bến du thuyền</string>
+    <string name="type.leisure.firepit">Lò lửa ngoài trời</string>
+    <string name="type.leisure.recreation_ground">Sân chơi công cộng</string>
+    <string name="type.leisure.slipway">Bến hạ thủy</string>
+    <string name="type.leisure.sports_centre.sport.multi">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.american_football">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.archery">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.athletics">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.australian_football">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.badminton">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.baseball">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.basketball">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.beachvolleyball">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.boules">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.bowls">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.climbing">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.cricket">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.curling">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.equestrian">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.field_hockey">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.four_square">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.futsal">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.golf">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.gymnastics">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.handball">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.ice_hockey">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.padel">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.pelota">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.pickleball">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.scuba_diving">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.shooting">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.skateboard">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.skiing">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.soccer">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.swimming">Trung tâm bơi lội</string>
+    <string name="type.leisure.sports_centre.sport.table_tennis">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.tennis">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.volleyball">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.sports_centre.sport.yoga">Trung tâm thể dục thể thao</string>
+    <string name="type.leisure.fitness_centre.sport.yoga">Phòng tập Yoga</string>
+    <string name="type.leisure.track">Đường chạy</string>
+    <string name="type.leisure.track.area">Đường chạy</string>
+    <string name="type.leisure.beach_resort">Khu nghỉ dưỡng bãi biển</string>
+    <string name="type.man_made">Nhân tạo</string>
+    <string name="type.man_made.breakwater">Đê chắn sóng</string>
+    <string name="type.man_made.cairn">Tháp đá đánh dấu</string>
+    <string name="type.man_made.cutline">Đường cắt ngang rừng</string>
+    <string name="type.man_made.survey_point">Mốc trắc địa</string>
+    <string name="type.man_made.flagpole">Cột cờ</string>
+    <string name="type.man_made.mast">Cột thu phát sóng</string>
+    <string name="type.man_made.pier">Cầu tàu</string>
+    <string name="type.man_made.pipeline">Đường ống dẫn</string>
+    <string name="type.man_made.pipeline.overground">Đường ống dẫn nằm trên mặt đất</string>
+    <string name="type.man_made.storage_tank">Bể chứa</string>
+    <string name="type.man_made.mast.communication">Cột viễn thông</string>
+    <string name="type.man_made.crane">Cần cẩu</string>
+    <string name="type.man_made.wastewater_plant">Nhà máy xử lý nước thải</string>
+    <string name="type.man_made.works">Nhà máy sản xuất</string>
+    <string name="type.military">Quân sự</string>
+    <string name="type.mountain_pass">Điểm cao nhất trên đường núi</string>
+    <string name="type.natural.desert">Sa mạc</string>
+    <string name="type.natural.sand">Cát</string>
+    <string name="type.natural.tree">Cây</string>
+    <string name="type.natural.wetland.saltmarsh">Đầm lầy mặn</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Đầm lầy mặn thủy triều</string>
+    <string name="type.natural.wetland.fen">Đầm lầy kiềm</string>
+    <string name="type.natural.wetland.reedbed">Bãi sậy</string>
+    <string name="type.natural.wetland.swamp">Đầm lầy</string>
+    <string name="type.natural.wetland.mangrove">Rừng ngập mặn</string>
+    <string name="type.natural.wetland.tidalflat">Bãi triều</string>
+    <string name="type.noexit">Đường cụt</string>
+    <string name="type.organic.only">Chỉ hữu cơ</string>
+    <string name="type.organic.yes">Các lựa chọn hữu cơ</string>
+    <string name="type.organic.no">Không có lựa chọn hữu cơ</string>
+    <string name="type.power">Năng lượng</string>
+    <string name="type.power.generator">Máy phát điện</string>
+    <string name="type.power.line">Đường dây điện cao thế</string>
+    <string name="type.power.line.underground">Đường dây điện cao thế ngầm</string>
+    <string name="type.power.minor_line">Đường dây điện trung thế</string>
+    <string name="type.power.pole">Cột điện</string>
+    <string name="type.man_made.utility_pole">Cột tiện ích</string>
+    <string name="type.public_transport">Phương tiện giao thông công cộng</string>
+    <string name="type.public_transport.platform">Sân ga</string>
+    <string name="type.railway">Đường sắt</string>
+    <string name="type.railway.abandoned">Đường ray bỏ hoang</string>
+    <string name="type.railway.construction">Đường ray đang xây dựng</string>
+    <string name="type.railway.crossing">Nơi giao cắt với đường sắt</string>
+    <string name="type.railway.disused">Đường ray dừng khai thác</string>
+    <string name="type.railway.disused.bridge">Cầu đường sắt dừng khai thác</string>
+    <string name="type.railway.disused.tunnel">Hầm đường sắt dừng khai thác</string>
+    <string name="type.railway.funicular.bridge">Cầu đường sắt cáp kéo</string>
+    <string name="type.railway.funicular.tunnel">Hầm đường sắt cáp kéo</string>
+    <string name="type.railway.light_rail">Đường sắt nhẹ</string>
+    <string name="type.railway.light_rail.bridge">Cầu đường sắt nhẹ</string>
+    <string name="type.railway.light_rail.tunnel">Hầm đường sắt nhẹ</string>
+    <string name="type.railway.monorail.bridge">Cầu đường sắt một ray</string>
+    <string name="type.railway.monorail.tunnel">Hầm đường sắt một ray</string>
+    <string name="type.railway.miniature">Đường sắt thu nhỏ</string>
+    <string name="type.railway.miniature.bridge">Cầu đường sắt thu nhỏ</string>
+    <string name="type.railway.miniature.tunnel">Hầm đường sắt thu nhỏ</string>
+    <string name="type.railway.narrow_gauge">Đường sắt khổ hẹp</string>
+    <string name="type.railway.narrow_gauge.bridge">Cầu đường sắt khổ hẹp</string>
+    <string name="type.railway.narrow_gauge.tunnel">Hầm đường sắt khổ hẹp</string>
+    <string name="type.railway.platform">Sân ga</string>
+    <string name="type.railway.preserved">Đường sắt bảo tồn</string>
+    <string name="type.railway.preserved.bridge">Cầu đường sắt bảo tồn</string>
+    <string name="type.railway.preserved.tunnel">Hầm đường sắt bảo tồn</string>
+    <string name="type.railway.turntable">Bàn xoay đường sắt</string>
+    <string name="type.railway.subway">Tàu điện ngầm</string>
+    <string name="type.railway.subway.bridge">Cầu tàu điện ngầm</string>
+    <string name="type.railway.subway.tunnel">Hầm tàu điện ngầm</string>
+    <string name="type.railway.tram">Tàu điện mặt đất</string>
+    <string name="type.railway.tram.bridge">Cầu tàu điện mặt đất</string>
+    <string name="type.railway.tram.tunnel">Hầm tàu điện mặt đất</string>
+    <string name="type.route">Tuyến đường</string>
+    <string name="type.route.ferry">Phà</string>
+    <string name="type.shop.beauty.nails">Tiệm làm móng</string>
+    <string name="type.shop.caravan">Đại lý xe ô tô RV</string>
+    <string name="type.shop.hardware">Cửa hàng phần cứng</string>
+    <string name="type.shop.beauty.day_spa">Spa trong ngày</string>
+    <string name="type.shop.telecommunication">Cửa hàng điện tử viễn thông</string>
+    <string name="type.shop.water">Cửa hàng đồ uống</string>
+    <string name="type.shop.lighting">Cửa hàng bán đèn chiếu sáng</string>
+    <string name="type.disusedbusiness">Cơ sở kinh doanh bỏ trống</string>
+    <string name="type.tourism">Du lịch</string>
+    <string name="type.attraction.bumper_car">Xe đụng</string>
+    <string name="type.attraction.big_wheel">Vòng đu quay</string>
+    <string name="type.traffic_calming">Giảm tốc</string>
+    <string name="type.traffic_calming.bump">Gờ giảm tốc nhỏ</string>
+    <string name="type.traffic_calming.hump">Gờ giảm tốc lớn</string>
+    <string name="type.waterway">Đường thủy</string>
+    <string name="type.waterway.dam">Đập</string>
+    <string name="type.barrier.ditch">Mương</string>
+    <string name="type.waterway.dock">Đốc tàu</string>
+    <string name="type.waterway.drain">Cống thoát nước</string>
+    <string name="type.natural.water.drain">Cống thoát nước</string>
+    <string name="type.wheelchair">Xe lăn</string>
 </resources>

@@ -351,7 +351,7 @@
     <string name="hide">Ẩn</string>
     <string name="categories">Thể loại</string>
     <string name="history">Lịch sử</string>
-    <string name="search_not_found">Úi, không tìm thấy kết quả nào.</string>
+    <string name="search_not_found">Úi, không tìm thấy kết quả nào</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Tải xuống khu vực bạn đang tìm kiếm hoặc thử thêm tên thị trấn/làng gần đó.</string>
     <string name="search_history_title">Lịch sử tìm kiếm</string>
@@ -751,7 +751,7 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">Hành trình trống - không có gì để lưu</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">Không thể hiển thị hộp thoại chọn thư mục vì không có ứng dụng phù hợp nào được cài đặt trên thiết bị của bạn. Vui lòng cài đặt ứng dụng quản lý tệp và thử lại</string>
+    <string name="error_no_file_manager_app">Không thể hiển thị hộp thoại chọn thư mục vì không có ứng dụng phù hợp nào được cài đặt trên thiết bị của bạn. Vui lòng cài đặt một ứng dụng quản lý tệp và thử lại.</string>
     <string name="choose_color">Chọn màu</string>
     <string name="edit_track">Chỉnh sửa hành trình</string>
     <string name="uri_open_location_failed">Không có ứng dụng nào được cài đặt có thể mở vị trí</string>
@@ -931,4 +931,12 @@
     <string name="pref_aa_support_title">Android Auto</string>
     <string name="pref_aa_support_summary_yes">Ứng dụng đã được cài đặt từ Google Play, bạn có thể dùng nó trong ô tô của mình.</string>
     <string name="pref_aa_support_summary_no">Ứng dụng chưa được cài đặt từ Google Play, bạn không thể dùng nó trong ô tô của mình. Nhấn vào phần cài đặt để tìm hiểu thêm trên trang FAQ của chúng tôi.</string>
+    <string name="enable_long_tap_fullscreen">Nhấn giữ để ẩn giao diện người dùng</string>
+    <string name="long_tap_disabled_toast">Để ẩn giao diện, bật tùy chọn nhấn giữ trong phần cài đặt</string>
+    <string name="oh_unknown">Giờ mở cửa không được biết</string>
+    <string name="sort_categories">Sắp xếp danh sách ưa thích</string>
+    <string name="by_recently_used">Bởi đã dùng gần đây</string>
+    <string name="by_custom">Bởi thứ tự tùy chỉnh</string>
+    <string name="editor_add_select_category_all_subtitle">Tất cả danh mục</string>
+    <string name="editor_add_select_category_recent_subtitle">Đã dùng gần đây</string>
 </resources>

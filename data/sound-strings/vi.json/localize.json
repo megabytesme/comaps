@@ -23,7 +23,7 @@
 "make_a_u_turn_street":"NULL",
 "make_a_u_turn_street_verb":"NULL",
 "go_straight":"Đi thẳng.",
-"exit":"Đi theo lối ra",
+"exit":"Đi ra.",
 "onto":"vào",
 "take_exit_number":"Đi theo lối ra số",
 "take_exit_number_street_verb":"NULL",
@@ -104,5 +104,5 @@
 "in_1_mile":"Trong một dặm nữa",
 "in_1_5_miles":"Trong một dặm rưỡi nữa",
 "in_2_miles":"Trong hai dặm nữa",
-"unknown_camera":"Camera phía trước"
+"unknown_camera":"Camera tốc độ ở phía trước"
 }

@@ -801,7 +801,7 @@
     <string name="type.railway.abandoned">Напуштена пруга</string>
     <string name="type.railway.construction">Пруга у изградњи</string>
     <string name="type.railway.crossing">Пружни прелаз</string>
-    <string name="type.railway.disused">Напуштена пруга</string>
+    <string name="type.railway.disused">Некоришћена пруга</string>
     <string name="type.railway.funicular">Успињача</string>
     <string name="type.railway.halt">Железничка станица</string>
     <string name="type.railway.level_crossing">Пружни прелаз</string>

@@ -252,7 +252,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">Beveg telefonen i en åttetallsbevegelse for å kalibrere kompasset og fikse pilretningen på kartet.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="enable_long_tap_fullscreen_description">Trykk lenge på kartet igjen for å se grensesnittet</string>
+    <string name="enable_long_tap_fullscreen_description">Trykk lenge på kartet igjen for å se brukerflaten</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">Oppdater alle</string>
     <!-- Cancel all button text -->
@@ -947,4 +947,9 @@
     <string name="oh_unknown">Åpningstider ukjent</string>
     <string name="editor_add_select_category_all_subtitle">Alle kategorier</string>
     <string name="editor_add_select_category_recent_subtitle">Nylig brukt</string>
+    <string name="enable_long_tap_fullscreen">Trykk lenge for å skjule brukerflaten</string>
+    <string name="long_tap_disabled_toast">For å skjule brukerflaten aktiver lang-trykk i innstillingene</string>
+    <string name="sort_categories">Sorter favorittlister</string>
+    <string name="by_recently_used">Etter nylig brukt</string>
+    <string name="by_custom">Etter egendefinert rekkefølge</string>
 </resources>

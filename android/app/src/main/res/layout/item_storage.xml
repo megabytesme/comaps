@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:minHeight="@dimen/height_item_multiline"
     android:background="?clickableBackground"
     android:gravity="center_vertical"
+    android:minHeight="@dimen/height_item_multiline"
     android:orientation="horizontal"
-    android:paddingStart="@dimen/margin_half_plus"
     android:paddingEnd="@dimen/margin_base"
-    tools:text="/storage/mnt/">
+    android:paddingStart="@dimen/margin_half_plus">
 
   <com.google.android.material.radiobutton.MaterialRadioButton
       android:id="@+id/storage_selected"
@@ -20,27 +18,13 @@
       android:layout_marginEnd="@dimen/margin_base"
       android:clickable="false"
       android:focusable="false"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:buttonTint="@null"/>
+      app:buttonTint="@null" />
 
-  <LinearLayout
+  <com.google.android.material.textview.MaterialTextView
+      android:id="@+id/storage_text"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginStart="60dp"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintStart_toEndOf="@+id/storage_selected">
+      android:minLines="3"
+      android:textAppearance="@style/MwmTextAppearance.Body1" />
 
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/storage_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="@style/MwmTextAppearance.Body1"
-        android:minLines="3"
-        tools:text="/storage/mnt/"/>
-
-  </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

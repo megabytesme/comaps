@@ -63,8 +63,12 @@ final class BaseRoutePreviewStatus: SolidTouchView {
 
   private var isVisible = false {
     didSet {
-      addView()
-      isHidden = !isVisible
+      guard isVisible != oldValue else { return }
+      if isVisible {
+        addView()
+      } else {
+        removeFromSuperview()
+      }
     }
   }
 

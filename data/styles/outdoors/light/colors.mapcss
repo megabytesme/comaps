@@ -18,3 +18,4 @@
 @primary2_border: #75581F;
 @secondary0_border: #80682D;
 @secondary1_border: #755F2A;
+@minor_road_border: #888888;

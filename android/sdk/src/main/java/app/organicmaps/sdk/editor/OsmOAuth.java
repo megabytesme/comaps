@@ -72,7 +72,10 @@ public final class OsmOAuth
     final String token = getAuthToken();
     final String pictureUrl = nativeGetOsmProfilePictureUrl(token);
     if (TextUtils.isEmpty(pictureUrl))
-      return loadCachedProfilePicture();
+    {
+      clearCachedProfilePicture();
+      return null;
+    }
 
     final String cachedUrl = mPrefs.getString(PREF_OSM_PROFILE_PICTURE_URL, "");
     final File cacheFile = getProfilePictureCacheFile();
@@ -89,6 +92,12 @@ public final class OsmOAuth
     }
 
     return loadCachedProfilePicture();
+  }
+
+  private static void clearCachedProfilePicture()
+  {
+    getProfilePictureCacheFile().delete();
+    mPrefs.edit().remove(PREF_OSM_PROFILE_PICTURE_URL).apply();
   }
 
   @Nullable

@@ -966,4 +966,9 @@
     <string name="oh_unknown">ساعات العمل غير معروفة</string>
     <string name="editor_add_select_category_all_subtitle">كل الفئات</string>
     <string name="editor_add_select_category_recent_subtitle">مستخدمة حديثًا</string>
+    <string name="enable_long_tap_fullscreen">اضغط مطولاً لإخفاء واجهة المستخدم</string>
+    <string name="long_tap_disabled_toast">لإخفاء الواجهة،فعِّل الضغط المطول في الإعدادات</string>
+    <string name="sort_categories">رتّب قوائم المفضلة</string>
+    <string name="by_recently_used">حسب أحدث استخدام</string>
+    <string name="by_custom">حسب الترتيب المخصّص</string>
 </resources>

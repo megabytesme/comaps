@@ -932,4 +932,9 @@
     <string name="pref_aa_support_summary_no">O aplicativo não foi instalado a partir do Google Play, portanto, você não pode usá-lo no seu carro. Vá para as configurações para obter mais detalhes em nossas perguntas frequentes.</string>
     <string name="editor_add_select_category_all_subtitle">Todas as categorias</string>
     <string name="editor_add_select_category_recent_subtitle">Recentemente usadas</string>
+    <string name="long_tap_disabled_toast">Para ocultar a interface, ative o toque longo nas configurações</string>
+    <string name="enable_long_tap_fullscreen">Toque longo para ocultar a interface do usuário</string>
+    <string name="by_recently_used">Por usado recentemente</string>
+    <string name="by_custom">Por ordem personalizada</string>
+    <string name="sort_categories">Ordenar listas de favoritos</string>
 </resources>

@@ -327,7 +327,7 @@
 "amenity-car_wash": "Station de lavage|lavage-auto|lavage de voiture",
 "amenity-veterinary": "Docteur vétérinaire|véto|Clinique vétérinaire",
 "@charging_station": "Borne de recharge|station de recharge|4voiture électrique|4recharge|IRVE",
-"amenity-charging_station-bicycle|@charging_station": "Chargement des vélos",
+"amenity-charging_station-bicycle|@charging_station": "Chargement des vélos|Borne de recharge vélo|VAE",
 "amenity-childcare": "Garderie|Garde d'enfant",
 "amenity-bicycle_parking": "Parking à vélo|Stationnement vélo",
 "amenity-waste_basket": "Poubelle",
@@ -534,5 +534,6 @@
 "amenity-boat_rental": "4Location de bateau|bateau|bateaux|3Location",
 "leisure-sports_centre-sport-swimming": "4Centre aquatique",
 "man_made-observatory": "4Observatoire",
-"man_made-cross": "Croix"
+"man_made-cross": "Croix",
+"amenity-charging_station-motorcycle|@charging_station": "5Station de recharge pour motos|Recharge pour motos"
 }

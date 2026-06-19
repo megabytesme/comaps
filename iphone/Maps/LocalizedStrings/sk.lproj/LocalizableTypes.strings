@@ -12,7 +12,7 @@
 "type.aeroway.aerodrome" = "Letisko";
 "type.aeroway.aerodrome.international" = "Medzinárodné letisko";
 "type.aeroway.apron" = "Odbavovacia plocha";
-"type.aeroway.gate" = "Odletová brána";
+"type.aeroway.gate" = "Brána";
 "type.aeroway.helipad" = "Pristávacia plocha pre vrtuľníky";
 "type.aeroway.runway" = "Pristávacia dráha";
 "type.aeroway.taxiway" = "Rolovacia dráha";
@@ -101,7 +101,7 @@
 "type.amenity.lounger" = "Lounger";
 "type.amenity.luggage_locker" = "Luggage Locker";
 "type.amenity.marketplace" = "Trhovisko";
-"type.amenity.mobile_money_agent" = "Mobile Money Agent";
+"type.amenity.mobile_money_agent" = "Mobile Money agent";
 "type.amenity.motorcycle_parking" = "Parkovisko pre motocykle";
 "type.amenity.nightclub" = "Nočný klub";
 "type.amenity.nursing_home" = "Ošetrovateľská služba";

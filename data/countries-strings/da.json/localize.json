@@ -1386,8 +1386,8 @@
 "Belarus_Maglieu Region Description":"Mahilyow, Babruysk, Čerykaŭ",
 "Belarus_Minsk Region Description":"Minsk, Barysaw, Soligorsk",
 "Belarus_Vitebsk Region Description":"Vitebsk, Orsha, Navapolatsk",
-"Belgium_Antwerp Description":"Antwerp, Zwijndrecht, Berchem",
-"Belgium_East Flanders Description":"Ghent, Deinze, Sint-Martens-Latem",
+"Belgium_Antwerp Description":"Antwerpen, Zwijndrecht, Berchem",
+"Belgium_East Flanders Description":"Gent, Deinze, Sint-Martens-Latem",
 "Belgium_Flemish Brabant Description":"Bruxelles",
 "Belgium_Hainaut Description":"Mons, Charleroi, La Louvière",
 "Belgium_Liege Description":"Liège, Seraing, Verviers",
@@ -1395,7 +1395,7 @@
 "Belgium_Luxembourg Description":"Arlon, Marche-en-Famenne, Bastogne",
 "Belgium_Namur Description":"Namur, Mettet, Saint-Marc",
 "Belgium_Walloon Brabant Description":"Braine-l'Alleud, Wavre, Ottignies-Louvain-la-Neuve",
-"Belgium_West Flanders Description":"Bruges, Koksijde, Nieuwpoort",
+"Belgium_West Flanders Description":"Brugge, Koksijde, Nieuwpoort",
 "Belize Description":"Benque Viejo del Carmen, Belize City, Belmopan",
 "Benin Description":"Natitingou, Abomey, Djougou",
 "Bermuda Description":"St. George's, Hamilton, Somerset",
@@ -2550,5 +2550,7 @@
 "France_Occitania":"Occitania",
 "France_Grand_Est":"Grand Est",
 "Germany_Brandenburg":"Brandenburg",
-"Germany_Rhineland-Palatinate":"Rheinland-Pfalz"
+"Germany_Rhineland-Palatinate":"Rheinland-Pfalz",
+"World":"Verdensoversigt",
+"WorldCoasts":"Verdensoversigt (kystlinjer)"
 }

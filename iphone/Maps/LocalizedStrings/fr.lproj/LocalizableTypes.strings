@@ -765,7 +765,7 @@
 "type.man_made" = "Établissement de bains";
 "type.man_made.breakwater" = "Brise-lames";
 "type.man_made.cairn" = "Cairn";
-"type.man_made.chimney" = "Cheminée d’usine";
+"type.man_made.chimney" = "Cheminée";
 "type.man_made.cutline" = "Layon";
 "type.man_made.survey_point" = "Borne géodésique";
 "type.man_made.flagpole" = "Mât de drapeau";
@@ -1419,7 +1419,7 @@
 "type.tourism.hotel" = "Hôtel";
 "type.tourism.information" = "Informations touristiques";
 "type.tourism.information.board" = "Panneau d’informations";
-"type.tourism.information.guidepost" = "Poteaux indicateurs";
+"type.tourism.information.guidepost" = "Poteau indicateur";
 "type.tourism.information.map" = "Carte touristique";
 "type.tourism.information.tactile_map" = "Carte tactile";
 "type.tourism.information.office" = "Office de tourisme";

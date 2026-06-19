@@ -46,6 +46,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>lld</string>
+			<key>zero</key>
+			<string>Μηδέν ίχνη</string>
 			<key>one</key>
 			<string>%lld ίχνος</string>
 			<key>other</key>
@@ -60,6 +62,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>lld</string>
+			<key>zero</key>
+			<string>μηδέν κάτοικοι</string>
 			<key>one</key>
 			<string>%lld κάτοικος</string>
 			<key>other</key>
@@ -76,6 +80,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>lld</string>
+			<key>zero</key>
+			<string>μηδέν δωμάτια</string>
 			<key>one</key>
 			<string>%lld δωμάτιο</string>
 			<key>other</key>

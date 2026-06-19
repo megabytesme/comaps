@@ -42,7 +42,7 @@
     <!-- Text in About screen -->
     <string name="about_proposition_3">• Εκτός σύνδεσης, γρήγορο και συμπαγές</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Εφαρμογή ανοιχτού κώδικα που δημιουργήθηκε από θιασώτες και εθελοντές.</string>
+    <string name="about_developed_by_enthusiasts">Πλήρως ανοιχτού κώδικα, μη κερδοσκοπική, διαφανής λήψη αποφάσεων και οικονομικών.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Ρυθμίσεις τοποθεσίας</string>
     <string name="close">Κλείσιμο</string>
@@ -279,7 +279,7 @@
     <!-- Preference title -->
     <string name="google_play_services">Υπηρεσίες τοποθεσίας Google Play</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Προσδιορίστε γρήγορα την κατά προσέγγιση τοποθεσία σας μέσω Bluetooth, WiFi ή δικτύου κινητής τηλεφωνίας</string>
+    <string name="pref_use_google_play">Μια ιδιόκτητη υπηρεσία που συνδυάσει GPS, Wi-Fi, δίκτυα κινητής κτλ. για να προσδιορίσει την ακριβή τοποθεσία σας. Μπορεί να συνδεθεί σε διακομιστές της Google.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -460,7 +460,7 @@
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d από %2$d</string>
     <string name="download_over_mobile_header">Να γίνει λήψη μέσω δικτύου κινητής τηλεφωνίας;</string>
-    <string name="download_over_mobile_message">Αυτό μπορεί να είναι πολύ ακριβό για μερικά πακέτα ή στην περίπτωση roaming.</string>
+    <string name="download_over_mobile_message">Αυτό μπορεί να είναι πολύ ακριβό για μερικά πακέτα κινητής, ειδικά στη περίπτωση περιαγωγής.</string>
     <string name="error_enter_correct_house_number">Εισαγάγετε έναν έγκυρο αριθμό κτιρίου</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Ο αριθμός των ορόφων δεν πρέπει να υπερβαίνει τους %d</string>
@@ -479,7 +479,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">Χειριστής: %s</string>
     <string name="editor_category_unsuitable_title">Δεν μπορείτε να βρείτε την κατάλληλη κατηγορία;</string>
-    <string name="editor_category_unsuitable_text">Το CoMaps έχει τη δυνατότητα προσθήκης κατηγοριών απλών σημείων μόνο, δεν έχει τη δυνατότητα για προσθήκη πόλεων, δρόμων, λιμνών, περιγραμμάτων κτιρίων κ.λπ. Παρακαλούμε προσθέστε τέτοιες κατηγορίες απευθείας στο <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Ελέγξτε τον <a href="https://www.comaps.app/support/advanced-map-editing/">οδηγό μας</a> για λεπτομερείς οδηγίες βήμα προς βήμα.</string>
+    <string name="editor_category_unsuitable_text">Το CoMaps επιτρέπει την προσθήκης κατηγοριών απλών σημείων μόνο, δηλαδή όχι την προσθήκη πόλεων, δρόμων, λιμνών, περιγραμμάτων κτιρίων κ.λπ. Παρακαλούμε προσθέστε τέτοιες κατηγορίες απευθείας στο <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Ελέγξτε τον <a href="https://www.comaps.app/support/advanced-map-editing/">οδηγό μας</a> για λεπτομερείς οδηγίες βήμα προς βήμα.</string>
     <string name="downloader_no_downloaded_maps_title">Δεν έχετε κατεβάσει χάρτες</string>
     <string name="downloader_no_downloaded_maps_message">Κατεβάστε χάρτες για να κάνετε αναζήτηση και να πλοηγηθείτε χωρίς σύνδεση</string>
     <string name="current_location_unknown_error_title">Η τρέχουσα τοποθεσία είναι άγνωστη</string>
@@ -535,7 +535,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Αποστολή σχολίων</string>
     <string name="prefs_languages_information">Χρησιμοποιούμε το σύστημα TTS για τις φωνητικές οδηγίες. Αρκετές συσκευές Android χρησιμοποιούν το Google TTS, μπορείτε να το κατεβάσετε ή να το ενημερώσετε από το Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
-    <string name="prefs_languages_information_off">Για μερικές γλώσσες θα χρειαστεί να εγκαταστήσετε συνθεσάιζερ ομιλίας ή κάποιο συμπληρωματικό πακέτο γλώσσας από το app store (Google Play, Galaxy Store, App Gallery, FDroid). \nΑνοίξτε τις Ρυθμίσεις της συσκευής σας → Γλώσσα και εισαγωγή → Ομιλία → Μετατροπή κειμένου σε ομιλία. \nΕδώ μπορείτε να διαχειριστείτε τις ρυθμίσεις της σύνθεσης ομιλίας (για παράδειγμα, μπορείτε να κατεβάσετε πακέτο γλώσσας για χρήση εκτός σύνδεσης) και να επιλέξετε άλλη μηχανή μετατροπής κειμένου σε ομιλία.</string>
+    <string name="prefs_languages_information_off">Για μερικές γλώσσες θα χρειαστεί να εγκαταστήσετε συνθεσάιζερ ομιλίας ή κάποιο συμπληρωματικό πακέτο γλώσσας από κατάστημα εφαρμογών (Google Play, Galaxy Store, App Gallery, F-Droid). \nΑνοίξτε τις Ρυθμίσεις της συσκευής σας → Γλώσσα και εισαγωγή → Ομιλία → Μετατροπή κειμένου σε ομιλία. \nΕδώ μπορείτε να διαχειριστείτε τις ρυθμίσεις της σύνθεσης ομιλίας (για παράδειγμα, μπορείτε να κατεβάσετε πακέτο γλώσσας για χρήση εκτός σύνδεσης) και να επιλέξετε άλλη μηχανή μετατροπής κειμένου σε ομιλία.</string>
     <string name="prefs_languages_information_off_link">Για περισσότερες πληροφορίες δείτε αυτό τον οδηγό</string>
     <string name="transliteration_title">Μεταγραφή στο λατινικό αλφάβητο</string>
     <string name="learn_more">Μάθετε περισσότερα</string>
@@ -928,4 +928,35 @@
     <string name="downloader_check_updates_error">Σφάλμα κατά τον έλεγχο για ενημερώσεις</string>
     <string name="oh_unknown">Άγνωστο ωράριο λειτουργίας</string>
     <string name="editor_add_select_category_recent_subtitle">Πρόσφατα χρησιμοποιημένα</string>
+    <string name="bookmark_share_email_subject">Ακολουθήστε αυτόν τον σύνδεσμο %1$s ή επικολλήστε αυτές τις συντεταγμένες %2$s στην εφαρμογή χαρτών σας για να δείτε αυτή τη τοποθεσία.</string>
+    <string name="my_position_share_email">Ακολουθήστε αυτόν τον σύνδεσμο %1$s ή επικολλήστε αυτές τις συντεταγμένες %2$s στην εφαρμογή χαρτών σας για να δείτε τη τοποθεσία μου.</string>
+    <string name="tts_toggle_enable">Ενεργοποίηση φωνητικών οδηγιών</string>
+    <string name="tts_toggle_disable">Απενεργοποίηση φωνητικών οδηγιών</string>
+    <string name="enable_long_tap_fullscreen">Παρατεταμένο πάτημα για απόκρυψη διεπαφής χρήστη</string>
+    <string name="long_tap_disabled_toast">Για να αποκρύψετε την διεπαφή χρήστη, ενεργοποιήστε το παρατεταμένο πάτημα στις ρυθμίσεις</string>
+    <string name="sort_categories">Ταξινόμηση Λιστών Αγαπημένων</string>
+    <string name="setting_value_system_default">Προεπιλογή συστήματος</string>
+    <string name="by_recently_used">Βάσει πρόσφατης χρήσης</string>
+    <string name="by_custom">Βάσει προσαρμοσμένης σειράς</string>
+    <string name="editor_add_select_category_all_subtitle">Όλες οι κατηγορίες</string>
+    <string name="change_app_locale">Γλώσσα εφαρμογής</string>
+    <string name="charge_socket_type2">Τύπου 2 (χωρίς καλώδιο)</string>
+    <string name="charge_socket_type2_cable">Τύπου 2 (με καλώδιο)</string>
+    <string name="charge_socket_type2_combo">Τύπου 2 συνδυαστικό</string>
+    <string name="charge_socket_type1">Τύπου 1</string>
+    <string name="charge_socket_type1_combo">Τύπου 1 συνδυαστικό</string>
+    <string name="charge_socket_nacs">NACS</string>
+    <string name="charge_socket_chademo">CHAdeMO</string>
+    <string name="charge_socket_schuko">Εγχώρια ΕΕ</string>
+    <string name="unknown_socket_type">άγνωστη πρίζα</string>
+    <string name="edit_socket_info_tooltip">Δημιουργήστε νέες πρίζες ή επεξεργαστείτε υπάρχουσες.</string>
+    <string name="charging_station_available_sockets">Διαθέσιμες πρίζες</string>
+    <string name="charge_socket_unknown_other">Άλλο ή άγνωστο</string>
+    <string name="charge_socket_power">Ισχύς (kW)</string>
+    <string name="editor_socket">Επεξεργασία πρίζας</string>
+    <string name="pref_keyboard_typing_history_title">Ανώνυμη λειτουργία πληκτρολογίου</string>
+    <string name="pref_keyboard_typing_history_summary">Αιτηθείτε απ\' το πληκτρολόγιο συστήματος να μην καταγράφει το ιστορικό πληκτρολόγησης</string>
+    <string name="pref_aa_support_title">Android Auto</string>
+    <string name="pref_aa_support_summary_yes">Η εφαρμογή έχει εγκατασταθεί απ\' το Google Play, μπορείτε να τη χρησιμοποιείτε στο αυτοκίνητό σας.</string>
+    <string name="pref_aa_support_summary_no">Η εφαρμογή δεν έχει εγκατασταθεί απ\' το Google Play, δε μπορείτε να τη χρησιμοποιείτε στο αυτοκίνητό σας. Πατήστε την ρύθμιση για να δείτε περισσότερες λεπτομέρειες στο FAQ μας.</string>
 </resources>

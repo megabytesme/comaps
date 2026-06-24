@@ -22,6 +22,7 @@
 
 #include <algorithm>
 #include <cmath>
+#include <exception>
 #include <iterator>
 #include <map>
 #include <string>
@@ -31,6 +32,8 @@
 
 using namespace search;
 using namespace std;
+
+extern void MwmCoreTrace(std::string const & message);
 
 namespace
 {
@@ -45,6 +48,20 @@ void CancelQuery(weak_ptr<ProcessorHandle> & handle)
   if (auto queryHandle = handle.lock())
     queryHandle->Cancel();
   handle.reset();
+}
+
+CategoriesHolder const & MwmCoreSearchCategories()
+{
+  MwmCoreTrace("SearchAPI categories begin");
+  auto const & categories = GetDefaultCategories();
+  MwmCoreTrace("SearchAPI categories complete");
+  return categories;
+}
+
+Engine::Params MwmCoreSearchEngineParams(size_t numThreads)
+{
+  MwmCoreTrace("SearchAPI engine params begin locale=en threads=" + std::to_string(numThreads));
+  return Engine::Params("en", numThreads);
 }
 
 bookmarks::Id KmlMarkIdToSearchBookmarkId(kml::MarkId id)
@@ -150,9 +167,10 @@ SearchAPI::SearchAPI(DataSource & dataSource, storage::Storage const & storage,
   , m_storage(storage)
   , m_infoGetter(infoGetter)
   , m_delegate(delegate)
-  , m_engine(m_dataSource, GetDefaultCategories(), m_infoGetter,
-             Engine::Params(languages::GetTwine(localisation::GetMapLanguageCode()) /* locale */, numThreads))
-{}
+  , m_engine(m_dataSource, MwmCoreSearchCategories(), m_infoGetter, MwmCoreSearchEngineParams(numThreads))
+{
+  MwmCoreTrace("SearchAPI ctor body complete");
+}
 
 void SearchAPI::OnViewportChanged(m2::RectD const & viewport)
 {

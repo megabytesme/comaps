@@ -7,6 +7,11 @@
 #include "base/assert.hpp"
 #include "base/logging.hpp"
 
+#include <cctype>
+#include <string>
+
+extern void MwmCoreTrace(std::string const & message);
+
 namespace
 {
 enum ParseState
@@ -54,7 +59,8 @@ bool ParseEmoji(CategoriesHolder::Category::Name & name)
 
 void FillPrefixLengthToSuggest(CategoriesHolder::Category::Name & name)
 {
-  if (std::isdigit(name.m_name.front()) && name.m_name.front() != '0')
+  auto const first = static_cast<unsigned char>(name.m_name.front());
+  if (std::isdigit(first) && name.m_name.front() != '0')
   {
     name.m_prefixLengthToSuggest = name.m_name[0] - '0';
     name.m_name = name.m_name.substr(1);
@@ -93,10 +99,17 @@ void ProcessName(CategoriesHolder::Category::Name name, std::vector<std::string>
 
 void ProcessCategory(std::string_view line, std::vector<std::string> & groups, std::vector<uint32_t> & types)
 {
+  if (line.empty())
+    return;
+
   // Check if category is a group reference.
   if (line[0] == '@')
   {
-    CHECK((groups.empty() || !types.empty()), ("Two groups in a group definition, line:", line));
+    if (!(groups.empty() || !types.empty()))
+    {
+      MwmCoreTrace("Categories holder skipping duplicate group definition line=" + std::string(line));
+      return;
+    }
     groups.push_back(std::string(line));
     return;
   }
@@ -119,14 +132,18 @@ int8_t constexpr CategoriesHolder::kUnsupportedLocaleCode;
 
 CategoriesHolder::CategoriesHolder(std::unique_ptr<Reader> && reader)
 {
+  MwmCoreTrace("Categories holder ctor begin");
   ReaderStreamBuf buffer(std::move(reader));
   std::istream s(&buffer);
+  MwmCoreTrace("Categories holder load stream begin");
   LoadFromStream(s);
+  MwmCoreTrace("Categories holder load stream complete");
 
 #if defined(DEBUG)
   for (auto const & entry : kLocaleMapping)
     ASSERT_LESS_OR_EQUAL(uint8_t(entry.m_code), kLocaleMapping.size(), ());
 #endif
+  MwmCoreTrace("Categories holder ctor complete");
 }
 
 void CategoriesHolder::AddCategory(Category & cat, std::vector<uint32_t> & types)
@@ -206,6 +223,9 @@ void CategoriesHolder::LoadFromStream(std::istream & s)
   while (s.good())
   {
     ++lineNumber;
+    if (lineNumber == 1 || lineNumber % 1000 == 0)
+      MwmCoreTrace("Categories holder parse line=" + std::to_string(lineNumber));
+
     getline(s, line);
     strings::Trim(line);
     // Allow for comments starting with '#' character.
@@ -240,7 +260,13 @@ void CategoriesHolder::LoadFromStream(std::istream & s)
       }
 
       int8_t const langCode = MapLocaleToInteger(*iter);
-      CHECK(langCode != kUnsupportedLocaleCode, ("Invalid language code:", *iter, "at line:", lineNumber));
+      if (langCode == kUnsupportedLocaleCode)
+      {
+        MwmCoreTrace(
+            "Categories holder skipping unsupported language code=" + std::string(*iter) +
+            " line=" + std::to_string(lineNumber));
+        continue;
+      }
 
       while (++iter)
       {

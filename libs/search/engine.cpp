@@ -1,6 +1,7 @@
 #include "search/engine.hpp"
 
 #include "search/processor.hpp"
+#include "search/result.hpp"
 #include "search/search_params.hpp"
 
 #include "indexer/categories_holder.hpp"
@@ -12,8 +13,11 @@
 #include "base/timer.hpp"
 
 #include <algorithm>
+#include <exception>
 #include <map>
 #include <vector>
+
+extern void MwmCoreTrace(std::string const & message);
 
 namespace search
 {
@@ -82,25 +86,47 @@ Engine::Engine(DataSource & dataSource, CategoriesHolder const & categories,
                storage::CountryInfoGetter const & infoGetter, Params const & params)
   : m_shutdown(false)
 {
+  MwmCoreTrace("Search engine ctor begin threads=" + std::to_string(params.m_numThreads));
+  MwmCoreTrace("Search engine init suggestions begin");
   InitSuggestions doInit;
   categories.ForEachName(doInit);
   doInit.GetSuggests(m_suggests);
+  MwmCoreTrace("Search engine init suggestions complete count=" + std::to_string(m_suggests.size()));
 
+  MwmCoreTrace("Search engine create contexts begin");
   m_contexts.resize(params.m_numThreads);
   for (size_t i = 0; i < params.m_numThreads; ++i)
   {
+    MwmCoreTrace("Search engine create processor begin index=" + std::to_string(i));
     auto processor = make_unique<Processor>(dataSource, categories, m_suggests, infoGetter);
+    MwmCoreTrace("Search engine set processor locale begin index=" + std::to_string(i));
     processor->SetPreferredLocale(params.m_locale);
+    MwmCoreTrace("Search engine set processor locale complete index=" + std::to_string(i));
     m_contexts[i].m_processor = std::move(processor);
+    MwmCoreTrace("Search engine create processor complete index=" + std::to_string(i));
   }
+  MwmCoreTrace("Search engine create contexts complete");
 
+  MwmCoreTrace("Search engine start threads begin");
   m_threads.reserve(params.m_numThreads);
   for (size_t i = 0; i < params.m_numThreads; ++i)
+  {
+    MwmCoreTrace("Search engine start thread begin index=" + std::to_string(i));
     m_threads.emplace_back(&Engine::MainLoop, this, ref(m_contexts[i]));
+    MwmCoreTrace("Search engine start thread complete index=" + std::to_string(i));
+  }
+  MwmCoreTrace("Search engine start threads complete");
 
+  MwmCoreTrace("Search engine cache world localities begin");
   CacheWorldLocalities();
+  MwmCoreTrace("Search engine cache world localities posted");
+  MwmCoreTrace("Search engine load cities boundaries begin");
   LoadCitiesBoundaries();
+  MwmCoreTrace("Search engine load cities boundaries posted");
+  MwmCoreTrace("Search engine load countries tree begin");
   LoadCountriesTree();
+  MwmCoreTrace("Search engine load countries tree posted");
+  MwmCoreTrace("Search engine ctor complete");
 }
 
 Engine::~Engine()
@@ -246,7 +272,18 @@ void Engine::MainLoop(Context & context)
 
     while (!messages.empty())
     {
-      messages.front()(*context.m_processor);
+      try
+      {
+        messages.front()(*context.m_processor);
+      }
+      catch (std::exception const & e)
+      {
+        MwmCoreTrace(std::string("Search engine message exception: ") + e.what());
+      }
+      catch (...)
+      {
+        MwmCoreTrace("Search engine message exception: unknown native exception");
+      }
       messages.pop();
     }
   }
@@ -270,6 +307,28 @@ void Engine::DoSearch(SearchParams params, shared_ptr<ProcessorHandle> handle, P
   handle->Attach(processor);
   SCOPE_GUARD(detach, [&handle] { handle->Detach(); });
 
-  processor.Search(std::move(params));
+  auto const onResults = params.m_onResults;
+  try
+  {
+    MwmCoreTrace("Search engine task begin query=\"" + params.m_query + "\"");
+    processor.Search(std::move(params));
+    MwmCoreTrace("Search engine task complete");
+  }
+  catch (std::exception const & e)
+  {
+    MwmCoreTrace(std::string("Search engine task exception: ") + e.what());
+    Results results;
+    results.SetEndMarker(true /* isCancelled */);
+    if (onResults)
+      onResults(std::move(results));
+  }
+  catch (...)
+  {
+    MwmCoreTrace("Search engine task exception: unknown native exception");
+    Results results;
+    results.SetEndMarker(true /* isCancelled */);
+    if (onResults)
+      onResults(std::move(results));
+  }
 }
 }  // namespace search

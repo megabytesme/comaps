@@ -53,6 +53,8 @@
 #include "3party/open-location-code/codearea.h"
 #include "3party/open-location-code/openlocationcode.h"
 
+extern void MwmCoreTrace(std::string const & message);
+
 namespace search
 {
 using namespace std;
@@ -190,30 +192,53 @@ void Processor::SetViewport(m2::RectD const & viewport)
 
 void Processor::SetPreferredLocale(string const & locale)
 {
+  MwmCoreTrace("Processor SetPreferredLocale begin locale=" + locale);
   ASSERT(!locale.empty(), ());
 
   LOG(LINFO, ("New preferred locale:", locale));
 
+  MwmCoreTrace("Processor preferred convert locale begin");
   localisation::LanguageIndex const languageIndex = localisation::ConvertLanguageCodeToLanguageIndex(locale);
+  MwmCoreTrace("Processor preferred convert locale complete index=" + to_string(static_cast<int>(languageIndex)));
+  MwmCoreTrace("Processor preferred keywords begin");
   m_keywordsScorer.SetLanguages(LanguageTier::LANGUAGE_TIER_CURRENT, localisation::SimilarLanguageIndexes(languageIndex));
+  MwmCoreTrace("Processor preferred keywords complete");
 
+  MwmCoreTrace("Processor preferred map locale begin");
   m_currentLanguageIndex = CategoriesHolder::MapLocaleToInteger(locale);
+  MwmCoreTrace("Processor preferred map locale complete index=" + to_string(m_currentLanguageIndex));
 
   // Default initialization.
   // If you want to reset input language, call SetInputLocale before search.
+  MwmCoreTrace("Processor preferred input locale begin");
   SetInputLocale(locale);
+  MwmCoreTrace("Processor preferred input locale complete");
+  MwmCoreTrace("Processor preferred ranker locale begin");
   m_ranker.SetLocale(locale);
+  MwmCoreTrace("Processor preferred ranker locale complete");
+  MwmCoreTrace("Processor SetPreferredLocale complete locale=" + locale);
 }
 
 void Processor::SetInputLocale(string const & locale)
 {
+  MwmCoreTrace("Processor SetInputLocale begin locale=" + locale);
   if (locale.empty())
+  {
+    MwmCoreTrace("Processor SetInputLocale skipped empty locale");
     return;
+  }
 
+  MwmCoreTrace("Processor input convert locale begin");
   localisation::LanguageIndex const languageIndex = localisation::ConvertLanguageCodeToLanguageIndex(locale);
+  MwmCoreTrace("Processor input convert locale complete index=" + to_string(static_cast<int>(languageIndex)));
   LOG(LDEBUG, ("New input locale:", locale, "; locale code:", int(languageIndex)));
+  MwmCoreTrace("Processor input keywords begin");
   m_keywordsScorer.SetLanguages(LanguageTier::LANGUAGE_TIER_CURRENT, localisation::SimilarLanguageIndexes(languageIndex));
+  MwmCoreTrace("Processor input keywords complete");
+  MwmCoreTrace("Processor input map locale begin");
   m_inputLanguageIndex = CategoriesHolder::MapLocaleToInteger(locale);
+  MwmCoreTrace("Processor input map locale complete index=" + to_string(m_inputLanguageIndex));
+  MwmCoreTrace("Processor SetInputLocale complete locale=" + locale);
 }
 
 void Processor::SetQuery(string const & query, bool categorialRequest /* = false */)

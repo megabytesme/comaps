@@ -10,6 +10,10 @@
 
 #include "defines.hpp"
 
+#include <exception>
+
+extern void MwmCoreTrace(std::string const & message);
+
 namespace search
 {
 using namespace std;
@@ -54,7 +58,38 @@ void RegionInfoGetter::LoadCountriesTree()
 
 void RegionInfoGetter::SetLocale(string const & locale)
 {
-  m_nameGetter = platform::GetTextByIdFactory(platform::TextSource::Countries, locale);
+  MwmCoreTrace("RegionInfoGetter SetLocale begin locale=" + locale);
+
+  string jsonBuffer;
+  string selectedLocale;
+  if (platform::GetJsonBuffer(platform::TextSource::Countries, locale, jsonBuffer))
+  {
+    selectedLocale = locale;
+  }
+  else if (platform::GetJsonBuffer(platform::TextSource::Countries, "en", jsonBuffer))
+  {
+    selectedLocale = "en";
+    MwmCoreTrace("RegionInfoGetter SetLocale fallback locale=en");
+  }
+  else
+  {
+    MwmCoreTrace("RegionInfoGetter SetLocale no countries localization files found");
+    m_nameGetter.reset();
+    return;
+  }
+
+  try
+  {
+    m_nameGetter = platform::GetTextById::Create(jsonBuffer, selectedLocale);
+  }
+  catch (std::exception const & ex)
+  {
+    MwmCoreTrace("RegionInfoGetter SetLocale exception " + string(ex.what()));
+    m_nameGetter.reset();
+    return;
+  }
+
+  MwmCoreTrace("RegionInfoGetter SetLocale complete locale=" + selectedLocale);
 }
 
 void RegionInfoGetter::GetLocalizedFullName(storage::CountryId const & id, NameBufferT & nameParts) const

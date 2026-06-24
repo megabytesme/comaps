@@ -47,6 +47,8 @@
 #include <memory>
 #include <optional>
 
+extern void MwmCoreTrace(std::string const & message);
+
 namespace search
 {
 using namespace std;
@@ -909,7 +911,9 @@ void Ranker::ClearCaches()
 
 void Ranker::SetLocale(string const & locale)
 {
+  MwmCoreTrace("Ranker SetLocale begin locale=" + locale);
   m_regionInfoGetter.SetLocale(locale);
+  MwmCoreTrace("Ranker SetLocale complete locale=" + locale);
 }
 
 void Ranker::LoadCountriesTree()

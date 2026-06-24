@@ -9,6 +9,7 @@
 
 #include <cstring>
 #include <sstream>
+#include <string>
 
 #ifdef OMIM_OS_WINDOWS
 #include "std/windows.hpp"
@@ -20,6 +21,55 @@
 #endif
 
 #include <errno.h>
+
+#ifdef OMIM_OS_WINDOWS
+namespace
+{
+std::wstring ToWidePath(std::string const & path)
+{
+  int const size = MultiByteToWideChar(CP_UTF8, 0, path.c_str(), -1, nullptr, 0);
+  if (size <= 0)
+    return std::wstring(path.begin(), path.end());
+
+  std::wstring result(static_cast<size_t>(size - 1), L'\0');
+  MultiByteToWideChar(CP_UTF8, 0, path.c_str(), -1, result.data(), size);
+  return result;
+}
+
+HANDLE OpenReadFileForMapping(std::string const & path, DWORD shareMode, DWORD fileFlags)
+{
+#if defined(WINAPI_FAMILY) && WINAPI_FAMILY == WINAPI_FAMILY_APP
+  CREATEFILE2_EXTENDED_PARAMETERS params = {};
+  params.dwSize = sizeof(params);
+  params.dwFileAttributes = FILE_ATTRIBUTE_NORMAL;
+  params.dwFileFlags = fileFlags;
+  auto const widePath = ToWidePath(path);
+  return CreateFile2(widePath.c_str(), GENERIC_READ, shareMode, OPEN_EXISTING, &params);
+#else
+  return CreateFileA(path.c_str(), GENERIC_READ, shareMode, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL | fileFlags,
+                     NULL);
+#endif
+}
+
+HANDLE CreateReadOnlyFileMapping(HANDLE file)
+{
+#if defined(WINAPI_FAMILY) && WINAPI_FAMILY == WINAPI_FAMILY_APP
+  return CreateFileMappingFromApp(file, nullptr, PAGE_READONLY, 0, nullptr);
+#else
+  return CreateFileMappingA(file, NULL, PAGE_READONLY, 0, 0, NULL);
+#endif
+}
+
+void * MapReadOnlyFileView(HANDLE mapping, uint64_t alignedOffset, size_t length)
+{
+#if defined(WINAPI_FAMILY) && WINAPI_FAMILY == WINAPI_FAMILY_APP
+  return MapViewOfFileFromApp(mapping, FILE_MAP_READ, alignedOffset, length);
+#else
+  return MapViewOfFile(mapping, FILE_MAP_READ, alignedOffset >> (sizeof(DWORD) * 8), DWORD(alignedOffset), length);
+#endif
+}
+}  // namespace
+#endif
 
 template <typename Source, typename Info>
 void Read(Source & src, Info & i)
@@ -114,11 +164,10 @@ void MappedFile::Open(std::string const & fName)
   Close();
 
 #ifdef OMIM_OS_WINDOWS
-  m_hFile = CreateFileA(fName.c_str(), GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING,
-                        FILE_ATTRIBUTE_NORMAL | FILE_FLAG_OVERLAPPED, NULL);
+  m_hFile = OpenReadFileForMapping(fName, FILE_SHARE_READ, FILE_FLAG_OVERLAPPED);
   if (m_hFile == INVALID_HANDLE_VALUE)
     MYTHROW(Reader::OpenException, ("Can't open file:", fName, "win last error:", GetLastError()));
-  m_hMapping = CreateFileMappingA(m_hFile, NULL, PAGE_READONLY, 0, 0, NULL);
+  m_hMapping = CreateReadOnlyFileMapping(static_cast<HANDLE>(m_hFile));
   if (m_hMapping == NULL)
     MYTHROW(Reader::OpenException, ("Can't create file's Windows mapping:", fName, "win last error:", GetLastError()));
 #else
@@ -172,8 +221,7 @@ MappedFile::Handle MappedFile::Map(uint64_t offset, uint64_t size, std::string c
   ASSERT_GREATER_OR_EQUAL(length, size, ());
 
 #ifdef OMIM_OS_WINDOWS
-  void * pMap =
-      MapViewOfFile(m_hMapping, FILE_MAP_READ, alignedOffset >> (sizeof(DWORD) * 8), DWORD(alignedOffset), length);
+  void * pMap = MapReadOnlyFileView(static_cast<HANDLE>(m_hMapping), alignedOffset, static_cast<size_t>(length));
   if (pMap == NULL)
     MYTHROW(Reader::OpenException,
             ("Can't map section:", tag, "with [offset, size]:", offset, size, "win last error:", GetLastError()));

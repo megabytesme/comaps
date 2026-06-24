@@ -7,6 +7,7 @@
 #include "std/target_os.hpp"
 
 #include <cstring>
+#include <string>
 
 #ifdef OMIM_OS_WINDOWS
 #include "base/scope_guard.hpp"
@@ -19,19 +20,66 @@
 #include <unistd.h>
 #endif
 
+#ifdef OMIM_OS_WINDOWS
+namespace
+{
+std::wstring ToWidePath(std::string const & path)
+{
+  int const size = MultiByteToWideChar(CP_UTF8, 0, path.c_str(), -1, nullptr, 0);
+  if (size <= 0)
+    return std::wstring(path.begin(), path.end());
+
+  std::wstring result(static_cast<size_t>(size - 1), L'\0');
+  MultiByteToWideChar(CP_UTF8, 0, path.c_str(), -1, result.data(), size);
+  return result;
+}
+
+HANDLE OpenReadFileForMapping(std::string const & path, DWORD shareMode)
+{
+#if defined(WINAPI_FAMILY) && WINAPI_FAMILY == WINAPI_FAMILY_APP
+  CREATEFILE2_EXTENDED_PARAMETERS params = {};
+  params.dwSize = sizeof(params);
+  params.dwFileAttributes = FILE_ATTRIBUTE_NORMAL;
+  auto const widePath = ToWidePath(path);
+  return CreateFile2(widePath.c_str(), GENERIC_READ, shareMode, OPEN_EXISTING, &params);
+#else
+  return CreateFileA(path.c_str(), GENERIC_READ, shareMode, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+#endif
+}
+
+HANDLE CreateReadOnlyFileMapping(HANDLE file)
+{
+#if defined(WINAPI_FAMILY) && WINAPI_FAMILY == WINAPI_FAMILY_APP
+  return CreateFileMappingFromApp(file, nullptr, PAGE_READONLY, 0, nullptr);
+#else
+  return CreateFileMappingA(file, nullptr, PAGE_READONLY, 0, 0, nullptr);
+#endif
+}
+
+void * MapReadOnlyFileView(HANDLE mapping)
+{
+#if defined(WINAPI_FAMILY) && WINAPI_FAMILY == WINAPI_FAMILY_APP
+  return MapViewOfFileFromApp(mapping, FILE_MAP_READ, 0, 0);
+#else
+  return MapViewOfFile(mapping, FILE_MAP_READ, 0, 0, 0);
+#endif
+}
+}  // namespace
+#endif
+
 class MmapReader::MmapData
 {
 public:
   explicit MmapData(std::string const & fileName, Advice advice)
   {
 #ifdef OMIM_OS_WINDOWS
-    m_hFile = CreateFileA(fileName.c_str(), GENERIC_READ, 0, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+    m_hFile = OpenReadFileForMapping(fileName, 0);
     if (m_hFile == INVALID_HANDLE_VALUE)
       MYTHROW(Reader::OpenException, ("Can't open file:", fileName, "win last error:", GetLastError()));
 
     SCOPE_GUARD(fileGuard, [this] { CloseHandle(m_hFile); });
 
-    m_hMapping = CreateFileMappingA(m_hFile, nullptr, PAGE_READONLY, 0, 0, nullptr);
+    m_hMapping = CreateReadOnlyFileMapping(m_hFile);
     if (!m_hMapping)
       MYTHROW(Reader::OpenException,
               ("Can't create file's Windows mapping:", fileName, "win last error:", GetLastError()));
@@ -43,7 +91,7 @@ public:
       MYTHROW(Reader::OpenException, ("Can't get file size:", fileName, "win last error:", GetLastError()));
 
     m_size = fileSize.QuadPart;
-    m_memory = static_cast<uint8_t *>(MapViewOfFile(m_hMapping, FILE_MAP_READ, 0, 0, 0));
+    m_memory = static_cast<uint8_t *>(MapReadOnlyFileView(m_hMapping));
     if (!m_memory)
       MYTHROW(Reader::OpenException,
               ("Can't create file's Windows mapping:", fileName, "win last error:", GetLastError()));

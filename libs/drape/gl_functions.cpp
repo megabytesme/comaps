@@ -210,7 +210,7 @@ std::mutex s_mutex;
 bool s_inited = false;
 }  // namespace
 
-#ifdef OMIM_OS_WINDOWS
+#if defined(OMIM_OS_WINDOWS) && !defined(_UWP)
 template <typename TFunc>
 TFunc LoadExtension(std::string const & ext)
 {
@@ -238,7 +238,7 @@ void GLFunctions::Init(dp::ApiVersion apiVersion)
   ExtensionsList.Init();
   s_inited = true;
 
-#if !defined(OMIM_OS_WINDOWS)
+#if !defined(OMIM_OS_WINDOWS) || defined(_UWP)
   // OpenGL ES3 api is the same for all systems, except WINDOWS.
   glGenVertexArraysFn = ::glGenVertexArrays;
   glBindVertexArrayFn = ::glBindVertexArray;
@@ -472,7 +472,7 @@ void GLFunctions::glDisable(glConst mode)
 void GLFunctions::glClearDepthValue(double depth)
 {
   ASSERT_EQUAL(CurrentApiVersion, dp::ApiVersion::OpenGLES3, ());
-#if defined(OMIM_OS_IPHONE) || defined(OMIM_OS_ANDROID) || defined(OMIM_OS_LINUX)
+#if defined(OMIM_OS_IPHONE) || defined(OMIM_OS_ANDROID) || defined(OMIM_OS_LINUX) || defined(_UWP)
   GLCHECK(::glClearDepthf(static_cast<GLclampf>(depth)));
 #else
   GLCHECK(::glClearDepth(depth));

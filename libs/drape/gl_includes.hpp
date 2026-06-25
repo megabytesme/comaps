@@ -10,6 +10,12 @@
 #define GL_SILENCE_DEPRECATION
 #include <OpenGL/gl3.h>
 #include <OpenGL/glext.h>
+#elif defined(OMIM_OS_WINDOWS) && defined(_UWP)
+#include "std/windows.hpp"
+#define GL_GLEXT_PROTOTYPES
+#include <EGL/egl.h>
+#include <GLES3/gl3.h>
+#include <GLES2/gl2ext.h>
 #elif defined(OMIM_OS_WINDOWS)
 #include "std/windows.hpp"
 #define GL_GLEXT_PROTOTYPES
